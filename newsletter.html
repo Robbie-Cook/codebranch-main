@@ -1,0 +1,184 @@
+---
+title: Newsletter
+navigation_weight: 3
+---
+
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="icon" type="image/png" href="https://wallpaperbrowse.com/media/images/Cool-Wallpaper-14D0.jpg" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
+    <script src="bootstrap.js" defer></script>
+    <script src="./home.js" defer></script>
+        <title>York Place</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet" />
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.min.css"/>
+            <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+            <link rel="stylesheet" type="text/css" href="./css/stylesTwo.css" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+    <div class="nav">
+       
+      <!--<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+      <!--   <i class="fa fa-bars" aria-hidden="true"></i>-->
+      <!--</button>-->
+      <img class="navLogo" src="./images/logoOtherPages.png"/>
+      <div class="newNav" id="">
+           <div class="mobBox">
+            <div class="hamburger" id="hamburger1"></div>
+            <div class="hamburger" id="hamburger1"></div>
+            <div class="hamburger" id="hamburger1"></div>
+        </div>
+       <ul class="topnav">
+            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+            {% for p in navigation_pages %}
+              {% if p.navigation_weight %}
+                <li>
+                    <div class="wrapper">
+                     <a href="{{ p.url }}">{{p.title}}</a>
+                     </div>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li>
+                    <div class="wrapper">
+                     <a href="/update">Login</a>
+                     </div>
+                </li>
+          </ul>
+       </div>
+    </div>
+    <!--<img class="newLine" src="../images/line2.png">-->
+    
+    <div class="defaultHeader">
+      <!--<img class="mainimage" src="../images/topimage.png">-->
+    </div>
+<div class="globalContent">
+<div class="margin-wrapper white push">
+{% for post in site.posts %}
+    <div class="blog">
+    <!--<h2 class="spacing">{{ post.title }}</h2>-->
+    <!--{% if post.url %}-->
+    <!--    <p>I have a file</p>-->
+    <!--{% endif %}-->
+    <div class="titleDate">
+        <h3>{{post.title}}</h3>
+        <p>{{ post.date | date: '%B %d %Y' }}</p>
+    </div>
+
+            {% if post.images[0].image_path.size > 0%}
+            <div class="blogimg">
+                <div class="rightsideblog">
+                    <p>{{post.content}}</p>
+                </div>
+                    <div class="leftsideblog">
+                      {% for image in post.images %}  
+                          {% if image.image_path.size > 0 %}
+                          <a href="{{image.image_path}}" data-fancybox>
+                            <div class="blogli"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>   
+                          </a>
+                          {% endif %}
+                      {% endfor %}
+                    </div>
+                <!-- Pdf upload -->
+                
+            </div>
+            {% else %}
+                <div class="blogonlytest">
+                    <p>{{post.content}}</p>
+                </div>
+            {% endif %}
+            {%if post.newsletter_document_path %}
+                <div class="enrolbuttonNews">
+                <a href="{{ post.newsletter_document_path }}" download="coolFile">Download</a>
+                </div>
+                <br/>
+                <object class="pdfFile" data="{{ post.newsletter_document_path }}" max-width="600px" width="100%" height="1000" type='application/pdf'/>
+
+
+            {% endif %}
+            
+    
+    <!--<p>{{post.content}}</p>-->
+
+    <!--{% if post.images %}-->
+    <!--    <ul class="photo-gallery">-->
+    <!--      {% for image in post.images %}-->
+    <!--        <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>-->
+    <!--      {% endfor %}-->
+    <!--    </ul>-->
+    <!--    {% else %}-->
+    <!--    <p>I have no images sorry</p>-->
+    <!--{% endif %}-->
+    
+    
+    
+
+    <!--{{post.file_document_path}}-->
+</div>
+{% endfor %}
+</div>
+
+<!--<p>-->
+<!--  <a href="https://farm4.staticflickr.com/3953/15594397982_477385f90d_b_d.jpg" data-fancybox>-->
+<!--    <img src="https://farm4.staticflickr.com/3953/15594397982_477385f90d_m_d.jpg" />-->
+<!--  </a>-->
+<!--</p>-->
+</div>
+</div>
+     <div class="footer">
+            <div class="footerTop">
+              <img class="footerHill" src="../images/footer-backgroundHill.png" />
+              <img class="footerBorder" src="../images/footer-top.png" />
+              <div class="margin-wrapper flex">
+                <div class="footerLeft">
+                  <img src="../images/logo-footer.png" />
+                  <div class="vertical"></div>
+                  <div class="footerContact">
+                    <p>Contact us</p>
+                    <p>123-456-789</p>
+                    <p>hello@gmail.com</p>
+                  </div>
+                </div>
+                <div class="footerRight">
+                                      <!-- start nav -->
+                    
+                    <ul>
+                    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                    {% for p in navigation_pages %}
+                      {% if p.navigation_weight %}
+                        <li>
+                             <a class="footerlinks" href="{{ p.url }}">{{p.title}}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                  <!--<ul>-->
+                  <!--  <li>Home</li>-->
+                  <!--  <li>About Us</li>-->
+                  <!--  <li>Newsletter and Events</li>-->
+                  <!--  <li>Fees</li>-->
+                  <!--  <li>Contact Us</li>-->
+                  <!--</ul>-->
+                  <!-- end nav -->
+                </div>
+                <div class="logoBox">
+                  <p>Powered by CodeBranch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+</html>
