@@ -1,0 +1,736 @@
+/** Contact Form PRROPER**/
+ 
+.map {
+    max-width: 100%;
+    border: 1px solid red;
+    height: 100px;
+    margin: 20px;
+} 
+
+.mainContentContact {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 20px;
+    
+}
+
+.mainContentHome {
+    background-color: #84DD63;
+    margin-top: -100px;
+    position: relative
+}
+
+.push {
+    margin-top: -100px;
+    position: relative
+}
+
+.details1 {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 3px solid #f44336
+}
+
+.details1 img {
+    height: 24px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+} 
+              
+.details2 img, .details3 img {
+    height: 30px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.details3 img {
+    height: 33px;
+    margin-left: 8px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+/*.details1, .details2, .details3, .details4, .details5 {*/
+/*    width: 100%;*/
+/*    max-width: 300px;*/
+/*    margin: auto;*/
+/*}*/
+
+/** Can refactor to take color paramater **/
+.details1hr {
+    width: 3px;
+    height: auto;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.detailsemail {
+    margin: auto 0 auto 10px;
+}
+
+.details2 {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 3px solid yellow
+}
+
+/** Can refactor to take color paramater **/
+.details2hr {
+    width: 3px;
+    height: auto;
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+.detailsphone {
+    margin: auto 0 auto 10px;
+}
+
+.details3 {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 3px solid green
+}
+
+
+/** Can refactor to take color paramater **/
+.details3hr {
+    width: 3px;
+    height: auto;
+    background-color: green;
+    margin-left: 10px;
+}
+
+.detailsaddress1 {
+    margin: auto 0 auto 10px;
+}
+
+
+/** Can refactor to take color paramater **/
+.details3hr {
+    width: 3px;
+    height: auto;
+    background-color: green;
+    margin-left: 10px;
+}
+
+.detailsaddress2 {
+    margin: auto 0 auto 10px;
+}
+
+/** Can refactor to take color paramater **/
+.details4hr {
+    width: 3px;
+    height: auto;
+    background-color: green;
+    margin-left: 42px;
+    
+}
+
+.detailsaddress3 {
+    margin: auto 0 auto 10px;
+}
+
+.details5, .details4 {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 3px solid green;
+    height: 43px;
+}
+
+
+/** Can refactor to take color paramater **/
+.details5hr {
+    width: 3px;
+    height: auto;
+    background-color: green;
+    margin-left: 42px;
+    
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 20px;
+    /*margin: 0 20px;*/
+}
+
+.formWrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.glyphicon {
+    color: black;
+}
+
+@media(max-width: 600px){
+    .formWrap {
+        flex-wrap: wrap;
+    }
+    
+    .formleft, .formright {
+        max-width: 100%;
+        flex-basis: 80%!important;
+        margin: auto!important;
+    }
+    
+    .slide-wrapper img {
+        max-width: 80%;
+    }
+    
+    .margin-wrapper {
+        margin: 0 15px;
+        padding: 10px; 
+        margin-top: -100px;
+    }
+    
+    .pdfFile {
+        display: none;
+    }
+    
+    .blogimg {
+        flex-direction: column;
+    }
+    
+    .leftsideblog {
+        flex-basis: 100%!important;
+        max-width: 100%!important;
+    } 
+    
+    
+    .rightsideblog {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    
+    .homeThreeColumn .column {
+        margin-top: 0;
+    }
+    
+    .columnOne, .columnTwo {
+        margin-bottom: 10px;
+    }
+}
+
+
+.formleft {
+    margin: 0 10px;
+    flex-basis: 50%;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+
+.formright {
+    margin: 0 10px;
+    flex-basis: 50%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contactChild{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid red;
+    padding: 0.01em 16px;
+    border-radius: 10px;
+    height: 44px;
+    margin: 10px 0;
+} 
+
+.contactForm input, .contactForm textarea {
+    background-color: white;
+}
+
+.contactSubmit {
+    color: white;
+    border: 1px solid red;
+    padding: 0.01em 16px;
+    border-radius: 10px;
+    height: 44px;
+    margin: 10px 0;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: red!important;
+    transition: 0.40s;
+}
+
+.contactSubmit:hover {
+    background-color: white!important;
+    color: black!important;
+}
+
+.contactSubmit.submitted {
+    background-color: #9ad85c!important;
+    color: black;
+}
+
+.contactTextArea{
+    height: 140px;
+    padding-top: 10px;
+}
+
+/** End of contact Form **/
+/** homeReadMore button**/
+.homeReadMore {
+    display: none;
+    margin-top: 20px;
+}
+
+.readMoreButton {
+    background-color: #82bdf1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+/** End of homeReadMore button **/
+/** Enrols **/
+
+.enrolmentp1 {
+    margin: 0;
+    max-width: 100%;
+}
+.enrolleft{
+    flex-basis: 60%;
+    padding: 10px;
+}
+
+.enrolright{
+    justify-content: space-around;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    max-width: 100%;
+    /* margin: auto; */
+}
+
+.enrolimg, .feesimg {
+    margin: auto;
+    max-width: 45%;
+    padding: 5px;
+}
+
+.enrolimg img, .feesimg img {
+    max-width: 100%;
+}
+
+.enrol img {
+    max-width: 100%;
+}
+/** End of Enrols **/
+
+.newLine {
+    max-width: 100%;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.bottomHalfNav img{
+    max-width: 100%;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e1e1e1;
+}
+
+.blogimg {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.leftsideblog {
+/*    display: flex;*/
+/*    flex-basis: 40%;*/
+/*    text-align: center;*/
+/*    flex-direction: column;*/
+/*    max-width: 100%;*/
+    justify-content: space-around;
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 40%;
+ }
+
+.blogli {
+    margin: 10px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*margin: auto;*/
+    /*max-width: 100%;*/
+}
+
+.leftsideblog img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.rightsideblog {
+    flex-basis: 60%;
+}
+
+    /* About content*/
+    
+    .about {
+        background-color: white;
+        margin: 20px;
+    }
+    
+    .aboutp1 {
+        padding: 10px;
+    }
+    
+    .enrolLinks {
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    
+    .enrolbutton {
+        display: flex;
+        color: white;
+        border: 1px solid #82bdf1;
+        padding: 0.01em 16px;
+        border-radius: 10px;
+        height: 44px;
+        margin: 10px 0;
+        width: auto;
+        margin: auto;
+        background-color: #82bdf1;
+    }
+    
+    .enrolbutton a {
+        color: white;
+        margin: auto;
+    }
+    
+    .feesimg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .feesimg img {
+        height: auto;
+        max-width: 48%;
+    }
+    
+    /* slider */
+    a.right.carousel-control, a.left.carousel-control{
+        background-image: none;
+    }
+    
+    #myCarousel {
+        height: 250px;
+    }
+    
+    .slide-wrapper {
+        height: 250px;
+        display: flex;
+    }
+    
+    .slide-wrapper img {
+            margin: auto;
+            width: auto!important;
+            max-height: 250px;
+    }
+    
+    /** newNav **/
+    
+    .newNav {
+        margin: auto 0 auto auto;
+        position: relative;
+    }
+    
+    
+    /*.hamburger {*/
+    /*    height: 3px;*/
+    /*    background-color: black;*/
+    /*    width:25px; */
+    /*    content:"";*/
+    /*    display: block;*/
+    /*    margin: 2px 0 2px auto;*/
+    /*    transition: background-color 0.30s;*/
+    /*}*/
+    
+    /* Default page header*/
+    .defaultHeader{
+        background-color:#8df6fe;
+        background-image:url("../../images/small_topimage.png");
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+        height:550px;width:100%;
+        position:relative;
+        overflow:hidden
+        
+    }
+    
+    @media(max-width: 598px){
+        .mobBox {
+            display: flex!important;
+        }
+        
+        ul.topnav {
+            display: none;
+            right: -25px;
+            top: 35px;
+            min-width: 150px;
+            flex-direction: column;
+            position: absolute;
+        }
+    }
+    
+       @media(min-width: 599px){
+        ul.topnav {
+            display: flex!important;
+            flex-direction: row;
+            position: relative ;
+            
+        }
+        .mobBox {
+            display: none;
+        }
+    }
+    
+    .whiteBackground {
+        background-color: white;
+        padding-bottom: 40px;
+    }
+    
+    .parentEnrol {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /* Nav logo style */
+    
+    .navLogo {
+        height: 80px;
+        margin: auto 0;
+        
+    }
+    
+    .nav {
+        min-height: 100px;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        overflow: visible;
+        box-shadow: 0px 0px 5px 9px #358bc8;
+    }
+    
+    a.footerlinks {
+        color: white;
+        transition: 0.20s;
+    }
+    
+    a.footerlinks:hover {
+        color: #e1e1e1;
+    }
+    /* Navbar transitions*/
+
+.mobBox {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.mobBox div {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #fbf440; 
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -o-transition: .25s ease-in-out;
+      transition: .25s ease-in-out;
+}
+
+.mobBox div:nth-child(1) {
+  top: 0px;
+}
+
+.mobBox div:nth-child(2) {
+  top: 10px;
+}
+
+.mobBox div:nth-child(3) {
+  top: 20px;
+}
+.mobBox.open div {
+    background-color: #88e64e;;
+}
+.mobBox.open div:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.mobBox.open div:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.mobBox.open div:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.recap {
+    color: #d23c3c;
+}
+
+/* Google map */
+#googleMap {
+        height: 100%;
+      }
+      
+.enrolbuttonNews {
+    display: flex;
+    color: #fff;
+    border: 1px solid #82bdf1;
+    padding: .01em 16px;
+    border-radius: 10px;
+    height: 44px;
+    width: auto;
+    margin: auto auto auto 0;
+    background-color: #82bdf1;
+}
+
+.enrolbuttonNews a {
+    color: #fff;
+    margin: auto;
+}
+
+.submitWrapper {
+    display: flex;
+    text-align: center;
+}
+
+@media(max-width: 500px){
+    
+    .footerHill {
+        top: 0;
+        margin-top: -100px
+    }
+    
+}
+
+.g-recaptcha {
+    transform:scale(0.77);
+    transform-origin:0 0;
+}
+
+.mainContentAbout {
+    margin-top: -100px;
+    position: relative
+}
+
+.globalContent {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.animatedSlide {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    height: 2000px;
+}
+
+.enrolbuttonurl {
+    display: flex;
+    color: #fff;
+    border: 1px solid #fec240;
+    padding: .01em 16px;
+    border-radius: 10px;
+    height: 44px;
+    margin: 10px 0;
+    width: auto;
+    margin: auto;
+    background-color: #fec240;
+}
+
+.enrolbuttonurl a {
+    color: white;
+    margin: auto;
+}
+
+img.fancybox-image, .fancybox-spaceball {
+    max-width: 100%!important;
+    max-height: 100%!important;
+    width: auto!important;
+}
+
+.fancybox-image {
+    height: 400px!important;
+    
+}
+
+
+
+
