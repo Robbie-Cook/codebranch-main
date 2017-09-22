@@ -1,0 +1,107 @@
+---
+layout: default
+title: Enrolments
+navigation_weight: 5
+images:
+  - image_path: 'https://wallpaperbrowse.com/media/images/cool-pics-2.jpg'
+  - image_path: 'https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg'
+  - image_path: 'https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg'
+formlinks:
+  - link_name: Hello
+    newsletter_document_path: /uploads/fur-elise.pdf
+  - link_name: Cool
+    newsletter_document_path: /uploads/guilty-crown---pianoforte-adlib-ii.pdf
+pageroutes:
+  - pages: About
+    url: about  
+---
+    <div class="globalContent">
+    <div class="margin-wrapper white push">
+      <div class="restPageHeader">
+      </div>
+      <!--<div class="whiteBackground">-->
+      <!--<div class="enrolment aboutUsBox">-->
+      <div class="enrolleft">
+        <h1 class="editable">Enrolments</h1>
+        <br />
+        
+            <div class="enrolmentp1 editable"><h2>Please inquire to see if we currently have places available for the hours you require. If not you can be placed on a waiting list to secure the next available place.</h2><p>&nbsp;</p><h2>What you will need</h2><p>To enroll your child simply complete the Enrollment Form (collect from us or print from the link below). We also require a copy of your child's identification either a birth certificate or passport and a copy of their immunizations usually from their plunket book. We can take a copy for you if you bring in the original.​</p><h2>Settling in Period</h2><p>It is recommended all children have at least 2 visits with their parents. These visits of about one hour enable your child to become acquainted with other children, staff and some of the center routines. There is no charge for these visits and we are happy to take the time and additional visits when needed to ensure you and your child are both comfortable with the environment.​​</p><h2>What to Bring</h2><p>Please bring a bag containing a complete change of clothes for your child, along with a hat and jacket. We try and get outdoors both summer and winter for fresh air and exercise. Please ensure that all of your child's clothing is named.</p><p>While we provide morning and afternoon tea, you just need to provide lunch if your child attends over the lunch period.</p><p>For infants requiring bottle feeding, please bring the breast milk or formula already made up, in named bottles.</p><p>For infants wearing nappies, these need to be supplied by the parents.</p></div>
+            
+                <div class="parentEnrol">
+                    <h1 class="editable">Form Links</h1><br />
+                    <div class="enrolLinks">
+          
+                    {% for link in page.formlinks %}
+                        {% if link.newsletter_document_path %}
+                            <div class="enrolbutton"><a href="{{link.newsletter_document_path}}">{{link.link_name}}</a></div>
+                        {% endif %}
+                    {% endfor %}
+                    <br/>
+                    
+                    {% for pg in page.pageroutes %}
+                        <div class="enrolbuttonurl"><a href="{{pg.url}}">{{pg.pages}}</a></div>
+                    {% endfor %}
+      </div>
+      
+      
+      </div>
+         </div>
+          <div class="enrolright">
+          {% for image in page.images %}
+          
+                <div class="enrolimg">
+                    <a href="{{image.image_path}}" data-fancybox>
+                    <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+                    </a>
+                    </div>
+          {% endfor %}
+          </div>
+
+      <!--</div>-->
+      <!--</div>-->
+
+          
+    </div>
+</div>
+<div class="footer">
+            <div class="footerTop">
+              <img class="footerHill" src="../images/footer-backgroundHill.png" />
+              <img class="footerBorder" src="../images/footer-top.png" />
+              <div class="margin-wrapper flex">
+                <div class="footerLeft">
+                  <img src="../images/logo-footer.png" />
+                  <div class="vertical"></div>
+                  <div class="footerContact">
+                    <p>Contact us</p>
+                    <p>123-456-789</p>
+                    <p>hello@gmail.com</p>
+                  </div>
+                </div>
+                <div class="footerRight">
+                                      <!-- start nav -->
+                    
+                    <ul>
+                    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                    {% for p in navigation_pages %}
+                      {% if p.navigation_weight %}
+                        <li>
+                             <a class="footerlinks" href="{{ p.url }}">{{p.title}}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                  <!--<ul>-->
+                  <!--  <li>Home</li>-->
+                  <!--  <li>About Us</li>-->
+                  <!--  <li>Newsletter and Events</li>-->
+                  <!--  <li>Fees</li>-->
+                  <!--  <li>Contact Us</li>-->
+                  <!--</ul>-->
+                  <!-- end nav -->
+                </div>
+                <div class="logoBox">
+                  <p>Powered by CodeBranch</p>
+                </div>
+              </div>
+            </div>
+          </div>

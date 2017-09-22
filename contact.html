@@ -1,0 +1,115 @@
+---
+
+layout: default
+title: Contact
+navigation_weight: 4
+
+---
+
+    <div class="margin-wrapper white push">
+      
+      <!-- start-->
+      <h1 class="editable">Contact Us</h1>
+      <div class="formWrap">
+          <div class="formleft">
+              <div class="details1 img">
+                  <img src="/images/email.png"/>
+                  <div class="details1hr"></div>
+                  <div class="detailsemail editable">contact@yorkplace.co.nz</div>
+              </div>
+              <div class="details2 img">
+                  <img src="/images/phone.png"/>
+                  <div class="details2hr"></div>
+                  <div class="detailsphone editable">(03) 453 1140</div>
+              </div>
+              <div class="details3 img">
+                  <img src="/images/location.png"/>
+                  <div class="details3hr"></div>
+                  <div class="detailsaddress1 editable">95 York Place</div>
+              </div>
+              <div class="details4 img">
+                  <div class="details4hr"></div>
+                  <div class="detailsaddress2 editable">City Centre</div>
+              </div>
+              <div class="details5 img">
+                  <div class="details5hr"></div>
+                  <div class="detailsaddress3 editable">Dunedin, 9016</div>
+              </div>
+               <form method="post" class="contactForm" id="contact-form" action="#">
+                  
+                  <input class="contactChild" type="text" name="name" placeholder="Name">
+                  
+                  <input class="contactChild" type="text" name="email" placeholder="Email Address">
+                  
+                  <input class="contactChild" type="text" name="_subject" placeholder="Subject">
+                  
+                  <textarea class="contactTextArea contactChild" name="message" placeholder="Message"></textarea>
+                  
+                
+                  <input type="hidden" name="_to" value="mseibt202@gmail.com">
+                  <input type="hidden" name="_cc" value="mseibt202@gmail.com">
+                  <input type="text" name="_gotcha" style="display: none;">
+                <div class="g-recaptcha" data-sitekey="6LdKgDAUAAAAAMWvtzWXYI7YP4URnw1mlIjoVnB7"></div> 
+                <span class="recap"></span>
+                <div class="submitWrapper">
+                  <input class="contactChild contactSubmit" type="submit" value="Send Message">
+                </div>
+                </form>
+          </div>
+          <div class="formright">
+                     <div class="newMap" style="width:100%;height:402px;max-width:100%;border: 1px solid red;">
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+        </div>
+
+            </div>
+        </div>
+      <!-- end-->
+        
+
+
+    </div>
+               <div class="footer">
+            <div class="footerTop">
+              <img class="footerHill" src="../images/footer-backgroundHill.png" />
+              <img class="footerBorder" src="../images/footer-top.png" />
+              <div class="margin-wrapper flex">
+                <div class="footerLeft">
+                  <img src="../images/logo-footer.png" />
+                  <div class="vertical"></div>
+                  <div class="footerContact">
+                    <p>Contact us</p>
+                    <p>123-456-789</p>
+                    <p>hello@gmail.com</p>
+                  </div>
+                </div>
+                <div class="footerRight">
+                                      <!-- start nav -->
+                    
+                    <ul>
+                    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                    {% for p in navigation_pages %}
+                      {% if p.navigation_weight %}
+                        <li>
+                             <a class="footerlinks" href="{{ p.url }}">{{p.title}}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                  <!--<ul>-->
+                  <!--  <li>Home</li>-->
+                  <!--  <li>About Us</li>-->
+                  <!--  <li>Newsletter and Events</li>-->
+                  <!--  <li>Fees</li>-->
+                  <!--  <li>Contact Us</li>-->
+                  <!--</ul>-->
+                  <!-- end nav -->
+                </div>
+                <div class="logoBox">
+                  <p>Powered by CodeBranch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="./contact.js"></script>
+           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzbnds444pCamLZjD_LBMuFqNTGHemMDc&callback=myMap" async defer></script>
+</html>

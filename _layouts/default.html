@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="icon" type="image/png" href="https://wallpaperbrowse.com/media/images/Cool-Wallpaper-14D0.jpg" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
+    <!-- Recapcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="bootstrap.js" defer></script>
+    <script src="./home.js" defer></script>
+        <title>York Place</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet" />
+            <script type="text/javascript" src="./jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.min.css"/>
+                          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="deferred.js" defer></script>
+            <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+            <link rel="stylesheet" type="text/css" href="./css/stylesTwo.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <!--            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />-->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+   
+    </head>
+    <body>
+        <!--[if !IE]> -->
+        <div class="animatedSlide"></div>
+        <!-- <![endif]-->
+        <img class="cloud move" src="../images/Cloud.png" />
+        <img class="cloud move" src="../images/Cloud.png" />
+        <img class="cloud move" src="../images/Cloud.png" />
+        <img class="cloud move" src="../images/Cloud.png" />
+           
+      <!--<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+      <!--   <i class="fa fa-bars" aria-hidden="true"></i>-->
+      <!--</button>-->
+      <div class="nav">
+          <img class="navLogo" src="../images/logoOtherPages.png"/>
+          <div class="newNav" id="">
+               <div class="mobBox">
+                <div class="hamburger" id="hamburger1"></div>
+                <div class="hamburger" id="hamburger1"></div>
+                <div class="hamburger" id="hamburger1"></div>
+            </div>
+            <ul class="topnav">
+            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+            {% for p in navigation_pages %}
+              {% if p.navigation_weight %}
+                <li>
+                    <div class="wrapper">
+                     <a href="{{ p.url }}">{{p.title}}</a>
+                     </div>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li>
+                    <div class="wrapper">
+                     <a href="/update">Login</a>
+                     </div>
+                </li>
+          </ul>
+           </div>
+    </div>
+    
+    <div class="defaultHeader">
+      <!--<img class="mainimage" src="../images/topimage.png">-->
+    </div>
+{{ content }}
+
+
+<!--<div class="footer">-->
+<!--            <div class="pre-footer"></div>-->
+<!--            <div class="footerTop">-->
+<!--              <img class="footerHill" src="../images/footer-backgroundHill.png" />-->
+<!--              <img class="footerBorder" src="../images/footer-top.png" />-->
+<!--              <div class="footerLeft">-->
+<!--                <img src="../images/logo-footer.png" />-->
+<!--                <div class="vertical"></div>-->
+<!--                <div class="footerContact">-->
+<!--                  <p>Contact us</p>-->
+<!--                  <p>123-456-789</p>-->
+<!--                  <p>hello@gmail.com</p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="footerRight">-->
+<!--                <ul>-->
+<!--                  <li>Home</li>-->
+<!--                  <li>About Us</li>-->
+<!--                  <li>Newsletter and Events</li>-->
+<!--                  <li>Fees</li>-->
+<!--                  <li>Contact Us</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          </div>-->
+<!--          </body></html>-->

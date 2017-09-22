@@ -1,0 +1,156 @@
+---
+layout: default
+title: About
+navigation_weight: 2
+images:
+  - image_path: /images/phone.png
+  - image_path: 'https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg'
+---
+    <div class="globalContent">
+    <div class="mainContentAbout">
+    	<div class="restPageHeader">
+      </div>
+      <div class="margin-wrapper white">
+      <div class="ripTop">
+        <h1 class="editable">York Place Preschool &amp; Nursery</h1>
+        <br />
+ 
+
+        <div class="editable"><p>York Place Preschool &amp; Nursery is a small family orientated centre in the heart of Dunedin. We strive to cater and support the very diverse culture amongst our community.<br /><br />The teachers at our childcare centre believe learning is life long and it is essential to create a warm and inviting environment, where our tamariki/children feel a sense of belonging and learning is made fun.<br /><br />The uniqueness of each and every child and their whanau/family is celebrated with stable qualified team of loving and caring teachers.<br /><br />Being in the heart of the city enables us access to all the city has to offer, including library visits and walks within the community to see what is happening; from Magicians to Santa.</p></div><br />
+            
+             <!-- Start of slideshow -->       
+                    <div class="slideContainer">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                    
+                        <ol class="carousel-indicators">
+                            {% assign num = page.images.size | minus:1 %}
+                          {% for i in (0..(num)) %}
+                            {% if i == 0 %}
+                              <li data-target="#myCarousel" data-slide-to="{{i}}" class="active"></li>
+                            {% else %}
+                              <li data-target="#myCarousel" data-slide-to="{{i}}"></li>
+                            {% endif %}
+                          {% endfor %}
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          {% for i in (0..(num)) %}
+                            {% if i == 0 %}
+                              <div class="item active">
+                                  <div class="slide-wrapper">
+                                    <img src="{{page.images[i].image_path}}" style="width:100%;" />
+                                  </div>
+                              </div>
+                            {% else %}
+                              <div class="item">
+                                <div class="slide-wrapper">
+                                    <img src="{{page.images[i].image_path}}" style="width:100%;" />
+                                </div>
+                              </div>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                    
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <!-- End of Slide show -->
+            <br />
+        <div class="editable"><p>Our Philosophy</p><p>The teachers at York Place Preschool &amp; Nursery are committed to providing a friendly, caring and safe centre which encourages and develops the pathway for learning for life.</p><p>Relationships between teachers, children and whānau are a priority for us all and we are committed to developing positive, open relationships. We appreciate the unique multicultural environment that we have and welcome members of our centre and wider community to share and celebrate their culture with us.</p><p>We believe that children have the right to be valued for their individual qualities and uniqueness. We are committed to developing an understanding of the individual needs of each child.</p><p>The teachers at York Place Preschool &amp; Nursery are committed to upholding the principles of Te Tiriti o Waitangi. We acknowledge that this is an ongoing commitment and we are at different levels of understanding regarding Te Ao views (Māori world views) so we will support each other on this learning journey.</p><h1>Mornings &amp; afternoon teas provided​</h1><p>We provide morning and afternoon tea consisting of fresh fruit, crackers, plain biscuits along with milk and water. The teachers often involve the children in the kitchen with cooking or baking and this is also shared at snack times.</p><p>Children are asked to bring a packed lunch with them if they are here over the lunch period.</p><h1>Our Classes</h1><h2>​0 to 2-Year Old Preschool Class</h2><p><br />Our under two end is setup up for little ones to feel safe and free to move and play with out older children dominating their space. Also this allows for specialised activity's and play equipment suited to there age and ability.</p><p>With a dedicated nursery area for infants this enables your child to flourish.</p><p>​3 to 6 Year Old Preschool Class<br />​<br />Our overs end is setup for more challenging activity's and to suit there advancing ability's weather it be outside in our playground or inside with our specialise activities.​</p><h2>Transitional Class​</h2><p><br />At York Place pre school and nursery we like to transition children when they are ready and feel comfortable to move from the unders to the over once they reach the age of two.</p><p>We have an allocated transition teacher who moves between the unders and overs areas with the children so they have a familiar face to adjust to the change.</p><p>We also allow the child to go back to the unders if they choose too and are flexible and pay special attention to how the child is progressing</p></div>
+        </div>
+        <!--<div class="aboutp2">-->
+        <!--  <h3>Our Philosophy</h3>-->
+        <!--  <p>Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor</p>-->
+        <!--</div>-->
+
+        <!--<div class="aboutp3">-->
+        <!--  <h3>Mornings & Afternoon teas Provided</h3>-->
+        <!--  <p>Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor-->
+        <!--  Lorem Ipsum dolor Lorem Ipsum dolor Lorem Ipsum dolor</p>-->
+        <!--</div>-->
+      </div>
+
+</div>
+</div>
+     <div class="footer">
+            <div class="footerTop">
+              <img class="footerHill" src="../images/footer-backgroundHill.png" />
+              <img class="footerBorder" src="../images/footer-top.png" />
+              <div class="margin-wrapper flex">
+                <div class="footerLeft">
+                  <img src="../images/logo-footer.png" />
+                  <div class="vertical"></div>
+                  <div class="footerContact">
+                    <p>Contact us</p>
+                    <p>123-456-789</p>
+                    <p>hello@gmail.com</p>
+                  </div>
+                </div>
+            
+                <div class="footerRight">
+                                      <!-- start nav -->
+                    
+                    <ul>
+                    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                    {% for p in navigation_pages %}
+                      {% if p.navigation_weight %}
+                        <li>
+                             <a class="footerlinks" href="{{ p.url }}">{{p.title}}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                  <!--<ul>-->
+                  <!--  <li>Home</li>-->
+                  <!--  <li>About Us</li>-->
+                  <!--  <li>Newsletter and Events</li>-->
+                  <!--  <li>Fees</li>-->
+                  <!--  <li>Contact Us</li>-->
+                  <!--</ul>-->
+                  <!-- end nav -->
+                </div>
+                <div class="logoBox">
+                  <p>Powered by CodeBranch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
