@@ -43,42 +43,36 @@ title: Home
 
     </head>
     <body>
-
-        <img class="cloud move" src="../images/Cloud.png" />
-        <img class="cloud move" src="../images/Cloud.png" />
-        <img class="cloud move" src="../images/Cloud.png" />
-        <img class="cloud move" src="../images/Cloud.png" />
-       <img class="sun" src="../images/sun.png" />
-    <div class="nav">
-       
-      <!--<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
-      <!--   <i class="fa fa-bars" aria-hidden="true"></i>-->
-      <!--</button>-->
-      <div class="newNav">
-           <div class="mobBox">
-            <div class="hamburger" id="hamburger1"></div>
-            <div class="hamburger" id="hamburger1"></div>
-            <div class="hamburger" id="hamburger1"></div>
-        </div>
-        <ul class="topnav">
-            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-            {% for p in navigation_pages %}
-              {% if p.navigation_weight %}
+        <div class="nav">
+           
+          <!--<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+          <!--   <i class="fa fa-bars" aria-hidden="true"></i>-->
+          <!--</button>-->
+          <div class="newNav">
+               <div class="mobBox">
+                <div class="hamburger" id="hamburger1"></div>
+                <div class="hamburger" id="hamburger1"></div>
+                <div class="hamburger" id="hamburger1"></div>
+            </div>
+            <ul class="topnav">
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                {% for p in navigation_pages %}
+                  {% if p.navigation_weight %}
+                    <li>
+                        <div class="wrapper">
+                         <a href="{{ p.url }}">{{p.title}}</a>
+                         </div>
+                    </li>
+                  {% endif %}
+                {% endfor %}
                 <li>
-                    <div class="wrapper">
-                     <a href="{{ p.url }}">{{p.title}}</a>
-                     </div>
-                </li>
-              {% endif %}
-            {% endfor %}
-            <li>
-                    <div class="wrapper">
-                     <a href="/update">Login</a>
-                     </div>
-                </li>
-          </ul>
-       </div>
-    </div>
+                        <div class="wrapper">
+                         <a href="/update">Login</a>
+                         </div>
+                    </li>
+              </ul>
+           </div>
+        </div>
 
 	<div class="homePageHeader">
       <!--<img class="mainimage" src="../images/topimage.png">-->
