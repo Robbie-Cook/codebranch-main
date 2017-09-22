@@ -1,22 +1,4 @@
-// Main javascript functionality
-
-//Contact form Recapcha
-
-// Helper function to get form data in the supported format
-
-
-
-//End of Contac Form
-
-//ReadMore toggle
-
-$(".readMoreButton").on('click', function(){
-    $(".homeReadMore").slideToggle();
-});
-
-$(".mobBox").on('click', function(){
-    $("ul.topnav").slideToggle();
-});
+// Main javascript file, common to most of the html files
 
 $(document).mouseup(function(e) 
 {   
