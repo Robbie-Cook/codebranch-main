@@ -50,17 +50,11 @@ title: Home
                 <div class="hamburger" id="hamburger1"></div>
             </div>
             <ul class="topnav">
-                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-                {% for p in navigation_pages %}
-                  {% if p.navigation_weight %}
-                    <li>
-                        <div class="wrapper">
-                         <a href="{{ p.url }}">{{p.title}}</a>
-                         </div>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
         </div>
     <div class="globalContent">
         <div class="mainContent">
