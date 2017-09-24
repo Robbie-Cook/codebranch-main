@@ -16,13 +16,17 @@
   color: #FFFFFF;
 }
 .nav ul {
+  display: flex;
   margin: 0;
   padding-left: 20px;
   padding-right: 20px;
 }
 .nav ul li {
+  line-height: 60px;
   list-style-type: none;
   color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .mainContent {
   padding-left: 20px;

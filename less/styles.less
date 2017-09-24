@@ -27,11 +27,14 @@
       color: @white;
     }
     ul {
+      display: flex;
       margin: 0;
       .sideGutter();
       li {
+        line-height: @navHeight;
         list-style-type: none;
         color: @white;
+        .sideGutter();
       }
     }
 }
