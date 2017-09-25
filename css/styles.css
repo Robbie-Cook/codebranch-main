@@ -29,7 +29,8 @@ body {
   color: #FFFFFF;
 }
 .nav ul a:hover {
-  display: none;
+  color: black;
+  transition: .25s;
 }
 .nav ul li {
   font-size: 12px;
