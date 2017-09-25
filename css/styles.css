@@ -53,3 +53,7 @@ body {
   padding: 10px;
   max-width: 600px;
 }
+.globalWrapper {
+  background-color: #4F8E30;
+  z-index: 100;
+}
