@@ -56,4 +56,5 @@ body {
 .backgroundFade {
   background-color: #4F8E30;
   z-index: 2;
+  height: 500px;
 }
