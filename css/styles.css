@@ -56,7 +56,9 @@ body {
 .backgroundFade {
   position: absolute;
   background-color: #4F8E30;
+  margin-top: 60px;
   z-index: 2;
   height: 500px;
   width: 100%;
+  opacity: .2;
 }
