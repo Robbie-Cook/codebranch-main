@@ -45,6 +45,9 @@ body {
 .nav ul li:last-child {
   padding-right: 0;
 }
+#mc2 {
+  display: none;
+}
 .mainContent {
   padding-left: 25px;
   padding-right: 25px;
@@ -53,9 +56,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.mainContent #mc2 {
-  display: none;
 }
 .mainContent h1 {
   text-align: center;
