@@ -5,6 +5,7 @@
    -- Main styles for the codebranch web project
 */
 body {
+  margin: 0;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 .nav {
