@@ -31,8 +31,8 @@ body {
 .nav ul a {
   color: #FFFFFF;
 }
-.nav ul a:hover {
-  color: black;
+.nav ul:hover {
+  color: #B9B9B9;
   transition: .7s;
 }
 .nav ul li {
