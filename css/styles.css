@@ -64,6 +64,9 @@ body {
   background-position: center;
   background-size: cover;
 }
+.mainContent .centerWrapper {
+  margin: auto;
+}
 .mainContent a {
   text-color: #1995FF;
 }
