@@ -49,11 +49,13 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
-  background-image: url('../images/background1.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.mainContent #mc2 {
+  display: none;
 }
 .mainContent h1 {
   text-align: center;
