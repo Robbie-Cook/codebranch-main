@@ -25,7 +25,10 @@ body {
   padding-right: 25px;
   padding-right: 0;
 }
-.nav ul a:hover {
+.nav ul a {
+  color: #FFFFFF;
+}
+.nav ul:hover {
   color: gray;
   transition: 1s;
 }
@@ -33,7 +36,6 @@ body {
   font-size: 12px;
   line-height: 60px;
   list-style-type: none;
-  color: #FFFFFF;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -58,6 +60,7 @@ body {
   z-index: 3;
   max-width: 600px;
   box-shadow: 0px 0px 20px #ffffff;
+  border-radius: 5px;
 }
 .backgroundFade {
   position: absolute;
