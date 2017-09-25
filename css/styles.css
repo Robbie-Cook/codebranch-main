@@ -64,6 +64,9 @@ body {
   background-position: center;
   background-size: cover;
 }
+.mainContent a {
+  text-color: #1995FF;
+}
 .mainContent .background {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 15px #ffffff;
