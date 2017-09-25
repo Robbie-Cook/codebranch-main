@@ -57,6 +57,7 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
+  flex-direction: row;
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
