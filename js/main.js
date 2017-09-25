@@ -3,6 +3,6 @@
 $(document).ready(function() {
     var docHeight = $(document).height();
     $('.backgroundFade').css({
-        height: docHeight
+        height: docHeight - 60
     });
 });
