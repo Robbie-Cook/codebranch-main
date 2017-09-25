@@ -67,6 +67,8 @@ body {
 .mainContent .centerWrapper {
   margin: auto;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
 }
 .mainContent a {
   text-color: #1995FF;
