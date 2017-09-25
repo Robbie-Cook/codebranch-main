@@ -46,7 +46,10 @@ body {
   padding-right: 0;
 }
 #mc2 {
-  display: none;
+  background-image: url('../images/background1.jpg');
+}
+#mc1 {
+  background-image: url('../images/background2.jpg');
 }
 .mainContent {
   padding-left: 25px;
