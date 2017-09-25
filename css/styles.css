@@ -75,11 +75,11 @@ body {
   z-index: 3;
 }
 .mainContent h1 {
-  text-align: center;
-  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 15px #ffffff;
   z-index: 3;
+  text-align: center;
+  border-radius: 5px;
   margin: auto;
   padding: 10px;
   max-width: 600px;
