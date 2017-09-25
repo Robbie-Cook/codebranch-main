@@ -30,7 +30,7 @@ body {
 }
 .nav ul a:hover {
   color: black;
-  transition: .25s;
+  transition: .4s;
 }
 .nav ul li {
   font-size: 12px;
