@@ -29,9 +29,11 @@ body {
   padding-right: 0;
 }
 .nav ul a {
+  text-decoration: none;
   color: #FFFFFF;
 }
 .nav ul a:hover {
+  text-decoration: underline;
   color: #B9B9B9;
   transition: .3s;
 }
@@ -45,10 +47,10 @@ body {
 .nav ul li:last-child {
   padding-right: 0;
 }
-#mc2 {
+#mc1 {
   background-image: url('../images/background1.jpg');
 }
-#mc1 {
+#mc2 {
   background-image: url('../images/background2.jpg');
 }
 .mainContent {
