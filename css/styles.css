@@ -16,6 +16,7 @@ body {
   padding-right: 25px;
 }
 .nav p {
+  margin: 0;
   font-size: 20px;
   line-height: 60px;
   color: #FFFFFF;
