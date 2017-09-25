@@ -25,6 +25,10 @@ body {
   padding-right: 25px;
   padding-right: 0;
 }
+.nav ul a:hover {
+  color: gray;
+  transition: 1s;
+}
 .nav ul li {
   font-size: 12px;
   line-height: 60px;
