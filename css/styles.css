@@ -101,7 +101,7 @@ body {
   text-decoration: none;
   transition: 1s;
 }
-.mainContent .homeButtonLink span:hover {
+.mainContent .homeButtonLinkspan:hover {
   border-bottom: 2px solid #FFFFFF;
 }
 .mainContent button {
