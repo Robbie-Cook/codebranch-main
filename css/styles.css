@@ -111,6 +111,7 @@ a .active {
 .mainContent .contentBlock .heads img {
   height: 80px;
   margin: 0 20px;
+  border: 2px #1995FF;
 }
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
