@@ -111,7 +111,7 @@ body {
   margin-top: 15px;
 }
 .mainContent button span {
-  transition: .2s;
+  transition: 1s;
 }
 .mainContent button span:hover {
   border-bottom: 2px solid #FFFFFF;
