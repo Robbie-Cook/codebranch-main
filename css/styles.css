@@ -99,6 +99,7 @@ body {
 }
 .mainContent button {
   display: inline-block;
+  border: none;
   background-color: #4F8E30;
   margin-top: 15px;
 }
