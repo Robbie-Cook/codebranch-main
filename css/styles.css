@@ -71,7 +71,7 @@ body {
   flex-direction: column;
 }
 .mainContent a {
-  text-color: #1995FF;
+  color: #1995FF;
 }
 .mainContent .background {
   background-color: rgba(255, 255, 255, 0.71);
