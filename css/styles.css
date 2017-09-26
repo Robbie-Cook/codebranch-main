@@ -116,18 +116,10 @@ a .active {
 .mainContent a.homeButtonLink {
   cursor: pointer;
   text-decoration: none;
-  transition: .2s;
+}
+.mainContent a.homeButtonLink button {
+  transition: .5s;
   color: #FFFFFF;
-}
-.mainContent a.homeButtonLink:hover {
-  text-decoration: underline;
-  color: #1995FF;
-  transition: .3s;
-}
-.mainContent a.homeButtonLink .active {
-  color: #1995FF;
-}
-.mainContent button {
   font-size: 17px;
   padding: 12px 20px;
   display: block;
@@ -136,10 +128,13 @@ a .active {
   margin: 0 auto;
   margin-top: 15px;
 }
-.mainContent button span {
+.mainContent a.homeButtonLink button:hover {
+  color: #1995FF;
+}
+.mainContent a.homeButtonLink button span {
   transition: .5s;
 }
-.mainContent button:hover span {
+.mainContent a.homeButtonLink button:hover span {
   border-bottom: 2px solid #FFFFFF;
 }
 .backgroundFade {

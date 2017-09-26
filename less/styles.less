@@ -134,32 +134,27 @@ a {
   a.homeButtonLink {
     cursor: pointer;
     text-decoration: none;
-    transition: .2s;
-    color: @white;
-    &:hover {
-      text-decoration: underline;
-      color: @navSpecialColor;
-      transition: .3s;
-    }
-    .active {
-      color: @navSpecialColor;
-    }
-  }
-  button {
-    span {
+    button {
       transition: .5s;
+      color: @white;
+      &:hover {
+        color: @navSpecialColor;
+      }
+      span {
+        transition: .5s;
+      }
+      &:hover span {
+        border-bottom: 2px solid @white;
+      }
+      font-size: 17px;
+      padding: 12px 20px;
+      display: block;
+      border: none;
+      background-color: @lightGreen;
+      margin: 0 auto;
+      margin-top: 15px;
     }
-    &:hover span {
-      border-bottom: 2px solid @white;
-    }
-    font-size: 17px;
-    padding: 12px 20px;
-    display: block;
-    border: none;
-    background-color: @lightGreen;
-    margin: 0 auto;
-    margin-top: 15px;
-  }
+}
 }
 
 .backgroundFade {
