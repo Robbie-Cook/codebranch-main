@@ -116,12 +116,14 @@ body {
   }
   .homeButtonLink {
     text-decoration: none;
-    transition: .2s;
-  }
-  span:hover {
-    border-bottom: 2px solid @white;
   }
   button {
+    & span {
+      transition: .2s;
+    }
+    & span:hover {
+      border-bottom: 2px solid @white;
+    }
     color: @white;
     font-size: 17px;
     padding: 12px 20px;

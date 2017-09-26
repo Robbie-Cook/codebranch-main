@@ -99,10 +99,6 @@ body {
 }
 .mainContent .homeButtonLink {
   text-decoration: none;
-  transition: .2s;
-}
-.mainContent span:hover {
-  border-bottom: 2px solid #FFFFFF;
 }
 .mainContent button {
   color: #FFFFFF;
@@ -113,6 +109,12 @@ body {
   background-color: #63B83B;
   margin: 0 auto;
   margin-top: 15px;
+}
+.mainContent button span {
+  transition: .2s;
+}
+.mainContent button span:hover {
+  border-bottom: 2px solid #FFFFFF;
 }
 .backgroundFade {
   position: absolute;
