@@ -101,6 +101,7 @@ body {
   display: inline-block;
   border: none;
   background-color: #4F8E30;
+  margin: 0 auto;
   margin-top: 15px;
 }
 .backgroundFade {
