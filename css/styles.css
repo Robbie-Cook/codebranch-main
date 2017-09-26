@@ -125,6 +125,7 @@ a .active {
   display: block;
   border: none;
   background-color: #63B83B;
+  border: 2px solid #63B83B;
   margin: 0 auto;
   margin-top: 15px;
 }

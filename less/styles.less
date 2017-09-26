@@ -134,12 +134,14 @@ a {
   a.homeButtonLink {
     cursor: pointer;
     text-decoration: none;
+
     button {
+      @borderSize: 2px;
       transition: .5s;
       color: @white;
       &:hover {
         background-color: @white;
-        border: 2px solid black;
+        border: @borderSize solid black;
         cursor: pointer;
         color: @navSpecialColor;
         span {
@@ -151,6 +153,7 @@ a {
       display: block;
       border: none;
       background-color: @lightGreen;
+      border: @borderSize solid @lightGreen;
       margin: 0 auto;
       margin-top: 15px;
     }
