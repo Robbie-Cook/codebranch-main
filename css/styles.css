@@ -130,7 +130,7 @@ a .active {
   margin-top: 15px;
 }
 .mainContent a.homeButtonLink button:hover {
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.71);
   border: 2px solid #1995FF;
   cursor: pointer;
   color: #1995FF;
