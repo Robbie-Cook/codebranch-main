@@ -98,6 +98,7 @@ body {
   max-width: 600px;
 }
 .mainContent button {
+  color: #FFFFFF;
   font-size: 17px;
   padding: 7px 10px;
   display: block;
