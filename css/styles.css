@@ -97,6 +97,13 @@ body {
   padding: 10px;
   max-width: 600px;
 }
+.mainContent .homeButtonLink {
+  text-decoration: none;
+  transition: 1s;
+}
+.mainContent .homeButtonLink:hover {
+  border-bottom: 2px solid #FFFFFF;
+}
 .mainContent button {
   color: #FFFFFF;
   font-size: 17px;
