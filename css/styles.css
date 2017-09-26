@@ -101,7 +101,7 @@ body {
   text-decoration: none;
 }
 .mainContent button {
-  transition: 1s;
+  transition: .2s;
   color: #FFFFFF;
   font-size: 17px;
   padding: 12px 20px;
