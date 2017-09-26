@@ -101,7 +101,6 @@ body {
   text-decoration: none;
 }
 .mainContent button {
-  transition: .2s;
   color: #FFFFFF;
   font-size: 17px;
   padding: 12px 20px;
@@ -112,7 +111,7 @@ body {
   margin-top: 15px;
 }
 .mainContent button span {
-  transition: 1s;
+  transition: .2s;
 }
 .mainContent button:hover span {
   border-bottom: 2px solid #FFFFFF;
