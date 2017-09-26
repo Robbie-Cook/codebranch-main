@@ -103,6 +103,9 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
+.mainContent .contentBlock .head {
+  width: 40px;
+}
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
   box-shadow: 0px 0px 4px #ffffff;
