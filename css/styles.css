@@ -131,11 +131,8 @@ a .active {
 .mainContent a.homeButtonLink button:hover {
   color: #1995FF;
 }
-.mainContent a.homeButtonLink button span {
-  transition: .5s;
-}
 .mainContent a.homeButtonLink button:hover span {
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid #1995FF;
 }
 .backgroundFade {
   position: absolute;
