@@ -111,9 +111,11 @@ a {
     padding: 20px 0;
     .heads {
       img {
-        height: 80px;
+        @imageHeight: 40px;
+        height: @imageHeight;
         margin: 0 20px;
         border: 2px @navSpecialColor solid;
+        border-radius: @imageHeight/2;
       }
       display: flex;
       justify-content: center;
