@@ -13,7 +13,7 @@
 @lightGreen: #63B83B;
 @white: #FFFFFF; // in case we want to change the white color
 
-@navHoverColor: #B9B9B9;
+@navSpecialColor: #1995FF;
 @font: 'Helvetica Neue', Helvetica, sans-serif;
 @linkColor: #1995FF;
 
@@ -28,6 +28,19 @@
 body {
   margin: 0;
   font-family: @font;
+}
+
+a {
+  transition: .2s;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: @navSpecialColor;
+    transition: .3s;
+  }
+  .active {
+    color: @navSpecialColor;
+  }
 }
 
 .nav {
@@ -47,13 +60,7 @@ body {
       .sideGutter();
       padding-right: 0;
       a {
-        text-decoration: none;
         color: @white;
-        &:hover {
-          text-decoration: underline;
-          color: @navHoverColor;
-          transition: .3s;
-        }
       }
       li {
         font-size: @linksSize;
@@ -114,9 +121,10 @@ body {
     padding: 10px;
     max-width: @headingWidth;
   }
-  .homeButtonLink {
+  a.homeButtonLink {
     cursor: pointer;
     text-decoration: none;
+    color: @white;
   }
   button {
     span {
