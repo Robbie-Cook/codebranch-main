@@ -14,11 +14,11 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1995FF !important;
+  color: #1995FF;
   transition: .3s;
 }
 a .active {
-  color: #1995FF !important;
+  color: #1995FF;
 }
 .nav {
   display: flex;
@@ -41,7 +41,17 @@ a .active {
   padding-right: 0;
 }
 .nav ul a {
+  transition: .2s;
+  text-decoration: none;
   color: #FFFFFF;
+}
+.nav ul a:hover {
+  text-decoration: underline;
+  color: #1995FF;
+  transition: .3s;
+}
+.nav ul a .active {
+  color: #1995FF;
 }
 .nav ul li {
   font-size: 12px;
@@ -106,10 +116,18 @@ a .active {
 .mainContent a.homeButtonLink {
   cursor: pointer;
   text-decoration: none;
+  transition: .2s;
   color: #FFFFFF;
 }
+.mainContent a.homeButtonLink:hover {
+  text-decoration: underline;
+  color: #1995FF;
+  transition: .3s;
+}
+.mainContent a.homeButtonLink .active {
+  color: #1995FF;
+}
 .mainContent button {
-  color: #FFFFFF;
   font-size: 17px;
   padding: 12px 20px;
   display: block;

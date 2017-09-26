@@ -35,11 +35,11 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: @navSpecialColor!important;
+    color: @navSpecialColor;
     transition: .3s;
   }
   .active {
-    color: @navSpecialColor!important;
+    color: @navSpecialColor;
   }
 }
 
@@ -60,7 +60,17 @@ a {
       .sideGutter();
       padding-right: 0;
       a {
+        transition: .2s;
+        text-decoration: none;
         color: @white;
+        &:hover {
+          text-decoration: underline;
+          color: @navSpecialColor;
+          transition: .3s;
+        }
+        .active {
+          color: @navSpecialColor;
+        }
       }
       li {
         font-size: @linksSize;
@@ -122,10 +132,18 @@ a {
     max-width: @headingWidth;
   }
   a.homeButtonLink {
-
     cursor: pointer;
     text-decoration: none;
+    transition: .2s;
     color: @white;
+    &:hover {
+      text-decoration: underline;
+      color: @navSpecialColor;
+      transition: .3s;
+    }
+    .active {
+      color: @navSpecialColor;
+    }
   }
   button {
     span {
@@ -134,7 +152,6 @@ a {
     &:hover span {
       border-bottom: 2px solid @white;
     }
-    color: @white;
     font-size: 17px;
     padding: 12px 20px;
     display: block;
