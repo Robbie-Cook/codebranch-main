@@ -105,6 +105,7 @@ a .active {
 }
 .mainContent .contentBlock .heads {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .mainContent .contentBlock .heads img {
