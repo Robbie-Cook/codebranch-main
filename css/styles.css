@@ -99,7 +99,7 @@ body {
 }
 .mainContent button {
   font-size: 17px;
-  padding: 7px;
+  padding: 7px 10px;
   display: block;
   border: none;
   background-color: #4F8E30;
