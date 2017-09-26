@@ -129,6 +129,7 @@ a .active {
   margin-top: 15px;
 }
 .mainContent a.homeButtonLink button:hover {
+  cursor: pointer;
   color: #1995FF;
 }
 .mainContent a.homeButtonLink button:hover span {
