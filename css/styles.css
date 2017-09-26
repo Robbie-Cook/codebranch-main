@@ -98,6 +98,7 @@ body {
   max-width: 600px;
 }
 .mainContent .homeButtonLink {
+  cursor: pointer;
   text-decoration: none;
 }
 .mainContent button {
