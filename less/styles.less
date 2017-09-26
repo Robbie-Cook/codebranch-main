@@ -35,11 +35,11 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: @navSpecialColor;
+    color: @navSpecialColor!important;
     transition: .3s;
   }
   .active {
-    color: @navSpecialColor;
+    color: @navSpecialColor!important;
   }
 }
 
@@ -122,6 +122,7 @@ a {
     max-width: @headingWidth;
   }
   a.homeButtonLink {
+
     cursor: pointer;
     text-decoration: none;
     color: @white;

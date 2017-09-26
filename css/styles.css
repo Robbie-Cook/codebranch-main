@@ -14,11 +14,11 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1995FF;
+  color: #1995FF !important;
   transition: .3s;
 }
 a .active {
-  color: #1995FF;
+  color: #1995FF !important;
 }
 .nav {
   display: flex;
