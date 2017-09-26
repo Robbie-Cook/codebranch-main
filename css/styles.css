@@ -109,10 +109,10 @@ a .active {
   justify-content: center;
 }
 .mainContent .contentBlock .heads img {
-  height: 40px;
+  height: 80px;
   margin: 0 20px;
   border: 2px #1995FF solid;
-  border-radius: 20px;
+  border-radius: 70px;
 }
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
