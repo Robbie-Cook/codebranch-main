@@ -16,10 +16,10 @@ $(document).ready(function() {
             setTimeout(function() {
                 setTimeout(function() { 
                     animateThis($('#ripple2'));
-                }, 7000);
+                }, 10000);
                 animateThis($('#ripple1'));
                 ripple();
-            }, 2000);
+            }, 10000);
     }
     function animateThis(element) {
         $(element).animate({
