@@ -23,7 +23,6 @@ $(document).ready(function() {
             }, 7000);
     }
     rippleThis = function(element, speed = 1000) {
-        console.log("Ripple called");
         $(element).animate({
             opacity: 0,
             width: headSize+15,
