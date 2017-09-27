@@ -18,7 +18,7 @@ $(document).ready(function() {
             width: 140,
             height: 140
         }, 5000, function() {
-             // Animation complete.
+             ripple();
         });
     }
 });
