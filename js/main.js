@@ -30,7 +30,7 @@ $(document).ready(function() {
               width: headSize,
               height: headSize
           }).delay(3000);
-          animateThis();
+          animateThis(element);
         });
     }
     
