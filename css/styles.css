@@ -133,7 +133,7 @@ a .active {
   position: absolute;
   background-color: #D82B2B;
 }
-.mainContent .contentBlock .heads .headContainer img {
+.mainContent .contentBlock .heads .headContainer .head {
   height: 80px;
   width: 80px;
   margin: 0 20px;
@@ -142,11 +142,11 @@ a .active {
   transition: .2s;
   cursor: pointer;
 }
-.mainContent .contentBlock .heads .headContainer img:hover {
+.mainContent .contentBlock .heads .headContainer .head:hover {
   border-color: #D82B2B;
   opacity: .7;
 }
-.mainContent .contentBlock .heads .headContainer img:active {
+.mainContent .contentBlock .heads .headContainer .head:active {
   border-color: #FFFFFF;
 }
 .mainContent h1 {
