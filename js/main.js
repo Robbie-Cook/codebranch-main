@@ -15,8 +15,8 @@ $(document).ready(function() {
     function ripple() {
         $( ".ripple" ).animate({
             opacity: 0,
-            width: headSize+25,
-            height: headSize+25,
+            width: headSize+15,
+            height: headSize+15,
             top: -5
         }, 1000, function() {
               $( ".ripple" ).css({
