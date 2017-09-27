@@ -15,7 +15,9 @@ $(document).ready(function() {
     function ripple() {
         $( ".ripple" ).each(function() {
             var element = this;
+            console.log("waiting");
             setTimeout(function(){
+                console.log('wait over');
                 animateThis(element);
             }, 3000);
         });
