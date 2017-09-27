@@ -18,13 +18,13 @@ $(document).ready(function() {
             width: headSize+15,
             height: headSize+15,
             top: -5
-        }, 2000, function() {
+        }, 1000, function() {
               $( ".ripple" ).animate({
                   top: 0,
                   opacity: 1,
                   width: headSize,
                   height: headSize
-              }, 2000);
+              }, 1000);
              ripple();
         });
     }
