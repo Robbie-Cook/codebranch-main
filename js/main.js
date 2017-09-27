@@ -21,9 +21,6 @@ $(document).ready(function() {
         });
         ripple();
     }
-    function wait() {
-        
-    }
     function animateThis(element) {
         $(element).animate({
             opacity: 0,
