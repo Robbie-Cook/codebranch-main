@@ -14,21 +14,26 @@ $(document).ready(function() {
     var headSize = 80;
     function ripple() {
         $( ".ripple" ).each(function() {
-            $(this).animate({
-                opacity: 0,
-                width: headSize+15,
-                height: headSize+15,
-                top: -6
-            }, 1000, function() {
-              $( ".ripple" ).css({
-                  top: 0,
-                  opacity: 1,
-                  width: headSize,
-                  height: headSize
-              }).delay(3000);
-              ripple();
-            });
+            animateThis(this);
         });
     }
+    function animateThis() {
+        $(this).animate({
+            opacity: 0,
+            width: headSize+15,
+            height: headSize+15,
+            top: -6
+        }, 1000, function() {
+          $( ".ripple" ).css({
+              top: 0,
+              opacity: 1,
+              width: headSize,
+              height: headSize
+          }).delay(3000);
+          animateThis();
+        });
+    }
+    
+    // call the main function
     ripple();
 });
