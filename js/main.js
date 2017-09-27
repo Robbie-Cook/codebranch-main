@@ -15,7 +15,9 @@ $(document).ready(function() {
     function ripple() {
         $( ".ripple" ).each(function() {
             animateThis(this).delay(1000);
+            animateThis(this).delay(1000);
         });
+        ripple();
     }
     function animateThis(element) {
         $(element).animate({
@@ -30,7 +32,6 @@ $(document).ready(function() {
               width: headSize,
               height: headSize
           }).delay(3000);
-          animateThis(element);
         });
     }
     
