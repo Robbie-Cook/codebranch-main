@@ -14,17 +14,17 @@ $(document).ready(function() {
     var headSize = 80;
     function ripple() {
         $( ".ripple" ).animate({
-            opacity: 0.1,
-            width: headSize+15,
-            height: headSize+15,
+            opacity: 0,
+            width: headSize+25,
+            height: headSize+25,
             top: -5
         }, 1000, function() {
-              $( ".ripple" ).animate({
-                  top: 0,
-                  opacity: 1,
-                  width: headSize,
-                  height: headSize
-              }, 1000);
+            //   $( ".ripple" ).animate({
+            //       top: 0,
+            //       opacity: 1,
+            //       width: headSize,
+            //       height: headSize
+            //   }, 1000);
              ripple();
         });
     }
