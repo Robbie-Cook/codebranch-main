@@ -43,9 +43,6 @@ $(document).ready(function() {
 });
 
 $('.head').click(function() {
-    $(this).css({
-        borderColor: 'white'
-    });
     if(this.id === 'head1'){
         $('.infoBlock').not('#infoBlock1').slideUp();
         $('#infoBlock1').slideDown();
