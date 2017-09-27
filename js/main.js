@@ -46,5 +46,11 @@ $('.head').click(function() {
     $(this).css({
         borderColor: 'white'
     });
-    console.log("Id " + this.id);
+    if(this.id === 'head1'){
+        $('.infoBlock').not('infoBlock1').slideUp();
+        $('.infoBlock1').slideDown();
+    } else if( this.id === 'head2') {
+        $('.infoBlock').not('infoBlock2').slideUp();
+        $('.infoBlock2').slideDown();
+    }
 });
