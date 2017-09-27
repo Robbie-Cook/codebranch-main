@@ -12,11 +12,13 @@ $(document).ready(function() {
     
     // Make the heads pop;
     
-    $( ".ripple" ).animate({
-    opacity: 0.25,
-    left: "+=50",
-    height: "toggle"
-  }, 5000, function() {
-    // Animation complete.
-  });
+    ripple() {
+        $( ".ripple" ).animate({
+            opacity: 0.3,
+            width: 140,
+            height: 140
+        }, 5000, function() {
+             // Animation complete.
+        });
+    }
 });
