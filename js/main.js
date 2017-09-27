@@ -13,8 +13,8 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
-        setTimeout(function(){ console.log("Hello"); }, 3000);
-        ripple();
+        setTimeout(function() { console.log("Hello"); }, 3000);
+        setTimeout(function() { ripple(); }, 3000);
     }
     function animateThis(element) {
         $(element).animate({
