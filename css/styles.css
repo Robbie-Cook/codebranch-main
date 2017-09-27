@@ -145,7 +145,6 @@ a .active {
 .mainContent .contentBlock .heads .headContainer img:hover {
   border-color: #D82B2B;
   opacity: .7;
-  box-shadow: inset -5px 200px 5px 81px rgba(0, 0, 0, 0.75);
 }
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
