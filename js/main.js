@@ -11,7 +11,7 @@ $(document).ready(function() {
     // About section
     
     // Make the heads pop;
-    
+    var headSize = 80;
     function ripple() {
         $( ".ripple" ).animate({
             opacity: 0.3,
