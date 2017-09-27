@@ -42,3 +42,10 @@ $(document).ready(function() {
     // call the main function
     ripple();
 });
+
+$(.head).click(function() {
+    $(this).css({
+        border-color: white;
+    });
+    console.log($(this).id);
+});
