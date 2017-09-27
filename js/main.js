@@ -1,4 +1,5 @@
 // Main javascript file, common to most of the html files
+var rippleThis;
 
 $(document).ready(function() {
 
@@ -21,7 +22,7 @@ $(document).ready(function() {
                 ripple();
             }, 7000);
     }
-    function rippleThis(element) {
+    rippleThis = function(element) {
         console.log("Ripple called");
         $(element).animate({
             opacity: 0,
