@@ -13,20 +13,22 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
-        $( ".ripple" ).animate({
-            opacity: 0,
-            width: headSize+15,
-            height: headSize+15,
-            top: -6
-        }, 1000, function() {
+        $( ".ripple" ).each(
+            $(this).animate({
+                opacity: 0,
+                width: headSize+15,
+                height: headSize+15,
+                top: -6
+            }, 1000, function() {
               $( ".ripple" ).css({
                   top: 0,
                   opacity: 1,
                   width: headSize,
                   height: headSize
               }).delay(2000);
-             ripple();
-        });
+              ripple();
+            });
+        );
     }
     ripple();
 });
