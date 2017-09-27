@@ -13,7 +13,7 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
-        $( ".ripple" ).each(
+        $( ".ripple" ).each(function() {
             $(this).animate({
                 opacity: 0,
                 width: headSize+15,
@@ -28,7 +28,7 @@ $(document).ready(function() {
               }).delay(2000);
               ripple();
             });
-        );
+        });
     }
     ripple();
 });
