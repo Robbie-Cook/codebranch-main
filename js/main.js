@@ -14,11 +14,7 @@ $(document).ready(function() {
     var headSize = 80;
     function ripple() {
         $( ".ripple" ).each(function() {
-            setTimeout(function() {          
-                animateThis(this);
-                animateThis(this);
-            }, 3000);
-
+                animateThis(this).animateThis(this).delay(1000);
         });
         ripple();
     }
