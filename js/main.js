@@ -22,6 +22,7 @@ $(document).ready(function() {
             }, 10000);
     }
     function animateThis(element) {
+        console.log("Animate called");
         $(element).animate({
             opacity: 0,
             width: headSize+15,
