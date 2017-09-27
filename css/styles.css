@@ -108,6 +108,10 @@ a .active {
   display: flex;
   justify-content: center;
 }
+.mainContent .contentBlock .heads .headContainer {
+  display: flex;
+  justify-content: center;
+}
 .mainContent .contentBlock .heads .headContainer .ripple {
   border: 8px solid blue;
   border-radius: 150px;
