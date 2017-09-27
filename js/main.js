@@ -20,10 +20,10 @@ $(document).ready(function() {
             top: -5
         }, 1000, function() {
             //   $( ".ripple" ).animate({
-            //       top: 0,
-            //       opacity: 1,
-            //       width: headSize,
-            //       height: headSize
+                  top: 0,
+                  opacity: 1,
+                  width: headSize,
+                  height: headSize
             //   }, 1000);
              ripple();
         });
