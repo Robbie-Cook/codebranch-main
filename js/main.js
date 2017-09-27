@@ -19,12 +19,12 @@ $(document).ready(function() {
             height: headSize+25,
             top: -5
         }, 1000, function() {
-            //   $( ".ripple" ).animate({
+              $( ".ripple" ).css({
                   top: 0,
                   opacity: 1,
                   width: headSize,
                   height: headSize
-            //   }, 1000);
+              });
              ripple();
         });
     }
