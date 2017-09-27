@@ -97,7 +97,7 @@ a .active {
 .mainContent .contentBlock {
   padding: 20px 0;
 }
-.mainContent .contentBlock .headContainer {
+.mainContent .contentBlock .heads {
   max-width: 500px;
   margin-top: 20px;
   padding-left: 20px;
@@ -106,7 +106,11 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
-.mainContent .contentBlock .headContainer .ripple {
+.mainContent .contentBlock .heads .headContainer {
+  display: flex;
+  justify-content: center;
+}
+.mainContent .contentBlock .heads .headContainer .ripple {
   border: 8px solid blue;
   border-radius: 150px;
   width: 200px;
@@ -117,11 +121,7 @@ a .active {
   top: 8px;
   left: 8px;
 }
-.mainContent .contentBlock .headContainer .heads {
-  display: flex;
-  justify-content: center;
-}
-.mainContent .contentBlock .headContainer .heads img {
+.mainContent .contentBlock .heads .headContainer img {
   height: 80px;
   margin: 0 20px;
   border: 2px #1995FF solid;
