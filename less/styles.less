@@ -116,11 +116,13 @@ a {
     .background;
     background-color: rgba(255, 255, 255, .71);
     .heads {
+        @imageHeight: 80px;
+        height: @imageHeight+4px;
         display: flex;
         justify-content: center;
         .headContainer {
-          @imageHeight: 80px; // need to change the jquery to match as well in
-                              // main.js
+           // need to change the jquery to match as well in
+          // main.js
           position: relative;
           display: flex;
           justify-content: center;
