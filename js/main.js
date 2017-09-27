@@ -47,5 +47,5 @@ $('.head').click(function() {
     $(this).css({
         borderColor: white
     });
-    console.log("Id ": $(this).id);
+    console.log("Id " + $(this).id);
 });
