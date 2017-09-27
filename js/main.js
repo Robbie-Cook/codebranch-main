@@ -15,7 +15,6 @@ $(document).ready(function() {
     function ripple() {
             setTimeout(function() { 
                 animateThis($('#ripple1'));
-                ripple();
             }, 2000);
             setTimeout(function() { 
                 animateThis($('#ripple2'));
