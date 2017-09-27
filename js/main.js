@@ -19,7 +19,7 @@ $(document).ready(function() {
             setTimeout(function(){
                 console.log('wait over');
                 animateThis(element);
-            }, 3000);
+            }, 4000);
         });
         ripple();
     }
