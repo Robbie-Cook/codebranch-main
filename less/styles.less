@@ -135,6 +135,10 @@ a {
             background-color: @blue;
             position: absolute;
           }
+          .redRipple {
+            .ripple;
+            background-color: @red;
+          }
           img {
             height: @imageHeight;
             width: @imageHeight;
@@ -147,15 +151,6 @@ a {
               border-color: @red;
               opacity: .7;
               box-shadow: inset -5px 200px 5px 81px rgba(0,0,0,0.75);
-            }
-            &::after {
-              content: '';
-              width: @imageHeight;
-              height: @imageHeight;
-              background-color: @red;
-              display: block;
-              z-index: 4;
-              
             }
           }
       }

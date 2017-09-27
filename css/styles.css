@@ -123,6 +123,16 @@ a .active {
   background-color: #1995FF;
   position: absolute;
 }
+.mainContent .contentBlock .heads .headContainer .redRipple {
+  border: 2px solid #1995FF;
+  border-radius: 150px;
+  width: 80px;
+  height: 80px;
+  z-index: -1;
+  background-color: #1995FF;
+  position: absolute;
+  background-color: #D82B2B;
+}
 .mainContent .contentBlock .heads .headContainer img {
   height: 80px;
   width: 80px;
@@ -136,14 +146,6 @@ a .active {
   border-color: #D82B2B;
   opacity: .7;
   box-shadow: inset -5px 200px 5px 81px rgba(0, 0, 0, 0.75);
-}
-.mainContent .contentBlock .heads .headContainer img::after {
-  content: '';
-  width: 80px;
-  height: 80px;
-  background-color: #D82B2B;
-  display: block;
-  z-index: 4;
 }
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
