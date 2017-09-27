@@ -13,7 +13,7 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
-        $( ".ripple" ).each(function(index) {
+        $( ".ripple" ).each(function() {
             animateThis(this).delay(1000);
         });
     }
