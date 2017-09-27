@@ -43,7 +43,10 @@ $(document).ready(function() {
 });
 
 $('.head').click(function() {
-    if(this.id === 'head1'){
+    if(this.id === 'head0'){
+        $('.infoBlock').not('#mainBlock').slideUp();
+        $('#mainBlock').slideDown();
+    } if(this.id === 'head1'){
         $('.infoBlock').not('#infoBlock1').slideUp();
         $('#infoBlock1').slideDown();
     } else if( this.id === 'head2') {
