@@ -47,10 +47,10 @@ $('.head').click(function() {
         borderColor: 'white'
     });
     if(this.id === 'head1'){
-        $('.infoBlock').not('infoBlock1').slideUp();
-        $('.infoBlock1').slideDown();
+        $('.infoBlock').not('#infoBlock1').slideUp();
+        $('#infoBlock1').slideDown();
     } else if( this.id === 'head2') {
-        $('.infoBlock').not('infoBlock2').slideUp();
-        $('.infoBlock2').slideDown();
+        $('.infoBlock').not('#infoBlock2').slideUp();
+        $('#infoBlock2').slideDown();
     }
 });
