@@ -17,7 +17,7 @@ $(document).ready(function() {
             setTimeout(function() { 
                 animateThis($('#ripple2'));
                 ripple();
-            }, 3000);
+            }, 7000);
     }
     function animateThis(element) {
         $(element).animate({
