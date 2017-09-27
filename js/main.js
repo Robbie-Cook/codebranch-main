@@ -17,8 +17,8 @@ $(document).ready(function() {
             animateThis(this);
         });
     }
-    function animateThis() {
-        $(this).animate({
+    function animateThis(element) {
+        $(element).animate({
             opacity: 0,
             width: headSize+15,
             height: headSize+15,
