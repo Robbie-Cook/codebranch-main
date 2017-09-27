@@ -109,6 +109,7 @@ a .active {
   justify-content: center;
 }
 .mainContent .contentBlock .heads .headContainer {
+  position: relative;
   display: flex;
   justify-content: center;
 }
