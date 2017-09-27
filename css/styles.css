@@ -123,6 +123,11 @@ a .active {
   border-radius: 150px;
   width: 80px;
   height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
   z-index: -1;
   background-color: #1995FF;
   position: absolute;
@@ -132,6 +137,11 @@ a .active {
   border-radius: 150px;
   width: 80px;
   height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
   z-index: -1;
   background-color: #1995FF;
   position: absolute;
