@@ -104,6 +104,9 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
+.mainContent .contentBlock #infoBlock* {
+  display: none;
+}
 .mainContent .contentBlock .heads {
   height: 84px;
   display: flex;
@@ -145,10 +148,6 @@ a .active {
 .mainContent .contentBlock .heads .headContainer .head:hover {
   border-color: #D82B2B;
   opacity: .7;
-}
-.mainContent .contentBlock .heads .headContainer .head #infoBlock1,
-.mainContent .contentBlock .heads .headContainer .head #infoBlock2 {
-  display: none;
 }
 .mainContent .contentBlock .heads .headContainer .head:active {
   border-color: #FFFFFF;
