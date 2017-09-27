@@ -16,8 +16,8 @@ $(document).ready(function() {
         $(".ripple").each(function() {
             var element = this;
             setTimeout(function() { 
-            animateThis(element) 
-            console.log("animating element");
+                animateThis(element) 
+                console.log("animating element");
             ripple();
         }, 3000);
     }
