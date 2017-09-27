@@ -17,7 +17,7 @@ $(document).ready(function() {
             opacity: 0,
             width: headSize+15,
             height: headSize+15,
-            top: -10
+            top: -8
         }, 1000, function() {
               $( ".ripple" ).css({
                   top: 0,
