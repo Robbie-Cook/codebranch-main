@@ -18,8 +18,8 @@ $(document).ready(function() {
                 setTimeout(function() { 
                     animateThis(element) 
                     console.log("animating element");
-                ripple();
-            }, 3000);
+                    ripple();
+                }, 3000);
         });
     }
     function animateThis(element) {
