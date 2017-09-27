@@ -131,12 +131,13 @@ a .active {
   height: 80px;
   width: 80px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 80px;
   font-weight: bold;
   color: #FFFFFF;
   margin: 0 20px;
   border: 2px #4F8E30 solid;
+  background-color: #4F8E30;
   border-radius: 70px;
   transition: .2s;
   cursor: pointer;
