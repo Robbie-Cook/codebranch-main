@@ -116,13 +116,13 @@ a .active {
 .mainContent .contentBlock .heads .headContainer .ripple {
   border: 8px solid blue;
   border-radius: 150px;
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   z-index: -1;
   background-color: blue;
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 2px;
+  left: 2px;
 }
 .mainContent .contentBlock .heads .headContainer img {
   height: 80px;

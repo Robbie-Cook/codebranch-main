@@ -115,34 +115,33 @@ a {
     padding-right: 20px;
     .background;
     background-color: rgba(255, 255, 255, .71);
-      .heads {
+    .heads {
         display: flex;
         justify-content: center;
         .headContainer {
+          @imageHeight: 80px;
           position: relative;
           display: flex;
           justify-content: center;
           .ripple {
             border: 8px solid blue;
             border-radius: 150px;
-            width: 200px;
-            height: 200px;
+            width: @imageHeight;
+            height: @imageHeight;
             z-index: -1;
             background-color: blue;
             position: absolute;
-            top: 8px;
-            left: 8px;
+            top: 2px;
+            left: 2px;
           }
-        img {
-          @imageHeight: 80px;
-          height: @imageHeight;
-          width: @imageHeight;
-          margin: 0 20px;
-          border: 2px @navSpecialColor solid;
-          border-radius: @imageHeight/2 + 30;
-        }
+          img {
+            height: @imageHeight;
+            width: @imageHeight;
+            margin: 0 20px;
+            border: 2px @navSpecialColor solid;
+            border-radius: @imageHeight/2 + 30;
+          }
       }
-
     }
   }
   .sideGutter();
