@@ -146,6 +146,9 @@ a .active {
   border-color: #D82B2B;
   opacity: .7;
 }
+.mainContent .contentBlock .heads .headContainer img:active {
+  border-color: #FFFFFF;
+}
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
   box-shadow: 0px 0px 4px #ffffff;
