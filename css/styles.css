@@ -126,6 +126,7 @@ a .active {
 }
 .mainContent .contentBlock .heads .headContainer img {
   height: 80px;
+  width: 80px;
   margin: 0 20px;
   border: 2px #1995FF solid;
   border-radius: 70px;
