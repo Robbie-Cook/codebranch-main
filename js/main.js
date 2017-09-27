@@ -33,7 +33,7 @@ $(document).ready(function() {
               opacity: 1,
               width: headSize,
               height: headSize
-          }).delay(3000);
+          });
         });
     }
     
