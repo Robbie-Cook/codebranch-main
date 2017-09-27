@@ -43,7 +43,7 @@ $(document).ready(function() {
     ripple();
 });
 
-$(.head).click(function() {
+$('.head').click(function() {
     $(this).css({
         border-color: white;
     });
