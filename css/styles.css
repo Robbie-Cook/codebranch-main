@@ -134,6 +134,7 @@ a .active {
 }
 .mainContent .contentBlock .heads .headContainer img:hover {
   border-color: #D82B2B;
+  opacity: .7;
   border-width: 4px;
   box-shadow: inset -11px 200px 5px 0px rgba(0, 0, 0, 0.75);
 }
