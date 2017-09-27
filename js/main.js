@@ -21,6 +21,7 @@ $(document).ready(function() {
         setTimeout(function() { ripple(); }, 3000);
     }
     function animateThis(element) {
+        console.log("motion seconded")
         $(element).animate({
             opacity: 0,
             width: headSize+15,
