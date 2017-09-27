@@ -44,5 +44,5 @@ $(document).ready(function() {
 });
 
 $(".head").click(function() {
-    rippleThis($(this).siblings(.redRipple)[0]);
+    rippleThis($(this).siblings('.redRipple')[0]);
 });
