@@ -109,23 +109,25 @@ a {
   }
   .contentBlock {
     padding: 20px 0;
-    .heads {
-      img {
-        @imageHeight: 80px;
-        height: @imageHeight;
-        margin: 0 20px;
-        border: 2px @navSpecialColor solid;
-        border-radius: @imageHeight/2 + 30;
+    .headContainer {
+      .heads {
+        img {
+          @imageHeight: 80px;
+          height: @imageHeight;
+          margin: 0 20px;
+          border: 2px @navSpecialColor solid;
+          border-radius: @imageHeight/2 + 30;
+        }
+        display: flex;
+        justify-content: center;
       }
-      display: flex;
-      justify-content: center;
+      max-width: 500px;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .background;
+      background-color: rgba(255, 255, 255, .71);
     }
-    max-width: 500px;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    .background;
-    background-color: rgba(255, 255, 255, .71);
   }
   .sideGutter();
   display: flex;
