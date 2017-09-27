@@ -12,7 +12,7 @@ $(document).ready(function() {
     
     // Make the heads pop;
     
-    ripple() {
+    function ripple() {
         $( ".ripple" ).animate({
             opacity: 0.3,
             width: 140,
