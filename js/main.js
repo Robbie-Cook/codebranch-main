@@ -14,9 +14,10 @@ $(document).ready(function() {
     var headSize = 80;
     function ripple() {
         $( ".ripple" ).each(function() {
+            var element = this;
                 setTimeout(function(){
-                    animateThis(this);
-                    animateThis(this);
+                    animateThis(element);
+                    animateThis(element);
                 }, 1000);
         });
         ripple();
