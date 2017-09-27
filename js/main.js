@@ -20,6 +20,7 @@ $(document).ready(function() {
             top: -50
         }, 5000, function() {
               $( ".ripple" ).animate({
+                  top: 0,
                   opacity: 1,
                   width: 80,
                   height: 80
