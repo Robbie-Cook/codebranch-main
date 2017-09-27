@@ -138,10 +138,11 @@ a .active {
   box-shadow: inset -5px 200px 5px 81px rgba(0, 0, 0, 0.75);
 }
 .mainContent .contentBlock .heads .headContainer img::after {
-  content: 'Hello!';
+  content: '';
   width: 80px;
   height: 80px;
   background-color: #D82B2B;
+  display: block;
   z-index: 4;
 }
 .mainContent h1 {

@@ -149,11 +149,13 @@ a {
               box-shadow: inset -5px 200px 5px 81px rgba(0,0,0,0.75);
             }
             &::after {
-              content: 'Hello!';
+              content: '';
               width: @imageHeight;
               height: @imageHeight;
               background-color: @red;
+              display: block;
               z-index: 4;
+              
             }
           }
       }
