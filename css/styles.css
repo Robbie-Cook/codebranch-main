@@ -114,12 +114,12 @@ a .active {
   justify-content: center;
 }
 .mainContent .contentBlock .heads .headContainer .ripple {
-  border: 8px solid blue;
+  border: 2px solid #1995FF;
   border-radius: 150px;
   width: 80px;
   height: 80px;
   z-index: -1;
-  background-color: blue;
+  background-color: #1995FF;
   position: absolute;
   top: 2px;
   left: 2px;
