@@ -13,6 +13,7 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
+        
         var element = this;
         setTimeout(function() { 
             animateThis(element) 
@@ -21,14 +22,13 @@ $(document).ready(function() {
         setTimeout(function() { ripple(); }, 3000);
     }
     function animateThis(element) {
-        console.log("motion seconded")
         $(element).animate({
             opacity: 0,
             width: headSize+15,
             height: headSize+15,
             top: -6
         }, 1000, function() {
-          $( ".ripple" ).css({
+            $(element).css({
               top: 0,
               opacity: 1,
               width: headSize,
