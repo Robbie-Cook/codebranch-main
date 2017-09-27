@@ -17,7 +17,7 @@ $(document).ready(function() {
             opacity: 0.3,
             width: 140,
             height: 140,
-            top: -20
+            top: -25
         }, 5000, function() {
               $( ".ripple" ).animate({
                   top: 0,
