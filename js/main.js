@@ -13,9 +13,9 @@ $(document).ready(function() {
     // Make the heads pop;
     var headSize = 80;
     function ripple() {
-            animateThis($('#ripple1')).delay(4000);
-            animateThis($('#ripple2')).delay(400);
+            animateThis($('#ripple1'));
             setTimeout(function() { 
+                animateThis($('#ripple2'));
                 ripple();
             }, 3000);
     }
