@@ -119,6 +119,7 @@ a {
       display: none;
     }
     .heads {
+        @borderColor: @darkGreen;
         @imageHeight: 80px;
         height: @imageHeight+4px;
         display: flex;
@@ -130,17 +131,13 @@ a {
           display: flex;
           justify-content: center;
           .ripple {
-            border: 2px solid @blue;
+            border: 2px solid @borderColor;
             border-radius: 150px;
             width: @imageHeight;
             height: @imageHeight;
             z-index: -1;
-            background-color: @blue;
+            background-color: @borderColor;
             position: absolute;
-          }
-          .redRipple {
-            .ripple;
-            background-color: @red;
           }
           .head {
             height: @imageHeight;
@@ -151,7 +148,7 @@ a {
             font-weight: bold;
             color: green;
             margin: 0 20px;
-            border: 2px @blue solid;
+            border: 2px @borderColor solid;
             border-radius: @imageHeight/2 + 30;
             transition: .2s;
             cursor: pointer;

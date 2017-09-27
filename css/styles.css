@@ -119,23 +119,13 @@ a .active {
   justify-content: center;
 }
 .mainContent .contentBlock .heads .headContainer .ripple {
-  border: 2px solid #1995FF;
+  border: 2px solid #4F8E30;
   border-radius: 150px;
   width: 80px;
   height: 80px;
   z-index: -1;
-  background-color: #1995FF;
+  background-color: #4F8E30;
   position: absolute;
-}
-.mainContent .contentBlock .heads .headContainer .redRipple {
-  border: 2px solid #1995FF;
-  border-radius: 150px;
-  width: 80px;
-  height: 80px;
-  z-index: -1;
-  background-color: #1995FF;
-  position: absolute;
-  background-color: #D82B2B;
 }
 .mainContent .contentBlock .heads .headContainer .head {
   height: 80px;
@@ -146,7 +136,7 @@ a .active {
   font-weight: bold;
   color: green;
   margin: 0 20px;
-  border: 2px #1995FF solid;
+  border: 2px #4F8E30 solid;
   border-radius: 70px;
   transition: .2s;
   cursor: pointer;
