@@ -42,7 +42,3 @@ $(document).ready(function() {
     // call the main function
     ripple();
 });
-
-$(".head").hover(function() {
-    rippleThis($(this).siblings('.redRipple')[0], 500);
-});
