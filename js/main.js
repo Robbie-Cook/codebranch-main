@@ -15,15 +15,15 @@ $(document).ready(function() {
     function ripple() {
         $( ".ripple" ).animate({
             opacity: 0.3,
-            width: 140,
-            height: 140,
+            width: headSize+15,
+            height: width,
             top: -30
         }, 5000, function() {
               $( ".ripple" ).animate({
                   top: 0,
                   opacity: 1,
-                  width: 80,
-                  height: 80
+                  width: headSize,
+                  height: headSize
               }, 5000);
              ripple();
         });
