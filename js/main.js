@@ -22,7 +22,7 @@ $(document).ready(function() {
             }, 7000);
     }
     function rippleThis(element) {
-        console.log("ripple called");
+        console.log("Ripple called");
         $(element).animate({
             opacity: 0,
             width: headSize+15,
