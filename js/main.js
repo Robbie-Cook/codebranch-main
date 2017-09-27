@@ -22,6 +22,7 @@ $(document).ready(function() {
             }, 7000);
     }
     function rippleThis(element) {
+        console.log("ripple called");
         $(element).animate({
             opacity: 0,
             width: headSize+15,
@@ -43,6 +44,6 @@ $(document).ready(function() {
     ripple();
 });
 
-$(".head").click(function() {
+$(".head").hover(function() {
     rippleThis($(this).siblings('.redRipple')[0]);
 });
