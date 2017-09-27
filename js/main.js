@@ -22,14 +22,14 @@ $(document).ready(function() {
                 ripple();
             }, 7000);
     }
-    rippleThis = function(element) {
+    rippleThis = function(element, speed = 1000) {
         console.log("Ripple called");
         $(element).animate({
             opacity: 0,
             width: headSize+15,
             height: headSize+15,
             top: -6
-        }, 1000, function() {
+        }, speed, function() {
             $(element).css({
               top: 0,
               opacity: 1,
@@ -39,12 +39,10 @@ $(document).ready(function() {
         });
     }
 
-
-
     // call the main function
     ripple();
 });
 
 $(".head").hover(function() {
-    rippleThis($(this).siblings('.redRipple')[0]);
+    rippleThis($(this).siblings('.redRipple')[0], 500);
 });
