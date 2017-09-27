@@ -104,7 +104,7 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
-.mainContent .contentBlock .heads .headContainer {
+.mainContent .contentBlock .heads {
   display: flex;
   justify-content: center;
 }
