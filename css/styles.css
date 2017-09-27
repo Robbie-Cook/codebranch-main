@@ -106,6 +106,17 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
+.mainContent .contentBlock .headContainer .ripple {
+  border: 8px solid blue;
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+  background-color: blue;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
 .mainContent .contentBlock .headContainer .heads {
   display: flex;
   justify-content: center;
