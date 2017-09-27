@@ -12,8 +12,8 @@
 @darkGreen: #4F8E30;
 @lightGreen: #63B83B;
 @white: #FFFFFF; // in case we want to change the white color
-
-@navSpecialColor: #1995FF;
+@red: #FF3419;
+@blue: #1995FF;
 @font: 'Helvetica Neue', Helvetica, sans-serif;
 @linkColor: #1995FF;
 
@@ -35,11 +35,11 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: @navSpecialColor;
+    color: @blue;
     transition: .3s;
   }
   .active {
-    color: @navSpecialColor;
+    color: @blue;
   }
 }
 
@@ -65,11 +65,11 @@ a {
         color: @white;
         &:hover {
           text-decoration: underline;
-          color: @navSpecialColor;
+          color: @blue;
           transition: .3s;
         }
         .active {
-          color: @navSpecialColor;
+          color: @blue;
         }
       }
       li {
@@ -125,20 +125,23 @@ a {
           display: flex;
           justify-content: center;
           .ripple {
-            border: 2px solid @navSpecialColor;
+            border: 2px solid @blue;
             border-radius: 150px;
             width: @imageHeight;
             height: @imageHeight;
             z-index: -1;
-            background-color: @navSpecialColor;
+            background-color: @blue;
             position: absolute;
           }
           img {
             height: @imageHeight;
             width: @imageHeight;
             margin: 0 20px;
-            border: 2px @navSpecialColor solid;
+            border: 2px @blue solid;
             border-radius: @imageHeight/2 + 30;
+            &:hover {
+              border-color: @red;
+            }
           }
       }
     }
@@ -169,11 +172,11 @@ a {
       color: @white;
       &:hover {
         background-color: rgba(255, 255, 255, .71);
-        border: @borderSize solid @navSpecialColor;
+        border: @borderSize solid @blue;
         cursor: pointer;
-        color: @navSpecialColor;
+        color: @blue;
         span {
-          border-bottom: 2px solid @navSpecialColor;
+          border-bottom: 2px solid @blue;
         }
       }
       font-size: 17px;
