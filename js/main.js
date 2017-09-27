@@ -18,6 +18,11 @@ $(document).ready(function() {
             width: 140,
             height: 140
         }, 5000, function() {
+              $( ".ripple" ).animate({
+                  opacity: 1,
+                  width: 80,
+                  height: 80
+              });
              ripple();
         });
     }
