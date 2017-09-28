@@ -1,4 +1,4 @@
-import 'typed.js';
+import '/js/typed.js';
 // Main javascript file, common to most of the html files
 
 var rippleThis;
@@ -6,7 +6,7 @@ var rippleThis;
 $(document).ready(function() {
     
     // Animated text with type.js
-    var typed = new Typed('#typed', {
+    var typedText = new Typed('#typed', {
         strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
         typeSpeed: 0,
         backSpeed: 0,
