@@ -231,3 +231,6 @@ a .active {
   width: 100%;
   opacity: .3;
 }
+.backgroundFade.black {
+  opacity: .2;
+}
