@@ -219,6 +219,8 @@ a .active {
 }
 .backgroundFade {
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: #4F8E30;
   margin-top: 60px;
   z-index: 2;
