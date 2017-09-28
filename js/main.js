@@ -53,7 +53,8 @@ $(document).ready(function() {
       //setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
-            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', ''],
+            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', 'Sharp &amp; Skilful', 'Beautiful &amp; Customisable',
+                        'Wholesome &amp; Delicious', "100% Organic"],
             typeSpeed: 0,
             backSpeed: 0,
             cursorChar: '_',
