@@ -46,21 +46,22 @@ $('.head').click(function() {
     $('.head0').removeClass('active');
     $('.head1').removeClass('active');
     $('.head3').removeClass('active');
-    
+
+
     if(this.id === 'head0'){
-        $('.head0').addClass('active');
         $('.infoBlock').not('#mainBlock').slideUp();
         $('#mainBlock').slideDown();
         $('#mainBlock').addClass('active');
+        $('#head0').addClass('active');
     } if(this.id === 'head1'){
-        $('.head1').addClass('active');
         $('.infoBlock').not('#infoBlock1').slideUp();
         $('#infoBlock1').slideDown();
         $('#mainBlock').addClass('active');
+        $('#head1').addClass('active');
     } else if( this.id === 'head2') {
-        $('.head2').addClass('active');
         $('.infoBlock').not('#infoBlock2').slideUp();
         $('#infoBlock2').slideDown();
         $('#mainBlock').addClass('active');
+        $('#head2').addClass('active');
     }
 });
