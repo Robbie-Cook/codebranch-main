@@ -16,9 +16,14 @@ $(document).ready(function() {
     function ripple() {
             setTimeout(function() {
                 setTimeout(function() {
+                    rippleThis($('#ripple1'));
+                }, 2000);
+                setTimeout(function() {
                     rippleThis($('#ripple2'));
-                }, 9000);
-                rippleThis($('#ripple1'));
+                }, 4000);
+                setTimeout(function() {
+                    rippleThis($('#ripple3'));
+                }, 5000);
                 ripple();
             }, 7000);
     }
