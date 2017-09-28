@@ -119,6 +119,9 @@ a .active {
   padding-bottom: 4px;
   margin: 30px 0 10px;
 }
+.mainContent .contentBlock h2 {
+  margin: 0;
+}
 .mainContent .contentBlock .heads {
   height: 84px;
   display: flex;
