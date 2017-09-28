@@ -47,10 +47,10 @@ $('.head').click(function() {
     $('.head1').removeClass('active');
     $('.head3').removeClass('active');
 
-    
+
     if(this.id === 'head0'){
         $('.head0').addClass('active');
-        $('.infoBlock').not('#mainBlock').slideUp().removeClass();
+        $('.infoBlock').not('#mainBlock').slideUp();
         $('#mainBlock').slideDown();
         $('#mainBlock').addClass('active');
     } if(this.id === 'head1'){
