@@ -5,7 +5,10 @@ $(document).ready(function() {
 
     // Make the sections the same height as the page
     $('.mainContent').css({
-        height: $(window).height()
+        minHeight: $(window).height()
+    });
+    $('.backgroundFade').css({
+        height: $('.mainContent').height()
     });
 
     // About section
