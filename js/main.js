@@ -6,20 +6,10 @@ $(document).ready(function() {
     
     // Animated text with type.js
     var typedText = new Typed('#typed', {
-        strings: ['competent','efficient','experienced', 'qualified', 'skillful', 'adept', 'expert', 'sharp', 'slick', 'able', 'learned', 'on the ball', 'polished', 'practiced', 'proficient', 'up to speed'],
+        strings: ['competent & efficient','experienced & qualified', 'skillful & adept', 'expert & sharp', 'slick & on the ball' 'polished & practiced', 'proficient & up to speed'],
         typeSpeed: 50,
         backSpeed: 50,
         backDelay: 500,
-        startDelay: 1000,
-        loop: true
-    });
-    
-    var typedText2 = new Typed('#typed2', {
-        strings: ['competent','efficient','experienced', 'qualified', 'skillful', 'adept', 'expert', 'sharp', 'slick', 'able', 'learned', 'on the ball', 'polished', 'practiced', 'proficient', 'up to speed'],
-        typeSpeed: 50,
-        backSpeed: 50,
-        backDelay: 500,
-        ursorChar: '_',
         startDelay: 1000,
         loop: true
     });
