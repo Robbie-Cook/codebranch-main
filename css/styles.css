@@ -146,9 +146,13 @@ a .active {
   border-color: #D82B2B;
   opacity: .7;
 }
-.mainContent .contentBlock .heads .headContainer .head:active,
+.mainContent .contentBlock .heads .headContainer .head:active {
+  border-color: #FFFFFF;
+}
 .mainContent .contentBlock .heads .headContainer .head.active {
   border-color: #FFFFFF;
+  height: 95px;
+  width: 95px;
 }
 .mainContent h1 {
   background-color: rgba(255, 255, 255, 0.71);
