@@ -1,4 +1,6 @@
 // Main javascript file, common to most of the html files
+import { Typed } from './typed.js';
+
 var rippleThis;
 
 $(document).ready(function() {
