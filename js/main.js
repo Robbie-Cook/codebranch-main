@@ -7,7 +7,7 @@ $(document).ready(function() {
     //setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
-            strings: ['1 Some <i>strings</i> with', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
+            strings: ['Quick & Cheap', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
             typeSpeed: 0,
             backSpeed: 0,
             cursorChar: '_',
