@@ -3,12 +3,6 @@ var rippleThis;
 
 $(document).ready(function() {
 
-    // sets the height for the fader
-    var docHeight = $(document).height();
-    $('.backgroundFade').css({
-        height: docHeight - 60
-    });
-
     // About section
 
     // Make the heads ripple animation
