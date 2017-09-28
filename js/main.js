@@ -19,6 +19,7 @@ $(document).ready(function() {
         typeSpeed: 50,
         backSpeed: 50,
         backDelay: 500,
+        ursorChar: '_',
         startDelay: 1000,
         loop: true
     });
