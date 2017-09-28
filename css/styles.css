@@ -111,8 +111,8 @@ a .active {
 .mainContent .contentBlock #infoBlock2 {
   display: none;
 }
-.mainContent .contentBlock .infoBlock h3,
-.mainContent .contentBlock .infoBlock h2 {
+.mainContent .contentBlock h3,
+.mainContent .contentBlock h2 {
   border-bottom: 3px solid #8c8c8c;
   display: inline-block;
   font-size: 2em;
