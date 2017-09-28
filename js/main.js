@@ -13,6 +13,15 @@ $(document).ready(function() {
         startDelay: 1000,
         loop: true
     });
+    
+    var typedText2 = new Typed('#typed2', {
+        strings: ['competent','efficient','experienced', 'qualified', 'skillful', 'adept', 'expert', 'sharp', 'slick', 'able', 'learned', 'on the ball', 'polished', 'practiced', 'proficient', 'up to speed'],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 500,
+        startDelay: 1000,
+        loop: true
+    });
 
     // Make the sections the same height as the page
     $('.mainContent').css({
