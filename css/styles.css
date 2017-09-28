@@ -72,6 +72,9 @@ a .active {
 #mc3 {
   background-image: url('../images/background3.jpg');
 }
+.black {
+  background-color: #FFFFFF;
+}
 .mainContent {
   position: relative;
   min-height: 300px;
