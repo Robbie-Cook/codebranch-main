@@ -6,7 +6,7 @@ $(document).ready(function() {
     
     // Animated text with type.js
     var typedText = new Typed('#typed', {
-        strings: ['competent & efficient','experienced & qualified', 'skillful & adept', 'expert & sharp', 'slick & on the ball' 'polished & practiced', 'proficient & up to speed'],
+        strings: ['Competent & Efficient','Experienced & Qualified', 'Skillful & Adept', 'Expert & Sharp', 'Slick & On The Ball' 'Polished & Practiced', 'Proficient & Up to speed', 'Quick and Cheap'],
         typeSpeed: 50,
         backSpeed: 50,
         backDelay: 500,
