@@ -5,6 +5,7 @@ var rippleThis;
 $(document).ready(function() {
     // Hide the content blocks
     $('.contentBlock').addClass('hidden');
+    $('h1').addClass('hidden');
     
     // Make the sections the same height as the page
     $('.mainContent').css({
