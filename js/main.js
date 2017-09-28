@@ -4,7 +4,7 @@ var rippleThis;
 
 $(window).on("load",function() {
     // Show the content blocks
-    $('.contentBlock').slideDown();
+    $('.contentBlock').slideDown(1000);
     
     // Make the sections the same height as the page
     $('.mainContent').css({
@@ -53,7 +53,7 @@ $(window).on("load",function() {
     
     // Animated text with type.js
     $(document).ready(function(){
-      //setTimeout(function() {
+      setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
             strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', 'Sharp &amp; Skilful', 'Beautiful &amp; Customisable',
@@ -66,7 +66,7 @@ $(window).on("load",function() {
             smartBackspace: false,
             loop: true
         });
-    //}, 5000);
+       }, 5000);
     });
 });
 
