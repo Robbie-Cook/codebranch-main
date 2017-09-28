@@ -7,6 +7,9 @@ $(document).ready(function() {
     $('.contentBlock').addClass('hidden');
     $('h1').addClass('hidden');
     
+    $('.contentBlock').removeClass('hidden');
+    $('h1').removeClass('hidden');
+    
     $('.contentBlock').addClass('shown');
     $('h1').addClass('show');
     
