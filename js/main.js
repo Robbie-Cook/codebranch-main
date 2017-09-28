@@ -3,16 +3,17 @@
 var rippleThis;
 
 $(document).ready(function() {
-    
     // Animated text with type.js
-    setTimeout(function() {}, 1000):
-    var typed6 = new Typed('#typed', {
-        strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
-        cursorChar: '_',
-        typeSpeed: 50,
-        backSpeed: 40,
-        loop: true
-    });
+    setTimeout(function() {
+        $('.typed').text('');
+        var typed6 = new Typed('#typed', {
+            strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+            cursorChar: '_',
+            typeSpeed: 50,
+            backSpeed: 40,
+            loop: true
+        });
+    }, 1000):
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
