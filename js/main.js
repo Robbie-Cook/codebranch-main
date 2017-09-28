@@ -70,6 +70,8 @@ $(window).on("load",function() {
     });
 });
 
+
+// the about head functionality
 $('.head').click(function() {
     $('.head').removeClass('active');
 
