@@ -6,13 +6,14 @@ $(document).ready(function() {
     // Animated text with type.js
     //setTimeout(function() {
         $('#typed').text('');
-        var typed6 = new Typed('#typed', {
-            strings: ['Quick & Cheap', 'Reliable & Efficient'],
+            strings: ['1 Some <i>strings</i> with', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
+            typeSpeed: 0,
+            backSpeed: 0,
             cursorChar: '_',
-            typeSpeed: 50,
-            backSpeed: 40,
+            shuffle: true,
+            smartBackspace: false,
+            loop: true
         });
-        typed6();
     //}, 5000);
     // Make the sections the same height as the page
     $('.mainContent').css({
