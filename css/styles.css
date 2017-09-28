@@ -73,7 +73,7 @@ a .active {
   background-image: url('../images/background3.jpg');
 }
 .black {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
 }
 .mainContent {
   position: relative;
