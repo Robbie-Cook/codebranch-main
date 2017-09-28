@@ -7,6 +7,9 @@ $(document).ready(function() {
     $('.contentBlock').addClass('hidden');
     $('h1').addClass('hidden');
     
+    $('.contentBlock').addClass('shown');
+    $('h1').addClass('show');
+    
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
