@@ -3,6 +3,11 @@ var rippleThis;
 
 $(document).ready(function() {
 
+    // Make the sections the same height as the page
+    $('.mainContent').css({
+        height: $(window).height()
+    });
+
     // About section
 
     // Make the heads ripple animation
