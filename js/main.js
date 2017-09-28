@@ -49,7 +49,7 @@ $(document).ready(function() {
     // call the main function
     ripple();
     
-    $(document).ready() {
+    $(document).ready(function(){
       //setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
@@ -61,7 +61,6 @@ $(document).ready(function() {
             smartBackspace: false,
             loop: true
         });
-    });
     //}, 5000);
     });
 });
@@ -86,7 +85,5 @@ $('.head').click(function() {
         $('#head2').addClass('active');
     }
 });
-
-
 
 
