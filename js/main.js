@@ -43,10 +43,7 @@ $(document).ready(function() {
 });
 
 $('.head').click(function() {
-    $('.head0').removeClass('active');
-    $('.head1').removeClass('active');
-    $('.head3').removeClass('active');
-
+    $('#head*').removeClass('active');
 
     if(this.id === 'head0'){
         $('.infoBlock').not('#mainBlock').slideUp();
