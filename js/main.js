@@ -5,13 +5,12 @@ var rippleThis;
 $(document).ready(function() {
     
     // Animated text with type.js
-    var typedText = new Typed('#typed', {
-        strings: ['Competent & Efficient', 'Skillful & Adept'],
-        typeSpeed: 0,
+    var typed6 = new Typed('#typed6', {
+        strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+        typeSpeed: 40,
         backSpeed: 0,
         loop: true
     });
-
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
