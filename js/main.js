@@ -66,7 +66,7 @@ $(window).on("load",function() {
             smartBackspace: false,
             loop: true
         });
-       }, 5000);
+       }, 4000);
     });
 });
 
