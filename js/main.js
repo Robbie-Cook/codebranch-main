@@ -6,9 +6,9 @@ $(document).ready(function() {
     
     // Animated text with type.js
     var typedText = new Typed('#typed', {
-        strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
-        typeSpeed: 0,
-        backSpeed: 0,
+        strings: ['Professional', ],
+        typeSpeed: 100,
+        backSpeed: 100,
         smartBackspace: true, // this is a default
         loop: true
     });
