@@ -4,7 +4,7 @@ var rippleThis;
 
 $(document).ready(function() {
     // Animated text with type.js
-    setTimeout(function() {
+    //setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
             strings: ['Quick & Cheap', 'Reliable & Efficient'],
@@ -13,7 +13,7 @@ $(document).ready(function() {
             backSpeed: 40,
             loop: true
         });
-    }, 5000);
+    //}, 5000);
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
