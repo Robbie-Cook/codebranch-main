@@ -5,7 +5,6 @@ var rippleThis;
 $(window).on("load",function() {
     // Hide the content blocks
     $('.contentBlock').slideDown();
-    $('h1').slideDown();
     
     // Make the sections the same height as the page
     $('.mainContent').css({
