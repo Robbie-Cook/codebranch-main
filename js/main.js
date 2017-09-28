@@ -11,8 +11,8 @@ $(document).ready(function() {
             cursorChar: '_',
             typeSpeed: 50,
             backSpeed: 40,
-            loop: true
         });
+        typed6();
     //}, 5000);
     // Make the sections the same height as the page
     $('.mainContent').css({
