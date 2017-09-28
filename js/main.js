@@ -7,9 +7,10 @@ $(document).ready(function() {
     // Animated text with type.js
     var typedText = new Typed('#typed', {
         strings: ['competent','efficient','experienced', 'qualified', 'skillful', 'adept', 'expert', 'sharp', 'slick', 'able', 'learned', 'on the ball', 'polished', 'practiced', 'proficient', 'up to speed'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        smartBackspace: true, // this is a default
+        typeSpeed: 0,
+        backSpeed: 0,
+        backDelay: 500,
+        startDelay: 1000,// this is a default
         loop: true
     });
 
