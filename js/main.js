@@ -57,6 +57,7 @@ $(document).ready(function() {
                         'Wholesome &amp; Delicious', '100\% Organic'],
             typeSpeed: 40,
             backSpeed: 40,
+            backDelay: 2000,
             cursorChar: '_',
             startDelay: 4000,
             shuffle: true,
