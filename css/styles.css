@@ -73,7 +73,7 @@ a .active {
   background-image: url('../images/background3.jpg');
 }
 .black {
-  background-color: #FFFFFF !important;
+  background-color: #000000 !important;
 }
 .mainContent {
   position: relative;
@@ -180,8 +180,8 @@ a .active {
   border-color: #FFFFFF;
 }
 .mainContent .contentBlock .heads .headContainer .head.active {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #000000;
+  color: #000000;
   height: 87px;
   width: 87px;
   line-height: 87px;
