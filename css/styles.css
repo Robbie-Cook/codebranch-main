@@ -20,6 +20,9 @@ a:hover {
 a .active {
   color: #1995FF;
 }
+.hidden {
+  display: none;
+}
 .nav {
   display: flex;
   height: 60px;
