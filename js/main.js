@@ -7,7 +7,7 @@ $(document).ready(function() {
     setTimeout(function() {
         $('#typed').text('');
         var typed6 = new Typed('#typed', {
-            strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+            strings: ['Quick & Cheap', 'Reliable & Efficient'],
             cursorChar: '_',
             typeSpeed: 50,
             backSpeed: 40,
