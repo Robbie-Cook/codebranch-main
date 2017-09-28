@@ -55,11 +55,10 @@ $(document).ready(function() {
         var typed6 = new Typed('#typed', {
             strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', 'Sharp &amp; Skilful', 'Beautiful &amp; Customisable',
                         'Wholesome &amp; Delicious', '100\% Organic'],
-            typeSpeed: 40,
+            typeSpeed: 60,
             backSpeed: 40,
             backDelay: 2000,
             cursorChar: '_',
-            startDelay: 4000,
             shuffle: true,
             smartBackspace: false,
             loop: true
