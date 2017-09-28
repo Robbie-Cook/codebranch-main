@@ -3,7 +3,7 @@
 var rippleThis;
 
 $(window).on("load",function() {
-    // Hide the content blocks
+    // Show the content blocks
     $('.contentBlock').slideDown();
     
     // Make the sections the same height as the page
