@@ -8,7 +8,7 @@ $(document).ready(function() {
         minHeight: $(window).height()
     });
     $('.backgroundFade').css({
-        height: $('.mainContent').height();
+        height: $('.mainContent').height()
     });
 
     // About section
