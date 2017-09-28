@@ -4,18 +4,6 @@ var rippleThis;
 
 $(document).ready(function() {
     // Animated text with type.js
-    //setTimeout(function() {
-        $('#typed').text('');
-        var typed6 = new Typed('#typed', {
-            strings: ['Quick &amp; Cheap', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
-            typeSpeed: 0,
-            backSpeed: 0,
-            cursorChar: '_',
-            shuffle: true,
-            smartBackspace: false,
-            loop: true
-        });
-    //}, 5000);
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
@@ -82,3 +70,20 @@ $('.head').click(function() {
         $('#head2').addClass('active');
     }
 });
+
+$(window).load(function(){
+      //setTimeout(function() {
+        $('#typed').text('');
+        var typed6 = new Typed('#typed', {
+            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', ''],
+            typeSpeed: 0,
+            backSpeed: 0,
+            cursorChar: '_',
+            shuffle: true,
+            smartBackspace: false,
+            loop: true
+        });
+    //}, 5000);
+});
+
+
