@@ -3,7 +3,6 @@
 var rippleThis;
 
 $(document).ready(function() {
-    // Animated text with type.js
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
@@ -49,6 +48,7 @@ $(document).ready(function() {
     // call the main function
     ripple();
     
+    // Animated text with type.js
     $(document).ready(function(){
       //setTimeout(function() {
         $('#typed').text('');
