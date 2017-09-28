@@ -20,7 +20,8 @@ a:hover {
 a .active {
   color: #1995FF;
 }
-.hidden {
+.hidden,
+.shown {
   display: none;
 }
 .nav {
