@@ -48,6 +48,21 @@ $(document).ready(function() {
 
     // call the main function
     ripple();
+    
+    $(window).load(function(){
+      //setTimeout(function() {
+        $('#typed').text('');
+        var typed6 = new Typed('#typed', {
+            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', ''],
+            typeSpeed: 0,
+            backSpeed: 0,
+            cursorChar: '_',
+            shuffle: true,
+            smartBackspace: false,
+            loop: true
+        });
+    //}, 5000);
+});
 });
 
 $('.head').click(function() {
@@ -71,19 +86,6 @@ $('.head').click(function() {
     }
 });
 
-$(window).load(function(){
-      //setTimeout(function() {
-        $('#typed').text('');
-        var typed6 = new Typed('#typed', {
-            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', ''],
-            typeSpeed: 0,
-            backSpeed: 0,
-            cursorChar: '_',
-            shuffle: true,
-            smartBackspace: false,
-            loop: true
-        });
-    //}, 5000);
-});
+
 
 
