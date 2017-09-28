@@ -1,5 +1,5 @@
+import 'typed.js';
 // Main javascript file, common to most of the html files
-import './typed.js';
 
 var rippleThis;
 
