@@ -146,7 +146,8 @@ a .active {
   border-color: #D82B2B;
   opacity: .7;
 }
-.mainContent .contentBlock .heads .headContainer .head:active {
+.mainContent .contentBlock .heads .headContainer .head:active,
+.mainContent .contentBlock .heads .headContainer .head.active {
   border-color: #FFFFFF;
 }
 .mainContent h1 {
