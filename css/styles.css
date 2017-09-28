@@ -150,7 +150,7 @@ a .active {
   border-color: #FFFFFF;
 }
 .mainContent .contentBlock .heads .headContainer .head.active {
-  border-color: #FFFFFF;
+  border-color: black;
   height: 87px;
   width: 87px;
   line-height: 87px;
