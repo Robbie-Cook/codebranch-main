@@ -1,4 +1,4 @@
-import * from "typed.js"
+import classStuff from ("./typed.js");
 // Main javascript file, common to most of the html files
 
 var rippleThis;
