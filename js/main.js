@@ -58,6 +58,7 @@ $(document).ready(function() {
             typeSpeed: 0,
             backSpeed: 0,
             cursorChar: '_',
+            startDelay: 1000,
             shuffle: true,
             smartBackspace: false,
             loop: true
