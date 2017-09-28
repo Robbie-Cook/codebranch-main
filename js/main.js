@@ -13,7 +13,7 @@ $(document).ready(function() {
             backSpeed: 40,
             loop: true
         });
-    }, 2000):
+    }, 2000);
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
