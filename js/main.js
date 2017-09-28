@@ -1,4 +1,3 @@
-import classStuff from ("./typed.js");
 // Main javascript file, common to most of the html files
 
 var rippleThis;
@@ -6,14 +5,12 @@ var rippleThis;
 $(document).ready(function() {
     
     // Animated text with type.js
-    var typedText = new Typed('#typed', {
-        strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
-        typeSpeed: 0,
+    var typed6 = new Typed('#typed', {
+        strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+        typeSpeed: 40,
         backSpeed: 0,
-        smartBackspace: true, // this is a default
         loop: true
     });
-
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
