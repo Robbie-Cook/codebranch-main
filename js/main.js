@@ -43,14 +43,21 @@ $(document).ready(function() {
 });
 
 $('.head').click(function() {
+    $('.head*').removeClass('active');
     if(this.id === 'head0'){
-        $('.infoBlock').not('#mainBlock').slideUp();
+        $('.head0').addClass('active');
+        $('.infoBlock').not('#mainBlock').slideUp().removeClass();
         $('#mainBlock').slideDown();
+        $('#mainBlock').addClass('active');
     } if(this.id === 'head1'){
+        $('.head1').addClass('active');
         $('.infoBlock').not('#infoBlock1').slideUp();
         $('#infoBlock1').slideDown();
+        $('#mainBlock').addClass('active');
     } else if( this.id === 'head2') {
+        $('.head2').addClass('active');
         $('.infoBlock').not('#infoBlock2').slideUp();
         $('#infoBlock2').slideDown();
+        $('#mainBlock').addClass('active');
     }
 });
