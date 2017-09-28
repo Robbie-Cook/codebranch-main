@@ -3,10 +3,9 @@ var rippleThis;
 
 $(document).ready(function() {
 
-    // sets the height for the fader
-    var docHeight = $(document).height();
-    $('.backgroundFade').css({
-        height: docHeight - 60
+    // Make the sections the same height as the page
+    $('.mainContent').css({
+        height: $(window).height()
     });
 
     // About section
