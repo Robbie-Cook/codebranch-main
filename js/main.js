@@ -8,7 +8,8 @@ $(document).ready(function() {
     var typed6 = new Typed('#typed', {
         strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
         typeSpeed: 40,
-        backSpeed: 0,
+        cursorChar: '_',
+        backSpeed: 40,
         loop: true
     });
     // Make the sections the same height as the page
