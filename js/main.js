@@ -2,7 +2,7 @@
 
 var rippleThis;
 
-$(document).ready(function() {
+$(window).load(function() {
     // Hide the content blocks
     $('.contentBlock').slideDown();
     $('h1').slideDown();
