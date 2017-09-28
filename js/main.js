@@ -10,7 +10,7 @@ $(document).ready(function() {
         typeSpeed: 0,
         backSpeed: 0,
         backDelay: 500,
-        startDelay: 1000,// this is a default
+        startDelay: 1000,
         loop: true
     });
 
