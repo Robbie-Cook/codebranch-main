@@ -118,12 +118,24 @@ a {
     #infoBlock1, #infoBlock2 {
       display: none;
     }
+    .infoBlock {
+      h3 {
+        border-bottom: 3px solid black;
+        display: inline-block;
+        padding-bottom: 4px;
+        margin: 30px 0 20px;
+      }
+    }
     .heads {
         @borderColor: @darkGreen;
         @imageHeight: 80px;
+
         height: @imageHeight+4px;
         display: flex;
         justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #636363;
+
         .headContainer {
            // need to change the jquery to match as well in
           // main.js
@@ -163,6 +175,7 @@ a {
             }
              &.active {
                 border-color: black;
+                color: black;
                 height: @imageHeight+7;
                 width: @imageHeight+7;
                 line-height: @imageHeight+7;

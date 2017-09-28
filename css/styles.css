@@ -108,10 +108,18 @@ a .active {
 .mainContent .contentBlock #infoBlock2 {
   display: none;
 }
+.mainContent .contentBlock .infoBlock h3 {
+  border-bottom: 3px solid black;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin: 30px 0 20px;
+}
 .mainContent .contentBlock .heads {
   height: 84px;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #636363;
 }
 .mainContent .contentBlock .heads .headContainer {
   position: relative;
@@ -151,6 +159,7 @@ a .active {
 }
 .mainContent .contentBlock .heads .headContainer .head.active {
   border-color: black;
+  color: black;
   height: 87px;
   width: 87px;
   line-height: 87px;
