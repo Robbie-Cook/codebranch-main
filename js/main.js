@@ -3,14 +3,7 @@
 var rippleThis;
 
 $(document).ready(function() {
-    
     // Animated text with type.js
-    var typed6 = new Typed('#typed', {
-        strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
-        typeSpeed: 40,
-        backSpeed: 0,
-        loop: true
-    });
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
@@ -55,6 +48,23 @@ $(document).ready(function() {
 
     // call the main function
     ripple();
+    
+    $(document).ready(function(){
+      //setTimeout(function() {
+        $('#typed').text('');
+        var typed6 = new Typed('#typed', {
+            strings: ['Quick &amp; Cheap', 'Slick &amp; Adept', 'Sharp &amp; Skilful', 'Beautiful &amp; Customisable',
+                        'Wholesome &amp; Delicious', '100\% Organic'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            backDelay: 2000,
+            cursorChar: '_',
+            shuffle: true,
+            smartBackspace: false,
+            loop: true
+        });
+    //}, 5000);
+    });
 });
 
 $('.head').click(function() {
@@ -77,3 +87,5 @@ $('.head').click(function() {
         $('#head2').addClass('active');
     }
 });
+
+
