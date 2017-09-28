@@ -5,7 +5,7 @@ var rippleThis;
 $(document).ready(function() {
     
     // Animated text with type.js
-    var typed6 = new Typed('#typed6', {
+    var typed6 = new Typed('#typed', {
         strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
         typeSpeed: 40,
         backSpeed: 0,
