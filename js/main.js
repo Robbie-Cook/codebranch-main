@@ -3,7 +3,15 @@
 var rippleThis;
 
 $(document).ready(function() {
-    // Animated text with type.js
+    // Hide the content blocks
+    $('.contentBlock').addClass('hidden');
+    $('h1').addClass('hidden');
+    
+    $('.contentBlock').removeClass('hidden');
+    $('h1').removeClass('hidden');
+    $('.contentBlock').addClass('shown');
+    $('h1').addClass('show');
+    
     // Make the sections the same height as the page
     $('.mainContent').css({
         minHeight: $(window).height()
@@ -49,6 +57,7 @@ $(document).ready(function() {
     // call the main function
     ripple();
     
+    // Animated text with type.js
     $(document).ready(function(){
       //setTimeout(function() {
         $('#typed').text('');
