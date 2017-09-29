@@ -134,6 +134,19 @@ a .active {
 .mainContent .contentBlock #infoBlock2 {
   display: none;
 }
+.mainContent .contentBlock form {
+  margin-top: 40px;
+}
+.mainContent .contentBlock form input {
+  display: block;
+  height: 30px;
+  border: none;
+  background-color: #63B83B;
+  opacity: .6;
+}
+.mainContent .contentBlock form input:hover {
+  opacity: 1;
+}
 .mainContent .contentBlock .infoBlock h3 {
   border-bottom: 3px solid #8c8c8c;
   display: inline-block;
