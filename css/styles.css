@@ -276,3 +276,11 @@ a .active {
   -webkit-animation: 0;
   animation: 0;
 }
+.invisible {
+  transition: opacity 0.5s ease;
+  opacity: 0.0;
+}
+.visible {
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
