@@ -8,7 +8,12 @@ $(window).on("load",function() {
     
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
-    var trigger = new ScrollTrigger();
+    var trigger = new ScrollTrigger({
+        offset: {
+	    x: 0,
+	    y: 20
+	  }
+    });
     
     // Make the sections the same height as the page
     $('.mainContent').css({
