@@ -147,6 +147,7 @@ a .active {
   padding: 0 4px;
   color: #FFFFFF;
   margin-bottom: 4px;
+  transition: .3s;
 }
 .mainContent .contentBlock form input:hover {
   opacity: 1;
