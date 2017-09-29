@@ -39,7 +39,7 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
     
     // Fetch the form element
     var formEl = document.getElementById("contact-form");
-    
+    console.log("Form el " + formEl);
     // Override the submit event
     formEl.addEventListener("submit", function (e) {
       e.preventDefault();
