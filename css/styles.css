@@ -143,6 +143,8 @@ a .active {
   border: none;
   background-color: #63B83B;
   opacity: .6;
+  border-radius: 4px;
+  margin-bottom: 4px;
 }
 .mainContent .contentBlock form input:hover {
   opacity: 1;
