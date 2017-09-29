@@ -3,8 +3,11 @@
 var rippleThis;
 
 $(window).on("load",function() {
+    // The page sliding
+    
+    
     // Show the content blocks
-    $('.contentBlock').slideDown(1000);
+    // $('.contentBlock').slideDown(1000);
     
     // Make the sections the same height as the page
     $('.mainContent').css({
@@ -66,10 +69,12 @@ $(window).on("load",function() {
             smartBackspace: false,
             loop: true
         });
-       }, 5000);
+       }, 3000);
     });
 });
 
+
+// the about head functionality
 $('.head').click(function() {
     $('.head').removeClass('active');
 

@@ -29,10 +29,15 @@ title: Home
 
         <!-- Font Awesome for icons -->
         <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+        
+        <!--Typed.js for the text animation-->
         <script src="js/typed.min.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
+        
+        <!--ScrollTrigger for the scroll events -->
+        <script src="ScrollTrigger.min.js"></script>
         
         <!-- Main Javascript and CSS file -->
         <script src="js/main.js"></script>
@@ -63,49 +68,53 @@ title: Home
             <div class="mainContent" id="mc1">
                 <div class="backgroundFade"></div>
                 <div class="centerWrapper">
-                    <div class="contentBlock">
-                        <h1><span id="typed">Professional & Affordable</span><br /> Web Development and Design</h1>
-                        <a class="homeButtonLink" href=""><button><span>Find out more  <i class="fa fa-arrow-right" aria-hidden="true"></i></spa</button></a>
+                    <div data-scroll>
+                        <div class="contentBlock" id="cb1">
+                            <h1><span id="typed">Professional & Affordable</span><br /> Web Development and Design</h1>
+                            <a class="homeButtonLink" href=""><button><span>Find out more  <i class="fa fa-arrow-right" aria-hidden="true"></i></spa</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="mainContent" id="mc2">
                 <div class="backgroundFade black"></div>
                 <div class="centerWrapper">
-                    <div class="contentBlock">
-                        <h3>About Us</h3>
-                        <div class="heads">
-                            <div class="headContainer">
-                                <div class="head active" id="head0">CB</div>
-                                <div class="ripple" id="ripple1"></div>
+                    <div data-scroll>
+                        <div class="contentBlock" id="cb2">
+                            <h3>About Us</h3>
+                            <div class="heads">
+                                <div class="headContainer">
+                                    <div class="head active" id="head0">CB</div>
+                                    <div class="ripple" id="ripple1"></div>
+                                </div>
+                                <div class="headContainer">
+                                    <img class="head" id="head1" src="images/robbie.png" alt="Robbie's image" />
+                                    <div class="ripple" id="ripple2"></div>
+                                </div>
+                                <div class="headContainer">
+                                    <img class="head" id="head2" src="images/michael.png" alt="Michael's image"/>
+                                    <div class="ripple" id="ripple3"></div>
+                                </div>
                             </div>
-                            <div class="headContainer">
-                                <img class="head" id="head1" src="images/robbie.png" alt="Robbie's image" />
-                                <div class="ripple" id="ripple2"></div>
+                            <div class="infoBlock" id="mainBlock">
+                                <p>We are a Dunedin-based web design and development company, committed to building
+                                high quality and cheap websites and web apps! With a modern approach and computer
+                                science backgrounds, we are the perfect choice for you! <a href="#">Contact us</a>
+                                now!</p>
                             </div>
-                            <div class="headContainer">
-                                <img class="head" id="head2" src="images/michael.png" alt="Michael's image"/>
-                                <div class="ripple" id="ripple3"></div>
+                            <div class="infoBlock" id="infoBlock1">
+                                <h3 class="editable">Robbie</h3>
+                                <p class="editable">Hey, I'm Robbie! I'm a third year Computer Science student at Otago, and I am 
+                                a designer/developer here at codebranch. I have experience in Photoshop, Illustrator,
+                                Experience Design, JavaScript & jQuery, html5 & css3. You can check out my website <a href="robbie.pw">here!</a>
+                                <a href="#">Contact me now!</a>
+                                now!</p>
                             </div>
-                        </div>
-                        <div class="infoBlock" id="mainBlock">
-                            <p>We are a Dunedin-based web design and development company, committed to building
-                            high quality and cheap websites and web apps! With a modern approach and computer
-                            science backgrounds, we are the perfect choice for you! <a href="#">Contact us</a>
-                            now!</p>
-                        </div>
-                        <div class="infoBlock" id="infoBlock1">
-                            <h3 class="editable">Robbie</h3>
-                            <p class="editable">Hey, I'm Robbie! I'm a third year Computer Science student at Otago, and I am 
-                            a designer/developer here at codebranch. I have experience in Photoshop, Illustrator,
-                            Experience Design, JavaScript & jQuery, html5 & css3. You can check out my website <a href="robbie.pw">here!</a>
-                            <a href="#">Contact me now!</a>
-                            now!</p>
-                        </div>
-                        <div class="infoBlock" id="infoBlock2">
-                            <h3 class="editable">Michael</h3>
-                            <p class="editable">Hey, I'm Michael. Me gustan los culos grandes y no puedo mentir.</p>
-                            <a href="#">Contact me now!</a>
+                            <div class="infoBlock" id="infoBlock2">
+                                <h3 class="editable">Michael</h3>
+                                <p class="editable">Hey, I'm Michael. Me gustan los culos grandes y no puedo mentir.</p>
+                                <a href="#">Contact me now!</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +122,7 @@ title: Home
             <div class="mainContent" id="mc3">
                 <div class="backgroundFade"></div>
                 <div class="centerWrapper">
-                    <div class="contentBlock">
+                    <div class="contentBlock" id="cb3">
                         <h2>The Product</h2>
                         <div class="contentWrapper">
                             <p>Our options are flexible and reasonably priced, and come with a great customisable user interface and
