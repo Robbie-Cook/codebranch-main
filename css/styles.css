@@ -135,7 +135,7 @@ a .active {
   display: none;
 }
 .mainContent .contentBlock form {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .mainContent .contentBlock form input {
   display: block;
@@ -144,6 +144,8 @@ a .active {
   background-color: #63B83B;
   opacity: .6;
   border-radius: 4px;
+  padding: 0 4px;
+  color: #FFFFFF;
   margin-bottom: 4px;
 }
 .mainContent .contentBlock form input:hover {
