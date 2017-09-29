@@ -121,7 +121,6 @@ a .active {
   z-index: 3;
 }
 .mainContent .contentBlock {
-  display: none;
   padding: 20px 0;
   max-width: 500px;
   margin-top: 20px;
