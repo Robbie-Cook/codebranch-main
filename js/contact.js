@@ -38,7 +38,7 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
     }
     
     // Fetch the form element
-    var formEl = document.getElementsByClass("contact-form")[0];
+    var formEl = $('#contact-form')[0];
     console.log("Form el " + formEl);
     // Override the submit event
     formEl.addEventListener("submit", function (e) {
