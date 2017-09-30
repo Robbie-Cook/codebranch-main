@@ -162,7 +162,7 @@ a .active {
 }
 .mainContent .contentBlock.contact .contentWrapper .left,
 .mainContent .contentBlock.contact .contentWrapper .right {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .mainContent .contentBlock.contact .contentWrapper .left {
   display: flex;
