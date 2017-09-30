@@ -114,7 +114,7 @@ $(window).on("load",function() {
     $('.mobBox').click(function(){
         $(this).toggleClass('open');
         // if nav is open, open the 
-        $('.topnav').toggle();
+        $('.topnav').slideToggle();
     });
 
 
