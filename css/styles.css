@@ -172,7 +172,7 @@ a .active {
   color: #63B83B;
   display: inline-block;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   transition: .1s;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink:hover {
