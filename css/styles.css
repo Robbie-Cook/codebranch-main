@@ -449,7 +449,7 @@ a .active {
   border-radius: 3px;
 }
 .mobBox:hover div {
-  background-color: #63B83B;
+  background-color: #63B83B !important;
 }
 .mobBox div {
   display: block;
@@ -480,9 +480,6 @@ a .active {
 }
 .mobBox.open div {
   background-color: #D82B2B;
-}
-.mobBox.open div:hover {
-  background-color: #63B83B;
 }
 .mobBox.open div:nth-child(1) {
   top: 10px;
