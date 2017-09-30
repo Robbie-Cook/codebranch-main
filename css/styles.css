@@ -130,6 +130,9 @@ a .active {
   margin: 20px auto;
   justify-content: space-between;
 }
+.mainContent .contact h3 {
+  font-size: 20px;
+}
 .mainContent .contact .left {
   display: flex;
   flex-direction: column;
