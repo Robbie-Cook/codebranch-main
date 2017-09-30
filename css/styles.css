@@ -145,6 +145,10 @@ a .active {
   margin-bottom: 20px;
   line-height: 30px;
 }
+.mainContent .contentBlock.contact .linkContainer:hover img,
+.mainContent .contentBlock.contact .linkContainer:hover p {
+  opacity: .7;
+}
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
   width: 30px;
