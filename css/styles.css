@@ -130,6 +130,10 @@ a .active {
   margin: 20px auto;
   justify-content: space-between;
 }
+.mainContent .contact .left {
+  display: flex;
+  flex-direction: column;
+}
 .mainContent .contentBlock {
   padding: 20px 0;
   width: 500px;
