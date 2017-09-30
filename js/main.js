@@ -11,9 +11,13 @@ $(window).on("load",function() {
     $('.contentBlock').addClass('invisible');
     var trigger = new ScrollTrigger({
         offset: {
-	    x: 0,
-	    y: 20
-	  }
+	        x: 0,
+	        y: 20
+	    },
+	    toggle: {
+	        visible: 'visible',
+	        hidden: 'dthidden'
+	    },
     });
     
     // Make the sections the same height as the page
