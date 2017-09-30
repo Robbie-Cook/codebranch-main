@@ -112,8 +112,7 @@ $(window).on("load",function() {
     // // Mobile Hamburger 
     // hamburger code
     $('.mobBox').click(function(){
-        //$(this).toggleClass('open');
-        alert('good anakin');
+        $(this).toggleClass('open');
     });
 
 
