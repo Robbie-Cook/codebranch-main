@@ -155,7 +155,14 @@ a {
         h3 {
           font-size: 20px;
           border-bottom: none;
+          &::after {
+            content: '';
+            display: block;
+            background-color: black;
+            height: 2px;
+          }
         }
+
         .left, .right  {
           padding-top: 20px;
         }
