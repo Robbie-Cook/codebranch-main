@@ -442,7 +442,7 @@ a .active {
   border-radius: 3px;
 }
 .mobBox:hover div {
-  background-color: #63B83B !important;
+  opacity: .7!important;
 }
 .mobBox div {
   display: block;
