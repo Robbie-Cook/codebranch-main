@@ -154,7 +154,7 @@ a .active {
   color: #FFFFFF;
   line-height: 30px;
   font-weight: bold;
-  padding: 0 5px;
+  text-align: center;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
   line-height: 30px;
@@ -162,7 +162,7 @@ a .active {
   display: inline-block;
   font-weight: bold;
   font-size: 20px;
-  transition: .2s;
+  transition: .1s;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink:hover {
   color: #4F8E30;
