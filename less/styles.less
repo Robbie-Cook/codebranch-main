@@ -22,6 +22,8 @@
 // Height Variables
 
 @navHeight: 60px;
+@hamburgerColor: @white;
+@hamburgerActiveColor: @blue;
 @frontImageHeight: 500px;
 @sideGutter: 25px;
 @linksSize: 14px;
@@ -482,9 +484,9 @@ a {
 .mobBox div {
     display: block;
     position: absolute;
-    height: 5px;
+    height: 4px;
     width: 100%;
-    background-color: #fbf440;
+    background-color: @hamburgerColor;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -503,14 +505,14 @@ a {
 }
 
 .mobBox div:nth-child(2) {
-  top: 10px;
+  top: 8px;
 }
 
 .mobBox div:nth-child(3) {
-  top: 20px;
+  top: 16px;
 }
 .mobBox.open div {
-    background-color: #88e64e;;
+    background-color: @hamburgerActiveColor;
 }
 .mobBox.open div:nth-child(1) {
   top: 10px;

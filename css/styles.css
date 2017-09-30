@@ -450,9 +450,9 @@ a .active {
 .mobBox div {
   display: block;
   position: absolute;
-  height: 5px;
+  height: 4px;
   width: 100%;
-  background-color: #fbf440;
+  background-color: #FFFFFF;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -469,13 +469,13 @@ a .active {
   top: 0px;
 }
 .mobBox div:nth-child(2) {
-  top: 10px;
+  top: 8px;
 }
 .mobBox div:nth-child(3) {
-  top: 20px;
+  top: 16px;
 }
 .mobBox.open div {
-  background-color: #88e64e;
+  background-color: #1995FF;
 }
 .mobBox.open div:nth-child(1) {
   top: 10px;
