@@ -155,6 +155,10 @@ a .active {
 .mainContent .contentBlock form textarea:hover {
   opacity: 1;
 }
+.mainContent .contentBlock form input.contactSubmit,
+.mainContent .contentBlock form textarea.contactSubmit {
+  background-color: #4F8E30;
+}
 .mainContent .contentBlock form textarea {
   height: 400px;
   width: 300px;
