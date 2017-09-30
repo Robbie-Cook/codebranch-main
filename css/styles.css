@@ -409,13 +409,15 @@ a .active {
   .mobBox {
     display: flex!important;
   }
+  .topnav {
+    display: none;
+    top: 60px;
+    min-width: 150px;
+    flex-direction: column;
+    position: absolute;
+  }
 }
 @media (min-width: 599px) {
-  ul.topnav {
-    display: flex!important;
-    flex-direction: row;
-    position: relative ;
-  }
   .mobBox {
     display: none;
   }

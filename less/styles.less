@@ -439,16 +439,17 @@ a {
      .mobBox {
          display: flex!important;
      }
+
+     .topnav {
+         display: none;
+         top: @navHeight;
+         min-width: 150px;
+         flex-direction: column;
+         position: absolute;
+     }
  }
 
 @media(min-width: 599px){
- ul.topnav {
-
-     display: flex!important;
-     flex-direction: row;
-     position: relative ;
-
- }
  .mobBox {
      display: none;
  }
