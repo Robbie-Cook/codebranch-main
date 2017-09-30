@@ -161,7 +161,6 @@ a .active {
 }
 .mainContent .contentBlock form textarea {
   height: 200px;
-  width: 300px;
   opacity: .9;
 }
 .mainContent .contentBlock .infoBlock h3 {
