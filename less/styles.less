@@ -152,11 +152,15 @@ a {
           display: inline-block;
         }
         .mailLink {
+          color: @lightGreen;
           display: inline-block;
           margin-bottom: 20px;
           font-weight: bold;
           font-size: 20px;
           transition: .2s;
+          &:hover {
+            color: @darkGreen
+          }
         }
       }
       @contactWidth: 700px;

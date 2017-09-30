@@ -143,11 +143,15 @@ a .active {
   display: inline-block;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
+  color: #63B83B;
   display: inline-block;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
   transition: .2s;
+}
+.mainContent .contentBlock.contact .linkContainer .mailLink:hover {
+  color: #4F8E30;
 }
 .mainContent .contentBlock.contact .contentWrapper {
   padding: 0 10px;
