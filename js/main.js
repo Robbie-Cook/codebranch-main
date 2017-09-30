@@ -81,6 +81,9 @@ $(window).on("load",function() {
         });
        }, 3000);
     });
+    document.getElementById("head1").onclick = function fun() {
+        console.log("Hey bois");
+    }  
 });
 
 
