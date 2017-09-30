@@ -412,6 +412,7 @@ a .active {
   }
   ul.topnav {
     padding: 0;
+    border-bottom-left-radius: 5px;
     background-color: #4F8E30;
     display: none;
     top: 60px;
