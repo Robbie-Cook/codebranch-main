@@ -137,6 +137,9 @@ a .active {
 .mainContent .contentBlock.contact {
   max-width: 700px !important;
 }
+.mainContent .contentBlock.contact .linkContainer {
+  margin-bottom: 20px;
+}
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
   width: 30px;
@@ -155,7 +158,6 @@ a .active {
   line-height: 30px;
   color: #63B83B;
   display: inline-block;
-  margin-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
   transition: .2s;
