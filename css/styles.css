@@ -481,6 +481,9 @@ a .active {
 .mobBox.open div {
   background-color: #D82B2B;
 }
+.mobBox.open div:hover {
+  background-color: #63B83B;
+}
 .mobBox.open div:nth-child(1) {
   top: 10px;
   -webkit-transform: rotate(135deg);
