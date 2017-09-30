@@ -159,6 +159,7 @@ a .active {
   width: 30px;
   background-color: black;
   height: 2px;
+  margin-top: 5px;
 }
 .mainContent .contentBlock.contact .contentWrapper .left,
 .mainContent .contentBlock.contact .contentWrapper .right {
