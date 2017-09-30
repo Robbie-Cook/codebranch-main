@@ -86,8 +86,8 @@ $(window).on("load",function() {
 
 // the about head functionality
 $('.head').click(function() {
+    console.log("Hey bois");
     $('.head').removeClass('active');
-
     if(this.id === 'head0'){
         $('.infoBlock').not('#mainBlock').slideUp();
         $('#mainBlock').slideDown();
