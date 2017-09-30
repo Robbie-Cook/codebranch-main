@@ -201,7 +201,6 @@ a .active {
 .mainContent .contentBlock form textarea {
   display: block;
   height: 30px;
-  width: 300px;
   border: none;
   background-color: #63B83B;
   opacity: .8;
