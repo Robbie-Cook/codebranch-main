@@ -5,7 +5,6 @@ var rippleThis;
 $(window).on("load",function() {
     // The page sliding
     
-    
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
     $('.contentBlock').addClass('invisible');
@@ -82,29 +81,44 @@ $(window).on("load",function() {
         });
        }, 3000);
     });
+    // document.getElementsByClassName("head").onclick = function fun() {
+    //     console.log("Hey bois");
+    // }  
+    
+    // the about head functionality
+    $('.head').click(function() {
+    //  document.getElementsByClassName("head").onclick = function fun() {
+        console.log("Hey bois");
+        $('.head').removeClass('active');
+        if(this.id === 'head0'){
+            $('.infoBlock').not('#mainBlock').slideUp();
+            $('#mainBlock').slideDown();
+            $('#mainBlock').addClass('active');
+            $('#head0').addClass('active');
+        } if(this.id === 'head1'){
+            $('.infoBlock').not('#infoBlock1').slideUp();
+            $('#infoBlock1').slideDown();
+            $('#mainBlock').addClass('active');
+            $('#head1').addClass('active');
+        } else if( this.id === 'head2') {
+            $('.infoBlock').not('#infoBlock2').slideUp();
+            $('#infoBlock2').slideDown();
+            $('#mainBlock').addClass('active');
+            $('#head2').addClass('active');
+        }
+    //  }
+    });
+    
+    // // Mobile Hamburger 
+    // hamburger code
+    $('.mobBox').click(function(){
+        $(this).toggleClass('open');
+    });
+
+
 });
 
 
-// the about head functionality
-$('.head').click(function() {
-    $('.head').removeClass('active');
 
-    if(this.id === 'head0'){
-        $('.infoBlock').not('#mainBlock').slideUp();
-        $('#mainBlock').slideDown();
-        $('#mainBlock').addClass('active');
-        $('#head0').addClass('active');
-    } if(this.id === 'head1'){
-        $('.infoBlock').not('#infoBlock1').slideUp();
-        $('#infoBlock1').slideDown();
-        $('#mainBlock').addClass('active');
-        $('#head1').addClass('active');
-    } else if( this.id === 'head2') {
-        $('.infoBlock').not('#infoBlock2').slideUp();
-        $('#infoBlock2').slideDown();
-        $('#mainBlock').addClass('active');
-        $('#head2').addClass('active');
-    }
-});
 
 
