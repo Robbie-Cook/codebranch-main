@@ -146,14 +146,19 @@ a .active {
   background-color: #63B83B;
   opacity: .8;
   border-radius: 4px;
-  padding: 0 4px;
+  padding: 4px 8px;
   color: #FFFFFF;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   transition: .3s;
 }
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
   opacity: 1;
+}
+.mainContent .contentBlock form textarea {
+  height: 400px;
+  width: 300px;
+  opacity: .9;
 }
 .mainContent .contentBlock .infoBlock h3 {
   border-bottom: 3px solid #8c8c8c;
