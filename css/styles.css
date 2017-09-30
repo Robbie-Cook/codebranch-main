@@ -429,6 +429,7 @@ a .active {
   }
 }
 .mobBox {
+  margin: auto 0 auto auto;
   width: 40px;
   height: 25px;
   position: relative;
