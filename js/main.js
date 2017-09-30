@@ -5,7 +5,6 @@ var rippleThis;
 $(window).on("load",function() {
     // The page sliding
     
-    
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
     $('.contentBlock').addClass('invisible');
@@ -105,6 +104,12 @@ $('.head').click(function() {
         $('#mainBlock').addClass('active');
         $('#head2').addClass('active');
     }
+});
+
+// Mobile Hamburger 
+// hamburger code
+$('.mobBox').click(function(){
+    $(this).toggleClass('open');
 });
 
 
