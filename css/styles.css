@@ -152,6 +152,10 @@ a .active {
   font-size: 20px;
   border-bottom: none;
 }
+.mainContent .contentBlock.contact .contentWrapper .left,
+.mainContent .contentBlock.contact .contentWrapper .right {
+  padding-top: 20px;
+}
 .mainContent .contentBlock.contact .contentWrapper .left {
   display: flex;
   flex-direction: column;
