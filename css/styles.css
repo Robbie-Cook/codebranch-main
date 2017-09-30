@@ -137,6 +137,9 @@ a .active {
 .mainContent .contentBlock.contact {
   max-width: 700px !important;
 }
+.mainContent .contentBlock.contact .mailLink {
+  line-height: 20px;
+}
 .mainContent .contentBlock.contact .contentWrapper {
   max-width: 700px;
   width: 700px;
