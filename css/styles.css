@@ -416,6 +416,7 @@ a .active {
     top: 60px;
     right: 0;
     min-width: 150px;
+    margin: 0;
     flex-direction: column;
     position: absolute;
   }
