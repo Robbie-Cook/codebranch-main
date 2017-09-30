@@ -8,6 +8,7 @@ $(window).on("load",function() {
     
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
+    $('.contentBlock').addClass('invisible');
     var trigger = new ScrollTrigger({
         offset: {
 	    x: 0,
