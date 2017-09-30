@@ -412,7 +412,7 @@ a .active {
   }
   .topnav {
     background-color: #4F8E30;
-    display: none;
+    display: none!important;
     top: 60px;
     right: 0;
     min-width: 150px;
