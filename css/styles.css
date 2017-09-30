@@ -405,6 +405,29 @@ a .active {
   -webkit-animation: 0;
   animation: 0;
 }
+@media (max-width: 598px) {
+  .mobBox {
+    display: flex!important;
+  }
+  ul.topnav {
+    display: none;
+    right: -25px;
+    top: 35px;
+    min-width: 150px;
+    flex-direction: column;
+    position: absolute;
+  }
+}
+@media (min-width: 599px) {
+  ul.topnav {
+    display: flex!important;
+    flex-direction: row;
+    position: relative ;
+  }
+  .mobBox {
+    display: none;
+  }
+}
 .invisible {
   transition: opacity 0.5s ease;
   opacity: 0.0;
