@@ -207,6 +207,10 @@ a .active {
   flex-direction: column;
   padding-top: 20px;
 }
+.mainContent .contentBlock form {
+  display: flex;
+  flex-direction: column;
+}
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
   display: block;
