@@ -137,12 +137,17 @@ a .active {
 .mainContent .contentBlock.contact {
   max-width: 700px !important;
 }
-.mainContent .contentBlock.contact .linkContainer img {
+.mainContent .contentBlock.contact .linkContainer img,
+.mainContent .contentBlock.contact .linkContainer p {
   width: 30px;
   height: 30px;
   display: inline-block;
 }
+.mainContent .contentBlock.contact .linkContainer p {
+  width: auto;
+}
 .mainContent .contentBlock.contact .linkContainer .mailLink {
+  line-height: 30px;
   color: #63B83B;
   display: inline-block;
   margin-bottom: 20px;
