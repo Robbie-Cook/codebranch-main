@@ -229,22 +229,22 @@ a .active {
 }
 .mainContent .contentBlock form input::-webkit-input-placeholder,
 .mainContent .contentBlock form textarea::-webkit-input-placeholder {
-  color: #FFFFFF;
+  color: #000000;
 }
 .mainContent .contentBlock form input:-moz-placeholder,
 .mainContent .contentBlock form textarea:-moz-placeholder {
   /* FF 4-18 */
-  color: #FFFFFF;
+  color: #000000;
 }
 .mainContent .contentBlock form input::-moz-placeholder,
 .mainContent .contentBlock form textarea::-moz-placeholder {
   /* FF 19+ */
-  color: #FFFFFF;
+  color: #000000;
 }
 .mainContent .contentBlock form input:-ms-input-placeholder,
 .mainContent .contentBlock form textarea:-ms-input-placeholder {
   /* IE 10+ */
-  color: #FFFFFF;
+  color: #000000;
 }
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
