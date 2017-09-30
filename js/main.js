@@ -85,7 +85,8 @@ $(window).on("load",function() {
 
 
 // the about head functionality
-$('.head').click(function() {
+// $('.head').click(function() {
+ document.getElementById("Save").onclick = function fun() {
     console.log("Hey bois");
     $('.head').removeClass('active');
     if(this.id === 'head0'){
@@ -104,7 +105,8 @@ $('.head').click(function() {
         $('#mainBlock').addClass('active');
         $('#head2').addClass('active');
     }
-});
+ }
+// });
 
 // // Mobile Hamburger 
 // // hamburger code
