@@ -144,6 +144,9 @@ a .active {
   display: inline-block;
 }
 .mainContent .contentBlock.contact .linkContainer p {
+  background-color: #000000;
+  border-radius: 1000px;
+  color: #FFFFFF;
   width: auto;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
