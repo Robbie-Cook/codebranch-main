@@ -88,7 +88,7 @@ $(window).on("load",function() {
 
 
 // the about head functionality
-$('.head').click(function() {
+$('#head1').click(function() {
 //  document.getElementsByClassName("head").onclick = function fun() {
     console.log("Hey bois");
     $('.head').removeClass('active');
