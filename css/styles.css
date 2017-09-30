@@ -217,7 +217,7 @@ a .active {
   display: block;
   height: 30px;
   border: none;
-  background-color: #A7DB43;
+  background-color: #63B83B;
   opacity: .8;
   border-radius: 4px;
   padding: 8px 16px;
@@ -248,7 +248,7 @@ a .active {
 }
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
-  background-color: #A7DB43;
+  background-color: #4F8E30;
   opacity: 1;
 }
 .mainContent .contentBlock form input.contactSubmit,
