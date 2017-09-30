@@ -200,6 +200,7 @@ a .active {
 }
 .mainContent .contentBlock.contact .contentWrapper .left,
 .mainContent .contentBlock.contact .contentWrapper .right {
+  width: 48%;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
