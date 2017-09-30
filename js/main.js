@@ -11,7 +11,7 @@ $(window).on("load",function() {
     var trigger = new ScrollTrigger({
         offset: {
 	    x: 0,
-	    y: 60
+	    y: 20
 	  }
     });
     
