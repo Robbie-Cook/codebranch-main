@@ -99,7 +99,7 @@ a .active {
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   height: 500px;
   background-repeat: no-repeat;
