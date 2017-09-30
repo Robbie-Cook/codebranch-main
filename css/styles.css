@@ -152,6 +152,7 @@ a .active {
 .mainContent .contentBlock.contact .contentWrapper h3 {
   font-size: 20px;
   border-bottom: none;
+  margin-bottom: 20px;
 }
 .mainContent .contentBlock.contact .contentWrapper h3::after {
   content: '';
