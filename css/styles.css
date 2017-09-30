@@ -135,10 +135,10 @@ a .active {
   display: none;
 }
 .mainContent .contentBlock.contact {
-  max-width: 700 !important;
+  max-width: 700px !important;
 }
 .mainContent .contentBlock.contact .contentWrapper {
-  max-width: 700;
+  max-width: 700px;
   width: 700px;
   display: flex;
   flex-direction: row;
