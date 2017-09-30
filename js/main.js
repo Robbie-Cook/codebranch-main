@@ -113,9 +113,8 @@ $(window).on("load",function() {
     // hamburger code
     $('.mobBox').click(function(){
         $(this).toggleClass('open');
-        if($(this).css('display') !== 'none') {
-            
-        }
+        // if nav is open, open the 
+        $('.topnav').toggle();
     });
 
 
