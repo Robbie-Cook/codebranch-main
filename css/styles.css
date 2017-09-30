@@ -431,7 +431,7 @@ a .active {
 .mobBox {
   margin: auto 0 auto auto;
   width: 20px;
-  height: 10px;
+  height: 8px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -475,7 +475,7 @@ a .active {
   top: 16px;
 }
 .mobBox.open div {
-  background-color: #1995FF;
+  background-color: #D82B2B;
 }
 .mobBox.open div:nth-child(1) {
   top: 10px;
