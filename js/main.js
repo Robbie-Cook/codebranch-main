@@ -110,7 +110,7 @@ $('.head').click(function() {
 // hamburger code
 $('.mobBox').click(function(){
     //$(this).toggleClass('open');
-    alert('good anakin')
+    alert('good anakin');
 });
 
 
