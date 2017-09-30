@@ -133,26 +133,9 @@ a {
     box-shadow: 0px 0px 4px rgba(255, 255, 255, 1);
     z-index: 3;
   }
-  .large {
-    width: 700px!important;
-  }
-  .contact {
-    h3 {
-      font-size: 20px;
-    }
-    .left {
-      display: flex;
-      flex-direction: column;
-    }
-    width: 700px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px auto;
-    justify-content: space-between;
-  }
   .contentBlock {
     padding: 20px 0;
-    width: 500px;
+    max-width: 500px;
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -162,7 +145,23 @@ a {
       display: none;
     }
     &.contact {
-      display: none;
+      @contactWidth: 700;
+      width: @contactWidth;
+      .contentWrapper {
+        width: @contactWidth;
+        h3 {
+          font-size: 20px;
+        }
+        .left {
+          display: flex;
+          flex-direction: column;
+        }
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        margin: 20px auto;
+        justify-content: space-between;
+      }
     }
     form {
       margin-top: 30px;
