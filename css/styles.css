@@ -410,9 +410,9 @@ a .active {
   .mobBox {
     display: flex!important;
   }
-  .topnav {
+  ul.topnav {
     background-color: #4F8E30;
-    display: none!important;
+    display: none;
     top: 60px;
     right: 0;
     min-width: 150px;
