@@ -145,10 +145,13 @@ a {
       display: none;
     }
     &.contact {
-      .mailLink {
-        margin-bottom: 20px;
-        font-weight: bold;
-        font-size: 30px;
+      .linkContainer {
+
+        .mailLink {
+          margin-bottom: 20px;
+          font-weight: bold;
+          font-size: 30px;
+        }
       }
       @contactWidth: 700px;
       max-width: @contactWidth!important;
@@ -216,6 +219,7 @@ a {
         }
         &.contactSubmit {
           background-color: @darkGreen;
+          margin: auto;
         }
       }
       textarea {
