@@ -409,15 +409,6 @@ a .active {
   .mobBox {
     display: flex!important;
   }
-  ul.topnav {
-    z-index: 4;
-    display: none;
-    right: -25px;
-    top: 35px;
-    min-width: 150px;
-    flex-direction: column;
-    position: absolute;
-  }
 }
 @media (min-width: 599px) {
   ul.topnav {
