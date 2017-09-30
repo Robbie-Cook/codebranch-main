@@ -147,15 +147,17 @@ a {
     &.contact {
       .linkContainer {
         @linkSize: 30px;
+        display: flex;
         margin-bottom: 20px;
         line-height: 30px;
         img, p {
           width: @linkSize;
           height: @linkSize;
           display: inline-block;
-          margin-right: 5px;
+          margin-right: 10px;
         }
         p {
+          margin: 0 10px;
           background-color: @black;
           border-radius: 1000px;
           color: @white;
