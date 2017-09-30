@@ -148,6 +148,7 @@ a {
       .linkContainer {
         @linkSize: 30px;
         margin-bottom: 20px;
+        line-height: 30px;
         img, p {
           width: @linkSize;
           height: @linkSize;
@@ -158,8 +159,9 @@ a {
           background-color: @black;
           border-radius: 1000px;
           color: @white;
+          line-height: @linkSize;
           font-weight: bold;
-          padding: 2px @linkSize/2;
+          padding: 0 5px;
         }
         .mailLink {
           line-height: @linkSize;

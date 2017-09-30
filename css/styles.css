@@ -139,6 +139,7 @@ a .active {
 }
 .mainContent .contentBlock.contact .linkContainer {
   margin-bottom: 20px;
+  line-height: 30px;
 }
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
@@ -151,8 +152,9 @@ a .active {
   background-color: #000000;
   border-radius: 1000px;
   color: #FFFFFF;
+  line-height: 30px;
   font-weight: bold;
-  padding: 2px 15px;
+  padding: 0 5px;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
   line-height: 30px;
