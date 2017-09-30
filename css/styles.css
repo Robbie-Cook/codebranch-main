@@ -142,6 +142,7 @@ a .active {
   width: 30px;
   height: 30px;
   display: inline-block;
+  margin-right: 5px;
 }
 .mainContent .contentBlock.contact .linkContainer p {
   background-color: #000000;
