@@ -99,6 +99,7 @@ a .active {
 .mainContent {
   position: relative;
   min-height: 300px;
+  height: auto;
   padding-left: 25px;
   padding-right: 25px;
   display: flex;
