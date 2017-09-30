@@ -193,11 +193,9 @@ a .active {
 }
 .mainContent .contentBlock.contact .contentWrapper .left,
 .mainContent .contentBlock.contact .contentWrapper .right {
-  padding-top: 20px;
-}
-.mainContent .contentBlock.contact .contentWrapper .left {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
@@ -242,6 +240,7 @@ a .active {
 .mainContent .contentBlock form textarea.contactSubmit {
   background-color: #4F8E30;
   margin: auto;
+  font-weight: bold;
 }
 .mainContent .contentBlock form textarea {
   height: 100px;
