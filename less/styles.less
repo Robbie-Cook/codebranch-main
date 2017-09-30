@@ -150,9 +150,11 @@ a {
     }
     &.contact {
       .linkContainer {
+        transition: .2s;
         &:hover {
           img, p {
-            opacity: .7;
+            opacity: .5;
+            border: 1px solid @black;
           }
         }
         @linkSize: 30px;

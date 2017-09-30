@@ -141,13 +141,15 @@ a .active {
   max-width: 700px !important;
 }
 .mainContent .contentBlock.contact .linkContainer {
+  transition: .2s;
   display: flex;
   margin-bottom: 20px;
   line-height: 30px;
 }
 .mainContent .contentBlock.contact .linkContainer:hover img,
 .mainContent .contentBlock.contact .linkContainer:hover p {
-  opacity: .7;
+  opacity: .5;
+  border: 1px solid #000000;
 }
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
