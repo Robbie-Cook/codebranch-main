@@ -160,7 +160,7 @@ a .active {
   background-color: #4F8E30;
 }
 .mainContent .contentBlock form textarea {
-  height: 400px;
+  height: 200px;
   width: 300px;
   opacity: .9;
 }
