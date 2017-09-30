@@ -106,11 +106,11 @@ $('.head').click(function() {
     }
 });
 
-// Mobile Hamburger 
-// hamburger code
-$('.mobBox').click(function(){
-    //$(this).toggleClass('open');
-    alert('good anakin');
-});
+// // Mobile Hamburger 
+// // hamburger code
+// $('.mobBox').click(function(){
+//     //$(this).toggleClass('open');
+//     alert('good anakin');
+// });
 
 
