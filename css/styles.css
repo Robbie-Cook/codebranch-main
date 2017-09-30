@@ -147,6 +147,7 @@ a .active {
   background-color: #000000;
   border-radius: 1000px;
   color: #FFFFFF;
+  font-weight: bold;
   width: auto;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
