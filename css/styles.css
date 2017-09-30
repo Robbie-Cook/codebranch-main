@@ -150,7 +150,7 @@ a .active {
   margin-right: 10px;
 }
 .mainContent .contentBlock.contact .linkContainer p {
-  margin: 0 10px;
+  margin: 0 10px 0 0;
   background-color: #000000;
   border-radius: 1000px;
   color: #FFFFFF;
