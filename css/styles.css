@@ -248,6 +248,7 @@ a .active {
 }
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
+  background-color: #A7DB43;
   opacity: 1;
 }
 .mainContent .contentBlock form input.contactSubmit,
