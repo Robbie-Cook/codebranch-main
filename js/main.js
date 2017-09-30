@@ -109,7 +109,8 @@ $('.head').click(function() {
 // Mobile Hamburger 
 // hamburger code
 $('.mobBox').click(function(){
-    $(this).toggleClass('open');
+    //$(this).toggleClass('open');
+    alert('good anakin')
 });
 
 
