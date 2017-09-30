@@ -169,7 +169,7 @@ a .active {
   background-color: #63B83B;
   opacity: .8;
   border-radius: 4px;
-  padding: 4px 8px;
+  padding: 16px;
   color: #FFFFFF;
   margin-bottom: 10px;
   transition: .3s;
@@ -183,7 +183,7 @@ a .active {
   background-color: #4F8E30;
 }
 .mainContent .contentBlock form textarea {
-  height: 200px;
+  height: 100px;
   opacity: .9;
 }
 .mainContent .contentBlock .infoBlock h3 {
