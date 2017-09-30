@@ -482,7 +482,7 @@ a .active {
   transform: rotate(135deg);
 }
 .mobBox.open div:nth-child(2) {
-  opacity: 0;
+  opacity: 0!important;
   left: -60px;
 }
 .mobBox.open div:nth-child(3) {
