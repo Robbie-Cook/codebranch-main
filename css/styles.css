@@ -153,15 +153,16 @@ a .active {
 }
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
+  border: 2px solid transparent;
   width: 30px;
   height: 30px;
+  border-radius: 1000px;
   display: inline-block;
   margin-right: 10px;
 }
 .mainContent .contentBlock.contact .linkContainer p {
   margin: 0 10px 0 0;
   background-color: #000000;
-  border-radius: 1000px;
   color: #FFFFFF;
   line-height: 30px;
   font-weight: bold;
