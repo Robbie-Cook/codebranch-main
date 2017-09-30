@@ -143,9 +143,11 @@ a .active {
   display: inline-block;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
+  display: inline-block;
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
+  transition: .2s;
 }
 .mainContent .contentBlock.contact .contentWrapper {
   padding: 0 10px;
