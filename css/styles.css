@@ -135,7 +135,7 @@ a .active {
   display: none;
 }
 .mainContent .contentBlock.contact {
-  width: 700;
+  max-width: 700 !important;
 }
 .mainContent .contentBlock.contact .contentWrapper {
   width: 700;
