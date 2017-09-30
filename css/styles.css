@@ -82,13 +82,13 @@ a .active {
   padding-right: 0;
 }
 #mc1 {
-  background-image: url('../images/background1.jpg');
+  background-image: url('../images/background1-lower.jpg');
 }
 #mc2 {
-  background-image: url('../images/background2.jpg');
+  background-image: url('../images/background2-lower.jpg');
 }
 #mc3 {
-  background-image: url('../images/background3.jpg');
+  background-image: url('../images/background3-lower.jpg');
 }
 .black {
   background-color: #000000 !important;
