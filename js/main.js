@@ -84,10 +84,8 @@ $(window).on("load",function() {
     // document.getElementsByClassName("head").onclick = function fun() {
     //     console.log("Hey bois");
     // }  
-});
-
-
-// the about head functionality
+    
+    // the about head functionality
 $('#head1').click(function() {
 //  document.getElementsByClassName("head").onclick = function fun() {
     console.log("Hey bois");
@@ -110,6 +108,10 @@ $('#head1').click(function() {
     }
 //  }
 });
+
+});
+
+
 
 // // Mobile Hamburger 
 // // hamburger code
