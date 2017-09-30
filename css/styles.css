@@ -431,7 +431,7 @@ a .active {
 .mobBox {
   margin: auto 0 auto auto;
   width: 20px;
-  height: 8px;
+  height: 6px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -446,6 +446,9 @@ a .active {
   flex-direction: column;
   padding: 7px;
   border-radius: 3px;
+}
+.mobBox:hover div {
+  background-color: #FFFFFF;
 }
 .mobBox div {
   display: block;

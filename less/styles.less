@@ -19,11 +19,15 @@
 @linkColor: #1995FF;
 @black: #000000;
 
+
+
+// hamburger
+@hamburgerColor: @white;
+@hamburgerHoverColor: @white;
+@hamburgerActiveColor: @red;
 // Height Variables
 
 @navHeight: 60px;
-@hamburgerColor: @white;
-@hamburgerActiveColor: @red;
 @frontImageHeight: 500px;
 @sideGutter: 25px;
 @linksSize: 14px;
@@ -462,9 +466,14 @@ a {
 // Navigation Hamburger
 //
 .mobBox {
+    &:hover {
+      div {
+        background-color: @hamburgerHoverColor;
+      }
+    }
     margin: auto 0 auto auto;
     width: 20px;
-    height: 8px;
+    height: 6px;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
