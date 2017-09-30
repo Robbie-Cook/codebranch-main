@@ -212,6 +212,8 @@ a .active {
   color: #FFFFFF;
   margin-bottom: 10px;
   transition: .3s;
+  font-size: 13px;
+  font-weight: 100;
 }
 .mainContent .contentBlock form input::-webkit-input-placeholder,
 .mainContent .contentBlock form textarea::-webkit-input-placeholder {
