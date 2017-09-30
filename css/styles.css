@@ -138,6 +138,9 @@ a .active {
 .mainContent .contentBlock #infoBlock2 {
   display: none;
 }
+.mainContent .contentBlock.contact {
+  width: 700px;
+}
 .mainContent .contentBlock form {
   margin-top: 30px;
 }
