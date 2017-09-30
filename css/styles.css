@@ -154,7 +154,7 @@ a .active {
 }
 .mainContent .contentBlock.contact .contentWrapper h3::after {
   content: '';
-  display: block;
+  width: 30px;
   background-color: black;
   height: 2px;
 }
