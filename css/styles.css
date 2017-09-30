@@ -156,9 +156,6 @@ a .active {
   display: flex;
   flex-direction: column;
 }
-.mainContent .contentBlock form {
-  margin-top: 30px;
-}
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
   display: block;
