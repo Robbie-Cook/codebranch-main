@@ -147,6 +147,8 @@ a {
     &.contact {
       .mailLink {
         margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 30px;
       }
       @contactWidth: 700px;
       max-width: @contactWidth!important;
@@ -183,6 +185,21 @@ a {
     }
     form {
       input, textarea {
+          &::-webkit-input-placeholder {
+              color: @white;
+          }
+          &:-moz-placeholder {
+              /* FF 4-18 */
+              color: @white;
+          }
+          &::-moz-placeholder {
+              /* FF 19+ */
+              color: @white;
+          }
+          &:-ms-input-placeholder {
+              /* IE 10+ */
+              color: @white;
+          }
         display: block;
         height: 30px;
         width: 300px;
