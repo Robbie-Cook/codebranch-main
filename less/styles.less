@@ -95,7 +95,9 @@ a {
         text-decoration: none;
         color: @white;
         &:hover {
-          border-bottom: 2px solid @white;
+          p,i {
+            border-bottom: 2px solid @white;
+          }
           color: @blue;
           transition: .3s;
         }
@@ -453,7 +455,7 @@ a {
          display: inline-block!important;
        }
        padding:0;
-          border-bottom-left-radius: 5px;
+          border-bottom-left-radius: 10px;
          display: none;
          top: @navHeight;
          right: 0;

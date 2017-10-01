@@ -72,9 +72,12 @@ a .active {
   color: #FFFFFF;
 }
 .nav ul.topnav a:hover {
-  border-bottom: 2px solid #FFFFFF;
   color: #1995FF;
   transition: .3s;
+}
+.nav ul.topnav a:hover p,
+.nav ul.topnav a:hover i {
+  border-bottom: 2px solid #FFFFFF;
 }
 .nav ul.topnav a .active {
   color: #1995FF;
@@ -419,7 +422,7 @@ a .active {
   }
   ul.topnav {
     padding: 0;
-    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 10px;
     display: none;
     top: 60px;
     right: 0;
