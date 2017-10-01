@@ -147,10 +147,6 @@ a .active {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.71);
 }
-.mainContent .contentBlock #infoBlock1,
-.mainContent .contentBlock #infoBlock2 {
-  display: none;
-}
 .mainContent .contentBlock.contact {
   max-width: 700px !important;
 }
