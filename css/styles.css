@@ -425,6 +425,21 @@ a .active {
     background-color: #4F8E30;
     margin-bottom: 10px;
   }
+  ul.topnav li::before {
+    content: "\f061";
+  }
+  ul.topnav li#home::before {
+    content: "\f015";
+  }
+  ul.topnav li#about::before {
+    content: "\f022";
+  }
+  ul.topnav li#pricing::before {
+    content: "\f155";
+  }
+  ul.topnav li#contact::before {
+    content: "\f2b9";
+  }
 }
 @media (min-width: 599px) {
   .mobBox {

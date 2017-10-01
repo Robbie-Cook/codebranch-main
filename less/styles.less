@@ -454,6 +454,21 @@ a {
          li {
            background-color: @darkGreen;
            margin-bottom: 10px;
+           &::before {
+             content: "\f061";
+           }
+           &#home::before {
+             content: "\f015";
+           }
+           &#about::before {
+             content: "\f022";
+           }
+           &#pricing::before {
+             content: "\f155";
+           }
+           &#contact::before {
+             content: "\f2b9";
+           }
          }
      }
  }
