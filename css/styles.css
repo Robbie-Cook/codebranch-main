@@ -428,12 +428,12 @@ a .active {
   ul.topnav li {
     line-height: 40px;
     background-color: #4F8E30;
-    margin-bottom: 10px;
     border-top: 3px solid #004605;
     text-align: right;
   }
   ul.topnav li:hover {
     background-color: #1995FF;
+    color: #FFFFFF;
   }
 }
 @media (min-width: 599px) {
