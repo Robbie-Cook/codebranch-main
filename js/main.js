@@ -3,12 +3,12 @@
 var rippleThis;
 
 //$(window).on("load",function() {
-$(document).ready({
+$(document).ready(function() {
     // The page sliding
     
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
-    //$('.contentBlock').addClass('invisible');
+    $('.contentBlock').addClass('invisible');
     var trigger = new ScrollTrigger({
         offset: {
 	        x: 0,
