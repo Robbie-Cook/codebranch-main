@@ -431,7 +431,7 @@ a .active {
   ul.topnav li {
     width: 300px;
     opacity: .9;
-    padding-right: 20px;
+    padding-right: 20px!important;
     transition: .2s;
     line-height: 40px;
     background-color: #4F8E30;
