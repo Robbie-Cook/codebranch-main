@@ -118,9 +118,7 @@ $(document).ready(function() {
     });
 
     // The fullPage.js initialiser
-	$('#fullpage').fullpage({
-	    anchors: ['home', 'about', 'pricing', 'contact']
-	});
+	$('#fullpage').fullpage();
 });
 
 
