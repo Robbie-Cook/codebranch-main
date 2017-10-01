@@ -422,6 +422,7 @@ a .active {
     position: absolute;
   }
   ul.topnav li {
+    line-height: 40px;
     background-color: #4F8E30;
     margin-bottom: 10px;
   }
