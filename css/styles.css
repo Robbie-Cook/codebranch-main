@@ -45,6 +45,9 @@ a .active {
   padding-left: 25px;
   padding-right: 25px;
 }
+.nav * {
+  z-index: 4;
+}
 .nav p {
   margin: 0;
   font-size: 20px;
