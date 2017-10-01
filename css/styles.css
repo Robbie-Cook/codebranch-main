@@ -426,7 +426,7 @@ a .active {
     position: absolute;
   }
   ul.topnav i {
-    display: inline-block;
+    display: inline-block !important;
   }
   ul.topnav li {
     width: 300px;
