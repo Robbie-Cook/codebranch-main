@@ -119,7 +119,7 @@ $(window).on("load",function() {
 
     // The fullPage.js initialiser
 	$('#fullpage').fullpage({
-	    anchors: ['page1', 'page2', 'page3', 'page4']
+	    anchors: ['mc1', 'mc2', 'mc3', 'mc4']
 	});
 });
 
