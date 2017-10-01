@@ -118,7 +118,7 @@ $(window).on("load",function() {
     });
 
     // The fullPage.js initialiser
-    
+	$('#fullpage').fullpage();
 });
 
 
