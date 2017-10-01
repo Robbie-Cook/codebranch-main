@@ -2,7 +2,8 @@
 
 var rippleThis;
 
-$(window).on("load",function() {
+//$(window).on("load",function() {
+$(document).ready(function() {
     // The page sliding
     
     // Show the content blocks
@@ -88,7 +89,6 @@ $(window).on("load",function() {
     // the about head functionality
     $('.head').click(function() {
     //  document.getElementsByClassName("head").onclick = function fun() {
-        console.log("Hey bois");
         $('.head').removeClass('active');
         if(this.id === 'head0'){
             $('.infoBlock').not('#mainBlock').slideUp();
@@ -118,7 +118,9 @@ $(window).on("load",function() {
     });
 
     // The fullPage.js initialiser
-	$('#fullpage').fullpage();
+	$('#fullpage').fullpage({
+	    anchors: ['home', 'about', 'pricing', 'contact']
+	});
 });
 
 
