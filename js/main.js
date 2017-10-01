@@ -8,7 +8,7 @@ $(document).ready({
     
     // Show the content blocks
     // $('.contentBlock').slideDown(1000);
-    $('.contentBlock').addClass('invisible');
+    //$('.contentBlock').addClass('invisible');
     var trigger = new ScrollTrigger({
         offset: {
 	        x: 0,
@@ -89,7 +89,6 @@ $(document).ready({
     // the about head functionality
     $('.head').click(function() {
     //  document.getElementsByClassName("head").onclick = function fun() {
-        console.log("Hey bois");
         $('.head').removeClass('active');
         if(this.id === 'head0'){
             $('.infoBlock').not('#mainBlock').slideUp();
