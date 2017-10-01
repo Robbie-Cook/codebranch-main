@@ -2,7 +2,8 @@
 
 var rippleThis;
 
-$(window).on("load",function() {
+//$(window).on("load",function() {
+$(document).ready({
     // The page sliding
     
     // Show the content blocks
