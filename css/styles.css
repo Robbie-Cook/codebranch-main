@@ -61,7 +61,7 @@ a .active {
 }
 .nav ul.topnav i {
   display: none;
-  font-size: 14px;
+  font-size: 28px;
 }
 .nav ul.topnav a {
   transition: .2s;
