@@ -63,6 +63,7 @@ a .active {
   display: none;
   font-size: 22px;
   float: left;
+  text-align: center;
   line-height: 60px;
   min-width: 30px;
 }
