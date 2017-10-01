@@ -118,7 +118,9 @@ $(window).on("load",function() {
     });
 
     // The fullPage.js initialiser
-	$('#fullpage').fullpage();
+	$('#fullpage').fullpage({
+	    anchors: ['page1', 'page2', 'page3', 'page4']
+	});
 });
 
 
