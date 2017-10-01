@@ -61,7 +61,7 @@ a .active {
 }
 .nav ul.topnav i {
   display: none;
-  font-size: 22px;
+  font-size: 35px;
   float: left;
   text-align: center;
   line-height: 60px;
@@ -78,7 +78,7 @@ a .active {
 }
 .nav ul.topnav a:hover p,
 .nav ul.topnav a:hover i {
-  border-bottom: 2px solid #FFFFFF;
+  opacity: .8;
 }
 .nav ul.topnav a .active {
   color: #1995FF;
