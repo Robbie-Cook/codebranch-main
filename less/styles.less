@@ -77,12 +77,15 @@ a {
       line-height: @navHeight;
       color: @white;
     }
-    ul {
+    ul.topnav {
       z-index: 4;
       display: flex;
       margin: 0 0 0 auto;
       .sideGutter();
       padding-right: 0;
+      i {
+        
+      }
       a {
         transition: .2s;
         text-decoration: none;
@@ -455,21 +458,6 @@ a {
            line-height: @navHeight - 20;
            background-color: @darkGreen;
            margin-bottom: 10px;
-           &::before {
-             content: "\f061";
-           }
-           &#home::before {
-             content: "\f015";
-           }
-           &#about::before {
-             content: "\f022";
-           }
-           &#pricing::before {
-             content: "\f155";
-           }
-           &#contact::before {
-             content: "\f2b9";
-           }
          }
      }
  }

@@ -51,7 +51,7 @@ a .active {
   line-height: 60px;
   color: #FFFFFF;
 }
-.nav ul {
+.nav ul.topnav {
   z-index: 4;
   display: flex;
   margin: 0 0 0 auto;
@@ -59,27 +59,27 @@ a .active {
   padding-right: 25px;
   padding-right: 0;
 }
-.nav ul a {
+.nav ul.topnav a {
   transition: .2s;
   text-decoration: none;
   color: #FFFFFF;
 }
-.nav ul a:hover {
+.nav ul.topnav a:hover {
   text-decoration: underline;
   color: #1995FF;
   transition: .3s;
 }
-.nav ul a .active {
+.nav ul.topnav a .active {
   color: #1995FF;
 }
-.nav ul li {
+.nav ul.topnav li {
   font-size: 14px;
   line-height: 60px;
   list-style-type: none;
   padding-left: 25px;
   padding-right: 25px;
 }
-.nav ul li:last-child {
+.nav ul.topnav li:last-child {
   padding-right: 0;
 }
 #mc1 {
@@ -425,21 +425,6 @@ a .active {
     line-height: 40px;
     background-color: #4F8E30;
     margin-bottom: 10px;
-  }
-  ul.topnav li::before {
-    content: "\f061";
-  }
-  ul.topnav li#home::before {
-    content: "\f015";
-  }
-  ul.topnav li#about::before {
-    content: "\f022";
-  }
-  ul.topnav li#pricing::before {
-    content: "\f155";
-  }
-  ul.topnav li#contact::before {
-    content: "\f2b9";
   }
 }
 @media (min-width: 599px) {
