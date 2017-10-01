@@ -444,7 +444,6 @@ a {
      ul.topnav {
        padding:0;
           border-bottom-left-radius: 5px;
-         background-color: @darkGreen;
          display: none;
          top: @navHeight;
          right: 0;
@@ -452,6 +451,10 @@ a {
          margin: 0;
          flex-direction: column;
          position: absolute;
+         li {
+           background-color: @darkGreen;
+           margin-bottom: 10px;
+         }
      }
  }
 @media(min-width: 599px){
