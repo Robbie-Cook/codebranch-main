@@ -332,7 +332,7 @@ a .active {
   cursor: pointer;
 }
 .mainContent .contentBlock .heads .headContainer .head:hover {
-  border-color: #D82B2B;
+  border-color: #1995FF;
   opacity: .7;
 }
 .mainContent .contentBlock .heads .headContainer .head:active {
