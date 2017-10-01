@@ -447,7 +447,7 @@ a {
 
      ul.topnav {
        i {
-         display: inline;
+         display: inline-block;
        }
        padding:0;
           border-bottom-left-radius: 5px;
@@ -459,6 +459,7 @@ a {
          flex-direction: column;
          position: absolute;
          li {
+           padding-right: 20px;
            transition: .2s;
            line-height: @navHeight - 20;
            background-color: @darkGreen;
