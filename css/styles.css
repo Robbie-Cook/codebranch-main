@@ -72,7 +72,7 @@ a .active {
   color: #FFFFFF;
 }
 .nav ul.topnav a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #FFFFFF;
   color: #1995FF;
   transition: .3s;
 }
