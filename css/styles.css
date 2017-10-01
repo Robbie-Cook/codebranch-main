@@ -427,6 +427,9 @@ a .active {
   .mobBox {
     display: none;
   }
+  .topnav {
+    display: flex!important;
+  }
 }
 .mobBox {
   margin: auto 0 auto auto;
