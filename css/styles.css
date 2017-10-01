@@ -59,6 +59,10 @@ a .active {
   padding-right: 25px;
   padding-right: 0;
 }
+.nav ul.topnav i {
+  display: none;
+  font-size: 14px;
+}
 .nav ul.topnav a {
   transition: .2s;
   text-decoration: none;
@@ -420,6 +424,9 @@ a .active {
     margin: 0;
     flex-direction: column;
     position: absolute;
+  }
+  ul.topnav i {
+    display: inline;
   }
   ul.topnav li {
     line-height: 40px;
