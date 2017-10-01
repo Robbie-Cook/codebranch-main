@@ -83,7 +83,7 @@ a .active {
   padding-left: 25px;
   padding-right: 25px;
 }
-.nav ul.topnav li:last-child {
+.nav ul.topnav:last-child li {
   padding-right: 0;
 }
 #mc1 {
