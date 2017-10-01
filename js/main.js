@@ -6,23 +6,8 @@ var rippleThis;
 $(document).ready(function() {
     
     // The fullPage.js initialiser
-	$('#fullpage').fullpage();
-	
     // The page sliding
-    
-    // Show the content blocks
-    // $('.contentBlock').slideDown(1000);
-    $('.contentBlock').addClass('invisible');
-    var trigger = new ScrollTrigger({
-        offset: {
-	        x: 0,
-	        y: 20
-	    },
-	    toggle: {
-	        visible: 'visible',
-	        hidden: 'dthidden'
-	    },
-    });
+	$('#fullpage').fullpage();
     
     // Make the sections the same height as the page
     $('.mainContent').css({
