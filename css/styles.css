@@ -429,6 +429,7 @@ a .active {
     display: inline;
   }
   ul.topnav li {
+    transition: .2s;
     line-height: 40px;
     background-color: #4F8E30;
     border-top: 3px solid #004605;
