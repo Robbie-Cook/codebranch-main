@@ -119,7 +119,7 @@ $(document).ready(function() {
 
     // The fullPage.js initialiser
 	$('#fullpage').fullpage({
-	    anchors: ['mc1', 'mc2', 'mc3', 'mc4']
+	    anchors: ['home', 'about', 'pricing', 'contact']
 	});
 });
 
