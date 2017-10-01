@@ -117,7 +117,8 @@ $(window).on("load",function() {
         $('.topnav').slideToggle();
     });
 
-
+    // The fullPage.js initialiser
+	$('#fullpage').fullpage();
 });
 
 
