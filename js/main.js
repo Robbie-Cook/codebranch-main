@@ -4,21 +4,10 @@ var rippleThis;
 
 //$(window).on("load",function() {
 $(document).ready(function() {
-    // The page sliding
     
-    // Show the content blocks
-    // $('.contentBlock').slideDown(1000);
-    $('.contentBlock').addClass('invisible');
-    var trigger = new ScrollTrigger({
-        offset: {
-	        x: 0,
-	        y: 20
-	    },
-	    toggle: {
-	        visible: 'visible',
-	        hidden: 'dthidden'
-	    },
-    });
+    // The fullPage.js initialiser
+    // The page sliding
+	$('#fullpage').fullpage();
     
     // Make the sections the same height as the page
     $('.mainContent').css({
@@ -80,7 +69,7 @@ $(document).ready(function() {
             smartBackspace: false,
             loop: true
         });
-       }, 3000);
+      }, 3000);
     });
     // document.getElementsByClassName("head").onclick = function fun() {
     //     console.log("Hey bois");
@@ -116,11 +105,6 @@ $(document).ready(function() {
         // if nav is open, open the 
         $('.topnav').slideToggle();
     });
-
-    // The fullPage.js initialiser
-	$('#fullpage').fullpage({
-	    anchors: ['home', 'about', 'pricing', 'contact']
-	});
 });
 
 
