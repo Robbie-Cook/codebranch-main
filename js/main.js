@@ -4,6 +4,10 @@ var rippleThis;
 
 //$(window).on("load",function() {
 $(document).ready(function() {
+    
+    // The fullPage.js initialiser
+	$('#fullpage').fullpage();
+	
     // The page sliding
     
     // Show the content blocks
@@ -116,9 +120,6 @@ $(document).ready(function() {
         // if nav is open, open the 
         $('.topnav').slideToggle();
     });
-
-    // The fullPage.js initialiser
-	$('#fullpage').fullpage();
 });
 
 
