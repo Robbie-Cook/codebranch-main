@@ -456,32 +456,32 @@ a {
      }
 
      ul.topnav {
+       padding:0;
+       border-bottom-left-radius: 10px;
+       display: none;
+       top: @navHeight;
+       right: 0;
+       min-width: 150px;
+       margin: 0;
+       flex-direction: column;
+       position: absolute;
        i {
          display: inline-block!important;
        }
-       padding:0;
-          border-bottom-left-radius: 10px;
-         display: none;
-         top: @navHeight;
-         right: 0;
-         min-width: 150px;
-         margin: 0;
-         flex-direction: column;
-         position: absolute;
-         li {
-           width: 300px;
-           opacity: .9;
-           padding-right: 20px!important;
-           transition: .2s;
-           line-height: @navHeight - 20;
-           background-color: @darkGreen;
-           border-top: 3px solid #004605;
-           text-align: right;
-           &:hover {
-             background-color: @blue;
-             color: @white;
-           }
+       li {
+         width: 300px;
+         opacity: .9;
+         padding-right: 20px!important;
+         transition: .2s;
+         line-height: @navHeight - 20;
+         background-color: @darkGreen;
+         border-top: 3px solid #004605;
+         text-align: right;
+         &:hover {
+           background-color: @blue;
+           color: @white;
          }
+       }
      }
  }
 @media(min-width: 599px){
