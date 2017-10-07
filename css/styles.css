@@ -431,6 +431,10 @@ a .active {
   animation: 0;
 }
 @media (max-width: 598px) {
+  .headContainer * {
+    width: 40px;
+    height: 40px;
+  }
   .mobBox {
     display: flex!important;
   }
