@@ -38,6 +38,15 @@ a .active {
     opacity: 1;
   }
 }
+.navWrapper {
+  position: absolute;
+  width: 100%;
+}
+.navWrapper .navRelativeWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
 .nav {
   z-index: 4;
   display: flex;
