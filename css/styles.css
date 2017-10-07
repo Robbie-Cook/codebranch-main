@@ -446,6 +446,10 @@ a .active {
   .mobBox {
     display: flex!important;
   }
+  .left,
+  .right {
+    width: 100px;
+  }
   .nav ul.topnav {
     display: none;
     padding: 0;
