@@ -103,9 +103,10 @@ $(document).ready(function() {
         $('.topnav').slideToggle();
     });
 });
+
 $( window ).resize(function() {
     $('.backgroundFade').css({
-        height: $('.mainContent').height()
+        height: $(window).height()
     });
 });
 
