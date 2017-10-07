@@ -120,6 +120,9 @@ a .active {
 .black {
   background-color: #000000 !important;
 }
+#mcContact {
+  display: block;
+}
 .mainContent {
   position: relative;
   min-height: 300px;
