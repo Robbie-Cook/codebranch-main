@@ -448,7 +448,7 @@ a .active {
     display: inline-block !important;
     font-size: 30px;
     text-align: center;
-    line-height: 60px;
+    line-height: 45px;
     min-width: 30px;
   }
   .nav ul.topnav li {
@@ -456,7 +456,7 @@ a .active {
     opacity: .9;
     padding-right: 20px!important;
     transition: .2s;
-    line-height: 25px;
+    line-height: 45px;
     background-color: #4F8E30;
     border-top: 3px solid #004605;
     text-align: right;

@@ -463,7 +463,7 @@ a {
      .mobBox {
          display: flex!important;
      }
-
+      @mobileLinksHeight: 45px;
      .nav ul.topnav {
        display: none;
        padding:0;
@@ -478,12 +478,12 @@ a {
          display: inline-block!important;
          font-size: 30px;
          text-align: center;
-         line-height: @navHeight;
+         line-height: @mobileLinksHeight;
          min-width: 30px;
        }
        li {
          display: flex;
-         @mobileLinksHeight: 25px;
+
          opacity: .9;
          padding-right: 20px!important;
          transition: .2s;
