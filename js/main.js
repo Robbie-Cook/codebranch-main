@@ -104,12 +104,5 @@ $(document).ready(function() {
     });
 });
 
-$( window ).resize(function() {
-    $('.backgroundFade').css({
-        height: $('.section').height()
-    });
-});
-
-
 
 
