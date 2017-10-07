@@ -54,6 +54,7 @@ a .active {
   background-color: #4F8E30;
   padding-left: 25px;
   padding-right: 25px;
+  width: 100%;
 }
 .nav * {
   z-index: 4;
