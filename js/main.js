@@ -106,7 +106,7 @@ $(document).ready(function() {
 
 $( window ).resize(function() {
     $('.backgroundFade').css({
-        height: $(window).height()
+        height: $(.section).height()
     });
 });
 
