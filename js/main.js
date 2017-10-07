@@ -10,12 +10,9 @@ $(document).ready(function() {
 	$('#fullpage').fullpage();
     
     // Make the sections the same height as the page
-    $('.mainContent').css({
-        minHeight: $(window).height()
-    });
-    $('.backgroundFade').css({
-        height: $('.mainContent').height()
-    });
+    // $('.mainContent').css({
+    //     minHeight: $(window).height()
+    // });
 
     // About section
 
