@@ -65,11 +65,6 @@ a .active {
 }
 .nav ul.topnav i {
   display: none;
-  font-size: 35px;
-  float: left;
-  text-align: center;
-  line-height: 60px;
-  min-width: 30px;
 }
 .nav ul.topnav a {
   transition: .2s;
@@ -97,16 +92,16 @@ a .active {
 .nav ul.topnav:last-child li {
   padding-right: 0;
 }
-#mc1 {
+#section0 {
   background-image: url('../images/background1-lower.jpg');
 }
-#mc2 {
+#section1 {
   background-image: url('../images/background2-lower.jpg');
 }
-#mc3 {
+#section2 {
   background-image: url('../images/background3-lower.jpg');
 }
-#mc4 {
+#section3 {
   background-image: url('../images/background4.jpg');
 }
 .black {
@@ -438,13 +433,17 @@ a .active {
   }
   .nav ul.topnav i {
     display: inline-block !important;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    min-width: 30px;
   }
   .nav ul.topnav li {
     width: 300px;
     opacity: .9;
     padding-right: 20px!important;
     transition: .2s;
-    line-height: 40px;
+    line-height: 25px;
     background-color: #4F8E30;
     border-top: 3px solid #004605;
     text-align: right;

@@ -89,11 +89,6 @@ a {
       padding-right: 0;
       i {
         display: none;
-        font-size: 35px;
-        float: left;
-        text-align: center;
-        line-height: @navHeight;
-        min-width: 30px;
       }
       a {
         transition: .2s;
@@ -122,19 +117,19 @@ a {
     }
 }
 
-#mc1 {
+#section0 {
   background-image: url('../images/background1-lower.jpg');
 }
 
-#mc2 {
+#section1 {
   background-image: url('../images/background2-lower.jpg');
 }
 
-#mc3 {
+#section2 {
   background-image: url('../images/background3-lower.jpg');
 }
 
-#mc4 {
+#section3 {
   background-image: url('../images/background4.jpg');
 }
 
@@ -467,13 +462,18 @@ a {
        position: absolute;
        i {
          display: inline-block!important;
+         font-size: 30px;
+         text-align: center;
+         line-height: @navHeight;
+         min-width: 30px;
        }
        li {
+         @mobileLinksHeight: 25px;
          width: 300px;
          opacity: .9;
          padding-right: 20px!important;
          transition: .2s;
-         line-height: @navHeight - 20;
+         line-height: @mobileLinksHeight;
          background-color: @darkGreen;
          border-top: 3px solid #004605;
          text-align: right;
