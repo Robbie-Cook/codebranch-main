@@ -92,6 +92,9 @@ a .active {
 .nav ul.topnav:last-child li {
   padding-right: 0;
 }
+.section {
+  background-size: cover;
+}
 #section0 {
   background-image: url('../images/background1-lower.jpg');
 }
