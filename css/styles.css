@@ -313,7 +313,6 @@ a .active {
   justify-content: space-around;
   height: 84px;
   display: flex;
-  justify-content: center;
   padding-bottom: 10px;
   border-bottom: 2px solid #636363;
 }
