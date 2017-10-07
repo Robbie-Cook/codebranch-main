@@ -458,6 +458,7 @@ a .active {
     text-align: center;
     line-height: 45px;
     min-width: 30px;
+    margin-right: 5px;
   }
   .nav ul.topnav li {
     display: flex;
