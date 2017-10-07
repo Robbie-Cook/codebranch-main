@@ -308,6 +308,8 @@ a .active {
   margin: 0;
 }
 .mainContent .contentBlock .heads {
+  max-width: 400px;
+  justify-content: space-around;
   height: 84px;
   display: flex;
   justify-content: center;
