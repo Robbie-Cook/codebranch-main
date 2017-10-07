@@ -308,6 +308,7 @@ a .active {
   margin: 0;
 }
 .mainContent .contentBlock .heads {
+  margin: auto;
   max-width: 400px;
   justify-content: space-around;
   height: 84px;
@@ -338,7 +339,6 @@ a .active {
   line-height: 80px;
   font-weight: bold;
   color: #FFFFFF;
-  margin: 0 20px;
   border: 2px #4F8E30 solid;
   background-color: #4F8E30;
   border-radius: 70px;
