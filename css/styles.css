@@ -448,7 +448,7 @@ a .active {
   }
   .left,
   .right {
-    width: 100%;
+    min-width: auto!important;
   }
   .nav ul.topnav {
     display: none;
