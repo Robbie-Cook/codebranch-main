@@ -213,6 +213,7 @@ a .active {
 .mainContent .contentBlock.contact .contentWrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 20px auto;
   justify-content: space-between;
 }
