@@ -190,6 +190,7 @@ a .active {
 }
 .mainContent .contentBlock.contact .linkContainer:hover .mailLink {
   opacity: 1;
+  color: #4F8E30;
 }
 .mainContent .contentBlock.contact .linkContainer .mailLink {
   opacity: .9;
@@ -227,7 +228,6 @@ a .active {
 .mainContent .contentBlock.contact .contentWrapper h3 {
   font-size: 20px;
   border-bottom: none;
-  margin-bottom: 40px;
 }
 .mainContent .contentBlock.contact .contentWrapper h3::after {
   content: '';
