@@ -151,6 +151,7 @@ a .active {
   z-index: 3;
 }
 .mainContent .contentBlock {
+  margin: auto;
   padding: 20px 0;
   max-width: 500px;
   top: 60px;
