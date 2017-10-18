@@ -170,9 +170,6 @@ a .active {
   width: auto;
   max-width: 700px !important;
 }
-.mainContent .contentBlock.contact .contentWrapper {
-  margin: 0 auto;
-}
 .mainContent .contentBlock.contact .linkContainer {
   transition: .2s;
   display: flex;
@@ -216,7 +213,7 @@ a .active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px auto;
+  margin: auto;
   justify-content: space-between;
 }
 .mainContent .contentBlock.contact .contentWrapper h3 {
