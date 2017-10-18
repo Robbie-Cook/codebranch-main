@@ -195,10 +195,25 @@ a {
       width: auto;
       .linkContainer {
         transition: .2s;
+        img, p {
+          opacity: .5;
+          border: 1px solid @black;
+        }
         &:hover {
           img, p {
-            opacity: .5;
+            opacity: 1;
             border: 1px solid @black;
+          }
+        }
+        .mailLink {
+          line-height: @linkSize;
+          color: @darkGreen;
+          display: inline-block;
+          font-weight: bold;
+          font-size: 18px;
+          transition: .1s;
+          &:hover {
+            color: @lightGreen;
           }
         }
         @linkSize: 30px;
@@ -220,17 +235,6 @@ a {
           line-height: @linkSize;
           font-weight: bold;
           text-align: center;
-        }
-        .mailLink {
-          line-height: @linkSize;
-          color: @lightGreen;
-          display: inline-block;
-          font-weight: bold;
-          font-size: 18px;
-          transition: .1s;
-          &:hover {
-            color: @darkGreen;
-          }
         }
       }
       @contactWidth: 700px;

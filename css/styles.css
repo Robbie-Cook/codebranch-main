@@ -177,10 +177,26 @@ a .active {
   margin-bottom: 20px;
   line-height: 30px;
 }
-.mainContent .contentBlock.contact .linkContainer:hover img,
-.mainContent .contentBlock.contact .linkContainer:hover p {
+.mainContent .contentBlock.contact .linkContainer img,
+.mainContent .contentBlock.contact .linkContainer p {
   opacity: .5;
   border: 1px solid #000000;
+}
+.mainContent .contentBlock.contact .linkContainer:hover img,
+.mainContent .contentBlock.contact .linkContainer:hover p {
+  opacity: 1;
+  border: 1px solid #000000;
+}
+.mainContent .contentBlock.contact .linkContainer .mailLink {
+  line-height: 30px;
+  color: #4F8E30;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  transition: .1s;
+}
+.mainContent .contentBlock.contact .linkContainer .mailLink:hover {
+  color: #63B83B;
 }
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
@@ -198,17 +214,6 @@ a .active {
   line-height: 30px;
   font-weight: bold;
   text-align: center;
-}
-.mainContent .contentBlock.contact .linkContainer .mailLink {
-  line-height: 30px;
-  color: #63B83B;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 18px;
-  transition: .1s;
-}
-.mainContent .contentBlock.contact .linkContainer .mailLink:hover {
-  color: #4F8E30;
 }
 .mainContent .contentBlock.contact .contentWrapper {
   display: flex;
