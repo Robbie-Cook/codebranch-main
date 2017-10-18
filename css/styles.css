@@ -82,7 +82,6 @@ a .active {
   color: #FFFFFF;
 }
 .nav ul.topnav a:hover {
-  color: #1995FF;
   transition: .3s;
 }
 .nav ul.topnav a:hover p,
