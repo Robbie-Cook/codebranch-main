@@ -213,7 +213,7 @@ a .active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0 auto;
   justify-content: space-between;
 }
 .mainContent .contentBlock.contact .contentWrapper h3 {
