@@ -22,11 +22,12 @@ a .active {
 .hidden {
   display: none;
 }
+/* The animation code */
+/* For the 'cursor' on the home title */
 .show {
   animation-name: fadeIn;
   animation-duration: 4s;
 }
-/* The animation code */
 @keyframes fadeIn {
   0% {
     top: 10px;
