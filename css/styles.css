@@ -13,8 +13,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
-  color: #1995FF;
+  opacity: .7;
   transition: .3s;
 }
 a .active {
