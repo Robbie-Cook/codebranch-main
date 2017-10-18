@@ -187,16 +187,17 @@ a .active {
   opacity: 1;
   border: 1px solid #000000;
 }
+.mainContent .contentBlock.contact .linkContainer:hover .mailLink {
+  opacity: 1;
+}
 .mainContent .contentBlock.contact .linkContainer .mailLink {
+  opacity: .9;
   line-height: 30px;
-  color: #4F8E30;
+  color: #000000;
   display: inline-block;
   font-weight: bold;
   font-size: 18px;
   transition: .1s;
-}
-.mainContent .contentBlock.contact .linkContainer .mailLink:hover {
-  color: #63B83B;
 }
 .mainContent .contentBlock.contact .linkContainer img,
 .mainContent .contentBlock.contact .linkContainer p {
