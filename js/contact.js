@@ -25,7 +25,7 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
 // var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 
-//$(document).ready(function() {
+$(document).ready(function() {
     function getFormDataString(formEl) {
       var formData = new FormData(formEl),
           data = [];
@@ -71,4 +71,4 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
       request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       request.send(getFormDataString(formEl));
     });
-//}
+});
