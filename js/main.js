@@ -5,7 +5,7 @@ var rippleThis;
 //$(window).on("load",function() {
 $(document).ready(function() {
     if($(window).width() <= 1080) {
-        $('#fullPage').removeId('fullPage');
+        $('#fullpage').removeId('fullpage');
     }
     // The fullPage.js initialiser
     // The page sliding
