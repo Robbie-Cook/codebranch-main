@@ -5,6 +5,8 @@ var rippleThis;
 //$(window).on("load",function() {
 $(document).ready(function() {
     if($(window).width() <= 1080) {
+        
+        // get rid of fullpage.js for mobile
         $('#fullpage').removeId('fullpage');
     }
     // The fullPage.js initialiser
