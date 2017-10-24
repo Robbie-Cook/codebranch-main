@@ -12,6 +12,7 @@ $(document).ready(function() {
     // The fullPage.js initialiser
     // The page sliding
 	$('#fullpage').fullpage();
+	console.log('still called')
     // Make the sections the same height as the page
     // $('.mainContent').css({
     //     minHeight: $(window).height()
