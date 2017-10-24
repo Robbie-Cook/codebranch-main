@@ -41,6 +41,7 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
     var formEl = document.getElementById("contact-form");
     
     // Override the submit event
+    console.log(formEl)
     formEl.addEventListener("submit", function (e) {
       e.preventDefault();
     
