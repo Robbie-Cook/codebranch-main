@@ -254,9 +254,35 @@ a .active {
   position: relative;
   margin-bottom: 10px;
 }
-.mainContent .contentBlock form .recap label {
+.mainContent .contentBlock form .recap {
+  font-size: .85em;
+  color: red;
+}
+.mainContent .contentBlock form label {
   opacity: .7;
   font-size: .85em;
+}
+.mainContent .contentBlock form.submitted {
+  transition: 2s;
+  position: relative;
+}
+.mainContent .contentBlock form.submitted .contactChild,
+.mainContent .contentBlock form.submitted label,
+.mainContent .contentBlock form.submitted .g-recaptcha {
+  opacity: .2;
+}
+.mainContent .contentBlock form.submitted .submitSuccess {
+  display: inline-flex;
+  top: -300px;
+  opacity: 1;
+  position: relative;
+}
+.mainContent .contentBlock form.submitted .submitSuccess .submitMessage {
+  background-color: #4F8E30;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {

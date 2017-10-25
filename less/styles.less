@@ -279,11 +279,34 @@ a {
         position: relative;
         margin-bottom: 10px;
       }
-      .recap
+      .recap {
+        font-size: .85em;
+        color: red;
+      }
       label {
         opacity: .7;
         font-size: .85em;
       }
+      &.submitted {
+       transition: 2s;
+       position: relative;
+       .contactChild, label, .g-recaptcha {
+         opacity: .2;
+       }
+       .submitSuccess {
+         display: inline-flex;
+         top: -300px;
+         opacity: 1;
+         position: relative;
+         .submitMessage {
+            background-color: @darkGreen;
+           padding: 10px;
+           border-radius: 5px;
+           font-family: Helvetica;
+           font-weight: bold;
+         }
+       }
+     }
       input, textarea {
           @inputColor: @black;
           &::-webkit-input-placeholder {
