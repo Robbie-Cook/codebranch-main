@@ -26,6 +26,13 @@ var map = new google.maps.Map(document.getElementById('googleMap'), {
 }
 
 $(document).ready(function() {
+   function formSubmit() {
+    $('form').addClass('submitted');
+  }
+  function formReset() {
+    $('form').removeClass('submitted');
+  }
+  
     function getFormDataString(formEl) {
       var formData = new FormData(formEl),
           data = [];
