@@ -6,12 +6,13 @@ var rippleThis;
 $(document).ready(function() {
     if($(window).width() <= 1080) {
         
-        // get rid of fullpage.js for mobile
+        // get rid of some fullpage.js for mobile
         $('#fullpage').fullpage({
 	        autoScrolling: false,
 	    	fitToSection: false
     	});
     } else {
+        // fullpage.js for desktop
         $('#fullpage').fullpage({
 	        autoScrolling: true,
 	    	fitToSection: true
