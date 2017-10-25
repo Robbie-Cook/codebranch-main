@@ -4,10 +4,11 @@ var rippleThis;
 
 //$(window).on("load",function() {
 $(document).ready(function() {
-        $('.nav').click(function() {
-            alert('clickes');
-            // $(this).addClass('selected');
-        });
+    $('.contactChild').click(function() {
+        alert('clickes');
+        // $(this).addClass('selected');
+    });
+        
     if($(window).width() <= 1080) {
         // get rid of some fullpage.js for mobile
         $('#fullpage').fullpage({
