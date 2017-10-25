@@ -15,7 +15,7 @@ $(document).ready(function() {
         // fullpage.js for desktop
         $('#fullpage').fullpage({
 	        autoScrolling: true,
-	    	fitToSection: true
+	    	fitToSection: false
     	});
     }
     // The fullPage.js initialiser
