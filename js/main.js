@@ -7,14 +7,19 @@ $(document).ready(function() {
     if($(window).width() <= 1080) {
         
         // get rid of fullpage.js for mobile
-        $('#fullpage').removeAttr('id');
+        $('#fullpage').fullpage({
+	        autoScrolling: false,
+	    	fitToSection: false
+    	});
+    } else {
+        $('#fullpage').fullpage({
+	        autoScrolling: true,
+	    	fitToSection: true
+    	});
     }
     // The fullPage.js initialiser
     // The page sliding
-	$('#fullpage').fullpage({
-	    autoScrolling: false,
-		fitToSection: false
-	});
+
 	console.log('still called')
     // Make the sections the same height as the page
     // $('.mainContent').css({
