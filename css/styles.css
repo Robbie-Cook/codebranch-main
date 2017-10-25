@@ -249,6 +249,11 @@ a .active {
   display: flex;
   flex-direction: column;
 }
+.mainContent .contentBlock form .g-recaptcha {
+  margin: 0 auto;
+  right: 25px;
+  position: relative;
+}
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
   display: block;
