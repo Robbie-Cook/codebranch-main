@@ -6,6 +6,7 @@ var rippleThis;
 $(document).ready(function() {
   // when form elements clicked, set them to selected
   $('.contactChild').click(function() {
+      $('.contactChild').removeClass('selected');
     $(this).addClass('selected');
   });
     if($(window).width() <= 1080) {

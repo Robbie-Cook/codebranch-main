@@ -293,6 +293,10 @@ a .active {
   /* IE 10+ */
   color: #000000;
 }
+.mainContent .contentBlock form input.selected,
+.mainContent .contentBlock form textarea.selected {
+  background-color: #4F8E30;
+}
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
   background-color: #4F8E30;
