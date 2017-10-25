@@ -254,6 +254,9 @@ a .active {
   position: relative;
   margin-bottom: 10px;
 }
+.mainContent .contentBlock form label {
+  opacity: .8;
+}
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
   display: block;
