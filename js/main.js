@@ -4,8 +4,12 @@ var rippleThis;
 
 //$(window).on("load",function() {
 $(document).ready(function() {
+  // when form elements clicked, set them to selected
+  $('form .contactChild').click{function() {
+    $(this).addClass('selected');
+  });
     if($(window).width() <= 1080) {
-        
+
         // get rid of some fullpage.js for mobile
         $('#fullpage').fullpage({
 	        autoScrolling: false,
@@ -62,7 +66,7 @@ $(document).ready(function() {
 
     // call the main function
     ripple();
-    
+
     // Animated text with type.js
     $(document).ready(function(){
       setTimeout(function() {
@@ -82,8 +86,8 @@ $(document).ready(function() {
     });
     // document.getElementsByClassName("head").onclick = function fun() {
     //     console.log("Hey bois");
-    // }  
-    
+    // }
+
     // the about head functionality
     $('.head').click(function() {
     //  document.getElementsByClassName("head").onclick = function fun() {
@@ -106,15 +110,12 @@ $(document).ready(function() {
         }
     //  }
     });
-    
-    // // Mobile Hamburger 
+
+    // // Mobile Hamburger
     // hamburger code
     $('.mobBox').click(function(){
         $(this).toggleClass('open');
-        // if nav is open, open the 
+        // if nav is open, open the
         $('.topnav').slideToggle();
     });
 });
-
-
-
