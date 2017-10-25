@@ -255,7 +255,8 @@ a .active {
   margin-bottom: 10px;
 }
 .mainContent .contentBlock form label {
-  opacity: .8;
+  opacity: .7;
+  font-size: .85em;
 }
 .mainContent .contentBlock form input,
 .mainContent .contentBlock form textarea {
