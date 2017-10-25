@@ -4,11 +4,11 @@ var rippleThis;
 
 //$(window).on("load",function() {
 $(document).ready(function() {
-    if($(window).width() <= 1080) {
-         $('.nav').click(function() {
+        $('.nav').click(function() {
             alert('clickes');
             // $(this).addClass('selected');
         });
+    if($(window).width() <= 1080) {
         // get rid of some fullpage.js for mobile
         $('#fullpage').fullpage({
 	        autoScrolling: false,
