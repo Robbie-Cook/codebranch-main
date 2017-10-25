@@ -5,7 +5,7 @@ var rippleThis;
 //$(window).on("load",function() {
 $(document).ready(function() {
   // when form elements clicked, set them to selected
-  $('form input').click(function() {
+  $('.nav').click(function() {
     alert('clickes');
     // $(this).addClass('selected');
   });
