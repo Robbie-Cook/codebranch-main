@@ -251,7 +251,6 @@ a .active {
 }
 .mainContent .contentBlock form .g-recaptcha {
   margin: 0 auto;
-  left: 25px;
   position: relative;
 }
 .mainContent .contentBlock form input,
