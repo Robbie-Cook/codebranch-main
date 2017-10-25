@@ -254,7 +254,7 @@ a .active {
   position: relative;
   margin-bottom: 10px;
 }
-.mainContent .contentBlock form label {
+.mainContent .contentBlock form .recap label {
   opacity: .7;
   font-size: .85em;
 }
@@ -295,7 +295,7 @@ a .active {
 }
 .mainContent .contentBlock form input.selected,
 .mainContent .contentBlock form textarea.selected {
-  background-color: #4F8E30;
+  background-color: #489820;
 }
 .mainContent .contentBlock form input:hover,
 .mainContent .contentBlock form textarea:hover {
