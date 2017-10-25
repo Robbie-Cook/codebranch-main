@@ -5,7 +5,7 @@ var rippleThis;
 //$(window).on("load",function() {
 $(document).ready(function() {
   // when form elements clicked, set them to selected
-  $('.contactChild').click{function() {
+  $('input').click{function() {
     console.log("Porque estoy aqui");
     // $(this).addClass('selected');
   });
