@@ -5,8 +5,8 @@ var rippleThis;
 //$(window).on("load",function() {
 $(document).ready(function() {
   // when form elements clicked, set them to selected
-  $('input').click(function() {
-    console.log("Porque estoy aqui");
+  $('form input').click(function() {
+    alert('clickes');
     // $(this).addClass('selected');
   });
     if($(window).width() <= 1080) {
