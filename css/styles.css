@@ -449,6 +449,10 @@ a .active {
   animation: 0;
 }
 @media (max-width: 598px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: 0 0;
+  }
   .headContainer * {
     width: 57px!important;
     height: 57px!important;
