@@ -1,211 +1,227 @@
 ---
 title: Home
-navigation_weight: 1
-read_more: Reading more
-block1_colour: '#fec240'
-block2_colour: '#82bdf1'
-block3_colour: '#fb3b33'
-link1: about
-link2: fees
-link3: newsletter
-images:
-  - image_path: /images/phone.png
-  - image_path: /images/small_topimage.png
 ---
  <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+
+ <!--  _____          _      _                          _       _       -->
+ <!-- / ____|        | |    | |                        | |     (_)          -->
+ <!--| |     ___   __| | ___| |__  _ __ __ _ _ __   ___| |__    _  ___      -->
+ <!--| |    / _ \ / _` |/ _ \ '_ \| '__/ _` | '_ \ / __| '_ \  | |/ _ \     -->
+ <!--| |___| (_) | (_| |  __/ |_) | | | (_| | | | | (__| | | |_| | (_) |    -->
+ <!-- \_____\___/ \__,_|\___|_.__/|_|  \__,_|_| |_|\___|_| |_(_)_|\___/     -->
+
+        <!-- Basic meta tags & SEO -->
         <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="icon" type="image/png" href="https://wallpaperbrowse.com/media/images/Cool-Wallpaper-14D0.jpg" />
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
-    
-    <!-- SEO -->
-    <meta name="keywords" content="childcare daycare preschool kindergarden dunedin early childcare centre ECE kindy
-         nursery school babysitter playgroup pre-school preschool york place yorkplace otago dunedin early childcare dunedin
-         daycare centre kids children babysitting city centre" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" />
+        <meta name="keywords" content="codebranch.io Dunedin Otago New Zealand NZ codebranch web-development web web-design web-apps web-designers
+        Code-Branch CodeBranch CodeBranch.io javascript-websites CMS simple cheap affordable design development computer-science
+        beautiful-web-design web-craftmanship" />
+        <meta name="description" content="Website Development and Design in Dunedin, New Zealand. CodeBranch provides complete
+         clarity while making your site, and makes the transition of putting your new website online as easy as possible." />
+        <meta name="language" content="en" />
+        <meta name="title" content="CodeBranch Web Design and Development" />
+        <meta property="og:title" name="twitter:title" content="CodeBranch">
+        <meta property="og:url" name="twitter:url" content="https://www.codebranch.io">
+        <meta property="og:description" name="twitter:description" content="Website Development and Design in Dunedin, New Zealand. CodeBranch provides complete clarity while making your site, and makes the transition of putting your new website online as easy as possible.">
+        
+        
+        <!-- Jquery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
 
-    <meta name="description" content="York Place Preschool &amp; Nursery, in central Dunedin, is the perfect early childcare centre for newborns up to 5 year old." />
+        <!-- Bootstrap -->
+        <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />-->
+        <!--<script src="js/bootstrap.js" defer></script>-->
 
-    <!-- END SEO -->
+        <!-- Font Awesome for icons -->
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+        
+        <!--ScrollTrigger for the scroll events -->
+        <script src="js/ScrollTrigger.min.js"></script>
+        <!--Typed.js for the text animation-->
+        <script src="js/typed.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        
+        <!--fullPage.js for sliding sections-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        
+        <!-- Main Javascript and CSS file -->
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles2.css" />
+        
+        <!--Contact Form-->
+        <script src="js/contact.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
-    <script src="bootstrap.js" defer></script>
-    <script src="./home.js" defer></script>
-        <title>York Place Preschool and Daycare in Central Dunedin</title>
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet" />
-                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="./jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.min.css" />
-            <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-            <link rel="stylesheet" type="text/css" href="./css/stylesTwo.css" />
-            <link rel="stylesheet" type="text/css" href="./css/stylesThree.css" />
-            
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108465532-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-108465532-1');
+        </script>
+
+
+        <title>Codebranch</title>
+
     </head>
     <body>
-        <!--[if !IE]> -->
-        <div class="animatedSlide"></div>
-        <!-- <![endif]-->
-    <div class="newNav" style='background-color: white; height: 50px;'>
-    </div>
-       <img src='../../images/background.png' style='width: 100%; margin-bottom: 100px;'>
-      <!--<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
-      <!--   <i class="fa fa-bars" aria-hidden="true"></i>-->
-      <!--</button>-->
-      <!--div class="newNav">
+        <div class="navWrapper">
+            <div class="navRelativeWrapper">
+                <div class="nav">
+            <a href="#firstPage"><p>CodeBranch</p></a>
            <div class="mobBox">
             <div class="hamburger" id="hamburger1"></div>
             <div class="hamburger" id="hamburger1"></div>
             <div class="hamburger" id="hamburger1"></div>
+           </div>
+            <ul class="topnav">
+                <li data-menuanchor="firstPage">
+                    <a href="#firstPage"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li data-menuanchor="secondPage"><a href="#secondPage">
+                    <a href="#secondPage"><i class="fa fa-user-circle" aria-hidden="true"></i> About</a>
+                </li>
+                <li data-menuanchor="thirdPage"><a href="#thirdPage">
+                    <a href="#thirdPage"><i class="fa fa-usd" aria-hidden="true"></i> Pricing</a>
+                </li>
+                <li data-menuanchor="fourthPage">
+                    <a href="#fourthPage"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                </li>
+            </ul>
         </div>
-        <ul class="topnav">
-            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-            {% for p in navigation_pages %}
-              {% if p.navigation_weight %}
-                <li>
-                    <div class="wrapper">
-                     <a href="{{ p.url }}">{{p.title}}</a>
-                     </div>
-                </li>
-              {% endif %}
-            {% endfor %}
-            <li>
-                    <div class="wrapper">
-                     <a href="/update">Login</a>
-                     </div>
-                </li>
-          </ul>
-       </div-->
-    
-
-	<div class="homePageHeader">
-      <!--<img class="mainimage" src="../images/topimage.png">-->
-    </div>
-    <div class="globalContent">
-    <div class="mainContentHome">
-      <!--
-      <div class="slider">
-      -->
-      <div class="margin-wrapper white">
-
-        <!--<ul class="photo-gallery">
-          {% for image in page.images %}
-            <li><img src="{{ image.image_path }}" alt="{{ image.title}}" /></li>
-          {% endfor %}
-        -->
-      <!--
-      </div>
-        -->
-
-          <div class="aboutUsBox">
-            <div class="aboutUsTop">
-              <h1 class="editable">Welcome to York Place Preschool &amp; Nursery!</h1>
-              <br />
-              <p class="editable">Located in the heart of Dunedin, York Place Preschool &amp; Nursery is the perfect early childcare centre for newborns up to 5 year olds. This preschool has been involved in Dunedin childrens education for more than 30 years and is continuing to achieve the highest level of care and education when caring for your children. We are very close to the City Centre, University of Otago and Octagon.<br /><br />Open from 7:30am to 6:00pm Monday to Friday for your convenience. Our childcare centre offers a nurturing and educational environment for your children.<br /><br />The center has great indoor outdoor flow. This is important to us to ensure your child receives a great mix of class room time and outdoor activites.</p>
             </div>
-            <div class='circles'>
-                <div class='leftCircle'></div>
-                <div class='midCircle'></div>
-                <div class='rightCircle'></div>
-            </div>
-            {% if page.read_more.size > 0 %}
-                <div class="readMoreButton">Read More</div>
-            {% endif %}
-                <div class="homeReadMore">
-                    <p class="editable">Reading more Am editable</p>
+        </div>
+        <div id="fullpage">
+	        <div class="section" id="section0" data-anchor="firstPage">
+	            <div class="mainContent" id="mc1">
+                <div class="centerWrapper">
+                    <div class="contentBlock" id="cb1" data-scroll>
+                        <h1><span id="typed">Professional & Affordable</span><br /> Web Development and Design</h1>
+                        <a class="homeButtonLink" href="#secondPage"><button><span>Find out more  <i class="fa fa-arrow-right" aria-hidden="true"></i></span></button></a>
+                    </div>
                 </div>
-            <!--<div class="container">-->
-            <!--    <div id="slides">-->
-            <!--        {% for image in page.images %}-->
-            <!--                <img class="homeimgslider" src="{{ image.image_path }}" />-->
-            <!--        {% endfor %}-->
-            <!--    </div>-->
-            <!--</div>-->
-
-            <!-- new Slider -->
-
-            <div class="slideContainer">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-
-    <ol class="carousel-indicators">
-        {% assign num = page.images.size | minus:1 %}
-      {% for i in (0..(num)) %}
-        {% if i == 0 %}
-          <li data-target="#myCarousel" data-slide-to="{{i}}" class="active"></li>
-        {% else %}
-          <li data-target="#myCarousel" data-slide-to="{{i}}"></li>
-        {% endif %}
-      {% endfor %}
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      {% for i in (0..(num)) %}
-        {% if i == 0 %}
-          <div class="item active">
-              <div class="slide-wrapper">
-                <img src="{{page.images[i].image_path}}" style="width:100%;" />
-              </div>
-          </div>
-        {% else %}
-          <div class="item">
-            <div class="slide-wrapper">
-                <img src="{{page.images[i].image_path}}" style="width:100%;" />
+            </div>    
+	        </div>
+	        <div class="section" id="section1" data-anchor="secondPage">
+	           <div class="mainContent" id="mc2" data-scroll>
+                <div class="centerWrapper">
+                    <div class="contentBlock" id="cb2" data-scroll>
+                        <h3>About Us</h3>
+                        <div class="heads">
+                            <div class="headContainer">
+                                <div class="head active" id="head0">CB</div>
+                                <div class="ripple" id="ripple1"></div>
+                            </div>
+                            <div class="headContainer">
+                                <img class="head" id="head1" src="images/robbie.png" alt="Robbie's image" />
+                                <div class="ripple" id="ripple2"></div>
+                            </div>
+                            <div class="headContainer">
+                                <img class="head" id="head2" src="images/michael.png" alt="Michael's image"/>
+                                <div class="ripple" id="ripple3"></div>
+                            </div>
+                        </div>
+                        <div class="infoBlock" id="mainBlock">
+                            <p>We are a Dunedin-based web design and development company, committed to building
+                            high quality and cheap websites and web apps! With a modern approach and computer
+                            science backgrounds, we are the perfect choice for you! <a href="#">Contact us</a>
+                            now!</p>
+                        </div>
+                        <div class="infoBlock" id="infoBlock1">
+                            <h3 class="editable">Robbie</h3>
+                            <p class="editable">Hey, I'm Robbie! I'm a third year Computer Science student at Otago, and I am 
+                            a designer/developer here at codebranch. I have experience in Photoshop, Illustrator,
+                            Experience Design, JavaScript & jQuery, html5 & css3. You can check out my website <a href="robbie.pw">here!</a>
+                            <a href="#">Contact me now!</a>
+                            now!</p>
+                        </div>
+                        <div class="infoBlock" id="infoBlock2">
+                            <h3 class="editable">Michael</h3>
+                            <p class="editable">Hey, my name's Michael and I'm extremely passionate about web development and I always try
+                             to keep up with the latest technologies around. My interests revolve around playing the piano as well as playing
+                             Football. We're always keen to take on new challenges! You can contact me at 
+                              <a class="mailLink" href="mailto:team@codebranch.io">michael@codebranch.io</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-            <!-- End of new Slider -->
-
-
-          </div>
-
-          <div class="homeThreeColumn">
-            <div class="columnOne column" style="background-color:{{page.block1_colour}}">
-              <div class="heading editable"><h4>Childcare in the heart of Dunedin</h4></div>
-              <p class="editable">With an extremely central location in the heart of Dunedin and only minutes to Geroge Street, the Octagon and the Universty of Otago, our&nbsp; childcare centre is great for parents working in the city centre or University of Otago. This is particularly beneficial for breastfeeding mothers, who are invited to visit their babies during the day to breastfeed if their schedules allow.</p>
-              <a class="columnLink" href="{{page.link1}}">Go ></a>
+	        </div>
+	        <div class="section" id="section2" data-anchor="thirdPage">
+	           <div class="mainContent" id="mc3" data-scroll>
+                <div class="centerWrapper">
+                    <div class="contentBlock" id="cb3" data-scroll>
+                        <h2>The Product</h2>
+                        <div class="contentWrapper">
+                            <p>Our options are flexible and reasonably priced, and come with a great customisable user interface and
+                            our personal ongoing support. We use bleeding-edge web technologies to achieve better outcomes, compared with
+                            traditional PHP-based web development. <a class="mailLink" href="mailto:team@codebranch.io">robbie@codebranch.io</a> now, and we'll have a yarn!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               </div>
             </div>
-            <div class="columnTwo column" style="background-color:{{page.block2_colour}}">
-              <div class="heading editable"><h4>Our Classes</h4></div>
-              <p class="editable">Our childcare centre is spilt into a preschool and a nursery on the same site, so the children are being taught specifically to their age group<br /><br />&nbsp; &nbsp;<strong>- Nursery Ages 0 - 2<br />&nbsp; &nbsp;-Preschool Ages 2 - 5 &nbsp;</strong><br /><br />We allow the children to have the choice of moving from the nursery to the preschool when they feel ready and once they have turned 2 years of age. This starts with visits with a nursery teacher to the preschool area. These become more frequent until the child is ready to move.<strong></strong></p>
-              <a class="columnLink" href="{{page.link2}}">Go ></a>
+	        <div class="section" id="section3" data-anchor="fourthPage">
+	            <div class="mainContent" id="mcContact" data-scroll>
+                    <div class="contentBlock contact" id="cb3" data-scroll>
+                        <h2>Contact</h2>
+                        <div class="contentWrapper">
+                            <div class="left">
+                                <h3>Links</h3>
+                                <div class="linkContainer">
+                                    <p>Us</p>
+                                    <a class="mailLink" href="mailto:team@codebranch.io">team@codebranch.io</a>
+                                </div>
+                                <div class="linkContainer">
+                                     <img class="head" id="head1" src="images/michael.png" alt="Robbie's image" />
+                                    <a class="mailLink" href="mailto:team@codebranch.io">michael@codebranch.io</a>
+                                </div>
+                                <div class="linkContainer">
+                                     <img class="head" id="head1" src="images/robbie.png" alt="Robbie's image" />
+                                    <a class="mailLink" href="mailto:robbie@codebranch.io">robbie@codebranch.io</a>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <form method="post" class="contactForm" id="contact-form" action="#">
+                                    <label>Name</label>
+                                    <input class="contactChild" type="text" name="name">
+                                    <label>Your email</label>
+                                    <input class="contactChild" type="text" name="email">
+                                    <!--<label>Subject</label>-->
+                                    <!--<input class="contactChild" type="text" name="_subject">-->
+                                    <label>Message</label>
+                                    <textarea class="contactTextArea contactChild" name="message"></textarea>
+                                    <input type="hidden" name="_to" value="team@codebranch.io">
+                                    <input type="hidden" name="_cc" value="">
+                                    <input type="text" name="_gotcha" style="display: none;">
+                                    <div class="g-recaptcha" data-sitekey="6LdKgDAUAAAAAMWvtzWXYI7YP4URnw1mlIjoVnB7"></div> 
+                                    <span class="recap"></span>
+                                    <div class="submitWrapper">
+                                        <input class="contactChild contactSubmit" type="submit" value="Send Message">
+                                    </div>
+                                    <!--div class="submitSuccess">
+                                        <p class="submitMessage">Message submitted!</p>
+                                        <button class="resetButton">Send another message</button>
+                                    </div-->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div class="columnThree column" style="background-color:{{page.block3_colour}}">
-              <div class="heading editable"><h4>Childcare from 7:30am til 6:00pm</h4></div>
-              <p class="editable">We understand that some parents may find it difficult to arrange childcare if they work long hours... that is why our childcare centre is open from Monday to Friday, 7:30am until 6:00pm.</p>
-              <a class="columnLink" href="{{page.link3}}">Enquire ></a>
             </div>
-          </div>
-      </div>
-</div>
-</div>
-        <img src='../../images/footer.png' style='width:100%;'>
-      <div class='newFooter'>
-          <img src='../../images/newlogo.png' style='width: 200px;'>
-      </div>
-          <script src="deferred.js" defer></script>
+        </div>
   </body>
 </html>
