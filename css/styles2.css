@@ -1,3 +1,7 @@
 .section {
     overflow-x: hidden;
 }
+
+.infoHeader {
+    margin-top: 20px;
+}
