@@ -5,3 +5,11 @@
 .infoHeader {
     margin-top: 20px!important
 }
+
+
+@media (min-width: 599px) {
+ .mainContent {
+  margin-bottom: 60px!important;
+  height: auto!important;
+ }
+}
