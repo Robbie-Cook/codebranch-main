@@ -2,4 +2,4 @@
 layout: none
 permalink: /.well-known/acme-challenge/AZWrtU8BtwcA55E79eD9QaobXK57nFe94OXGddC1h0I
 ---
-AZWrtU8BtwcA55E79eD9QaobXK57nFe94OXGddC1h0I.W99ReJBUre9FBMfOOwPGqfX0EB8AYcZziTM$L6Ea-5U
+fIiv0dxEKcb5T4Iu_ahqkEExUzyNKQUpf-QhlqgvJJ4.W99ReJBUre9FBMfOOwPGqfX0EB8AYcZziTMWL6Ea-5U
