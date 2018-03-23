@@ -1,5 +1,0 @@
----
-layout: null
-permalink: /.well-known/acme-challenge/ny-0-Z5PGpGCzkYzDAPOFL0ocYMSV_KmGd5TnM_K6i0/index.html
----
-ny-0-Z5PGpGCzkYzDAPOFL0ocYMSV_KmGd5TnM_K6i0.t_9ijI9DZiM8ULcqWGt3ux09IMLfviRpLrUbTP84NB4
