@@ -1,5 +1,5 @@
 ---
 layout: null
-permalink: /.well-known/acme-challenge/Tg4FZ-3MXZINh81q1qTyNyy8BQtR9aQZ4x_dEFpI3Mg/index.html
+permalink: http://earlychildcaredunedin.co.nz/.well-known/acme-challenge/Tg4FZ-3MXZINh81q1qTyNyy8BQtR9aQZ4x_dEFpI3Mg/index.html
 ---
 34sS6lKqRtmEH6nccSVNF8ifykpAAueVhHz0yvheY0o.3-40nFYEAf5ItpgZuuISWUhg4fNm-vVW3T0RXmdzNkU
